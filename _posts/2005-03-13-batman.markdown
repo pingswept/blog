@@ -1,0 +1,157 @@
+--- 
+wordpress_id: 62
+layout: post
+title: Batman
+wordpress_url: http://www.betsymattox.com/pingswept/2005/03/13/batman/
+---
+	Based on a list from Brian Cruz
+	OOP = out-of-print<br />
+HC = hardcover<br />
+SC = softcover
+	Batman collections (pre-crisis):
+	* The Greatest Batman Stories Ever Told (HC &#38; SC)<br />
+* The Greatest Joker Stories Ever Told (HC &#38; SC)<br />
+* The Greatest Batman Stories Ever Told, Volume 2 OOP<br />
+* Featuring Two-Face and The Riddler<br />
+* Batman in the Forties<br />
+* Batman in the Fifites<br />
+* Batman in the Sixties<br />
+* Batman in the Seventies<br />
+* Batman Illustrated by Neal Adams, Volume 1 HC<br />
+* Tales of the Demon (Batman #232,235,240,242-244, Detective #411,485,489-490, DC Special Series Vol. 2 #15)<br />
+* Strange Apparitions (Detective Comics #469-479)<br />
+* The Sunday Classics (HC &#38; SC) (November 7, 1943 to October 7, 1946) OOP    * The Dailies, Volume 1 1943-1944 SC (October 25, 1943 to October 28, 1944)<br />
+* The Dailies, Volume 2 1944-1945 SC (October 30, 1944 to November 24, 1945) OOP<br />
+* The Dailies, Volume 3 1945-1946 SC (November 26, 1945 to November 2, 1946) OOP<br />
+* The Dailies 1943-1946 HC OOP
+	Batman storyline collections (post-crisis):
+	* Year One (Batman #404-407)<br />
+* Year Two: Fear the Reaper (Detective #575-578, Batman: Full Circle #1)<br />
+* Ten Nights of the Beast (Batman #417-420) OOP<br />
+* A Death in the Family (Batman #426-429)<br />
+* Blind Justice (Detective #598-600) OOP<br />
+* The Many Deaths of the Batman (Batman #433-435) OOP<br />
+* A Lonely Place of Dying (Batman #440-442, New Titans #60-61)<br />
+* The Last Arkham (Shadow of the Bat #1-4) OOP<br />
+* Knightfall, Part 1: The Broken Bat (Batman #491-497 and Detective #659-663)<br />
+* Knightfall, Part 2: Who Rules the Night (Detective #664-666, Showcase &#8216;93 #7-8, SOTB #16-18, Batman #498-500)<br />
+* Knightfall, Part 3: Knightsend (Batman #509-510, SOTB #29-30, Detective #676-677, LOTDK #62-63, Catwoman #12, Robin #8,9)<br />
+* Prodigal (Batman #512-514, SOTB #32-34, Detective #679-681, Robin #11-13) OOP<br />
+* Contagion (Azrael #15-16, Batman #529, SOTB #48-49, Chronicles #4, Catwoman #31-32, Detective #695-696, Robin #27-28)<br />
+* Legacy (SOTB #53, Batman #533-534, Detective #700-701, Catwoman #36, Robin #32-33) OOP<br />
+* Cataclysm (SOTB #73-74, Nightwing #19-20, Batman #553-554, Detective #720-721, Catwoman 56, Blackgate: Isle of Men 1, Huntress/Spoiler: Blunt Trauma #1, Robin #52, Chronicles #12)<br />
+* No Man&#8217;s Land, Volume 1 (No Man&#8217;s Land #1, SOTB #83-84, Bat #563-564, TEC #730-731, LOTDK #116)<br />
+* No Man&#8217;s Land, Volume 2 (LOTDK #117,119, SOTB #85-87, Batman #565, tec #732-733, Chronicles #16)<br />
+* No Man&#8217;s Land, Volume 3 (Batman #566-569, LOTDK #120-121, SOTB #88 and Tec #734-735)<br />
+* No Man&#8217;s Land, Volume 4 (Batman #571-572, Chronicles #18, LOTDK #125, SOTB #92-93, Detective #736,738-739)<br />
+* No Man&#8217;s Land, Volume 5 (Batman #573-574, LOTDK #126, SOTB #94, Detective #740-741, No Man&#8217;s land #0)<br />
+* Evolution (Detective #743-750)<br />
+* Officer Down (Batman #587, Robin #86, Birds of Prey #27, Catwoman #90, Nightwing #53, Detective #754, B:GK #13)<br />
+* Bruce Wayne: Murderer? (10-Cent Adv. #1, Detective #766-767, Batgirl #24, B:GK #25-26, Batman #599-600 plus portions of Nightwing #65-66, Birds of Prey #39-40, Robin #98-99)<br />
+* Bruce Wayne: Fugitive, Volume 1 (Batman #601,603, B:GK #27-28, Batgirl#27,29, Birds of Prey #41,43, Nightwing #68-69)<br />
+* Bruce Wayne: Fugitive, Volume 2 (Detective #768-772, B:GK #31, Batman #605)<br />
+* Bruce Wayne: Fugitive, Volume 3 (Detective #773-775, Batman #606-607, Batgirl #33)<br />
+* Hush, Volume One HC (Batman #608-612)<br />
+* Hush, Volume Two HC (Batman #613-619, Wizard #0)
+	&#8220;Legends of the Dark Knight&#8221; collections:
+	* Shaman (#1-5) OOP<br />
+* Gothic (#6-10)<br />
+* Prey (#11-15) OOP<br />
+* Venom (#16-20)<br />
+* Faces (#28-30)<br />
+* Collected Legends of the Dark Knight (#32-34, 38, 42-43) OOP<br />
+* Dark Legends (#39-40, 50, 52-54) OOP<br />
+* Other Realms (#35-36, 76-78)<br />
+* The Arrow, The Ring, and The Bat (LOTDCU #7-9, LOTDK #127-131)<br />
+* Terror (#137-141)<br />
+* Haunted Knight (LOTDK Halloween Specials: 1993, 1994, 1995)
+	Batman mini-series/miscellaneous collections:
+	* The Dark Knight Returns (#1-4) HC &#38; SC<br />
+* The Cult (#1-4)<br />
+* Superman/Batman: World&#8217;s Finest (#1-3)<br />
+* Sword of Azrael (#1-4) OOP<br />
+* Legends of the World&#8217;s Finest (#1-3) \[ELSEWORLDS\] OOP<br />
+* Superman/Batman: Alternate Histories (Detective Ann #7, Action Ann #6, Steel Ann #1, LOTDK Ann #4) \[ELSEWORLDS\] OOP<br />
+* Four of a Kind (Batman Annual #19, LOTDK Annual #5, SOTB Annual #3, Detective Annual #8)<br />
+* Manbat (#1-3) \[ELSEWORLDS\] OOP<br />
+* Black &#38; White (#1-4) HC &#38; SC<br />
+* The Long Halloween (#1-13) HC &#38; SC<br />
+* Thrillkiller (#1-3, Thrillkiller &#8216;62 #1) \[ELSEWORLDS\] OOP<br />
+* Anarky (Detective #608-609, Batman Chronicles #1, SOTB #40-41, Anarky #1-4)<br />
+* The Movies (Batman, Batman Returns, Batman Forever, and Batman &#38; Robin movie adaptations)<br />
+* Superman &#38; Batman: Generations (#1-4) \[ELSEWORLDS\]<br />
+* Batman &#38; Superman: World&#8217;s Finest (#1-10)<br />
+* Dark Victory (#1-13) HC &#38; SC<br />
+* Batman/Huntress: Cry for Blood (#1-6)<br />
+* Superman &#38; Batman: Generations II (#1-4) \[ELSEWORLDS\]<br />
+* Black &#38; White, Volume Two HC (anthology) HC &#38; SC<br />
+* The Dark Knight Strikes Again (#1-3) HC &#38; SC<br />
+* Arkham Asylum: Living Hell (#1-6)
+	Batman crossover mini-series collections:
+	* Batman vs. Predator: The Collected Edition (#1-3)<br />
+* Batman vs. Predator II: Bloodmatch (#1-3)<br />
+* Batman/Aliens (#1-2, Dark Horse Presents #102-103)<br />
+* Batman vs. Predator III: Blood Ties (#1-4)<br />
+* Batman/Tarzan: Claws of the Cat-Woman (#1-4)<br />
+* Joker/Mask (#1-4)<br />
+* Ghost/Batgirl: The Resurrection Machine (#1-4)<br />
+* Batman/Deathblow: After the Fire (#1-3)<br />
+* Batman/Aliens II (#1-3)
+	Batman original graphic novels:
+	* Son of the Demon (1987) HC &#38; SC<br />
+* Arkham Asylum (1989) HC &#38; SC<br />
+* Digital Justice (1990) HC OOP<br />
+* Batman 3-D (1990) SC OOP<br />
+* Bride of the Demon (1990) HC &#38; SC OOP<br />
+* Batman &#38; Dracula: Red Rain (1991) HC &#38; SC \[ELSEWORLDS\]<br />
+* Night Cries (1992) HC &#38; SC<br />
+* Birth of the Demon (1992) HC &#38; SC OOP<br />
+* Dark Joker: The Wild (1993) HC &#38; SC \[ELSEWORLDS\] OOP<br />
+* Last Angel (1994) SC OOP<br />
+* Bloodstorm (1994) HC &#38; SC \[ELSEWORLDS\]<br />
+* The Joker: Devil&#8217;s Advocate (1995) HC &#38; SC OOP<br />
+* Batman/Deadman: Death &#38; Glory (1996) HC &#38; SC<br />
+* Dark Knight Dynasty (1997) HC &#38; SC \[ELSEWORLDS\]<br />
+* Crimson Mist (1998) HC &#38; SC \[ELSEWORLDS\]<br />
+    * Fortunate Son (1999) HC &#38; SC<br />
+    * War on Crime (1999) SC<br />
+    * The Chalice (1999) HC &#38; SC<br />
+    * Harvest Breed (2000) HC &#38; SC<br />
+    * Child of Dreams (2002) HC &#38; SC<br />
+    * Nine Lives (2002) HC &#38; SC \[ELSEWORLDS\]<br />
+    * Absolution (2002) HC &#38; SC<br />
+    * Hong Kong (2003) HC &#38; SC<br />
+    * Detective 27 (2003) HC
+	Batgirl:
+	    * Silent Running (#1-6)<br />
+    * A Knight Alone (#7-11, 13-14)<br />
+    * Death Wish (#17-20, 22-23, 25)<br />
+    * Fists of Fury (#15-16, 21, 26-28)<br />
+    * Year One (Mini-Series #1-9)
+	Birds of Prey:
+	    * Birds of Prey (Black Canary/Oracle #1, BOP: Manhunt #1-4, BOP: Revolution #1, Showcase &#8216;96 #3)<br />
+    * Old Friends, New Enemies (BOP: Wolves #1, BOP: Batgirl #1, Birds of Prey #1-6)<br />
+    * Of Like Minds (#56-61)
+	Catwoman:
+	    * Her Sister&#8217;s Keeper (Mini-Series #1-4) OOP<br />
+    * The Catfile (1st series #15-19)<br />
+    * Selina&#8217;s Big Score HC &#38; SC (2002 OGN)<br />
+    * Dark End of the Street (Detective Comics #759-762, 2nd series #1-4)<br />
+    * Crooked Little Town (2nd series #5-10, Secret Files #1)
+	Gotham Central:
+	    * Batman: Gotham Central (#1-5)
+	Nightwing:
+	    * Ties That Bind (Alfred&#8217;s Return #1, Mini-Series #1-4) OOP<br />
+    * A Knight in Bludhaven (#1-8)<br />
+    * Rough Justice (#9-18) OOP<br />
+    * Love and Bullets (#�, 19, 21-22, 24-29)<br />
+    * A Darker Shade of Justice (#30-39, SF #1)<br />
+    * The Hunt for Oracle (#41-46, Birds of Prey #20-21)<br />
+    * Big Guns (#46-50, 80-Page Giant #1, SF #1)<br />
+    * Nightwing/Huntress (mini-series #1-4)
+	Robin:
+	    * A Hero Reborn (Batman #455-457, Robin Mini-Series #1-5)<br />
+    * Tragedy &#38; Triumph (Detective Comics #618-621, Robin II #1-4) OOP<br />
+    * Flying Solo (Robin #1-6, Showcase &#8216;94 #5-6)<br />
+    * Year One (mini-series #1-4)
+

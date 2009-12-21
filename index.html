@@ -1,0 +1,14 @@
+---
+layout: default
+title: pingswept
+---
+
+<div id="postlist">
+    <ul>
+        {% for post in site.posts limit:3 %}
+        <li><h2><a href="{{ post.url }}">{{ post.title }}</a></h2><span class="postdate">{{ post.date | date_to_string }}</span></li>
+        <li class="postcontent">{{ post.content }}</li>
+        {% endfor %}
+        <li><h2><a href="http://pingswept.org/archives.html">Archives</a></h2></li>
+    </ul>
+</div>                      

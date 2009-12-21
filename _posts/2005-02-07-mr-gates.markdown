@@ -1,0 +1,8 @@
+--- 
+wordpress_id: 73
+layout: post
+title: Mr. Gates
+wordpress_url: http://www.betsymattox.com/pingswept/2005/02/07/mr-gates/
+---
+	From an <a href="http://service.spiegel.de/cache/international/spiegel/0,1518,340395,00.html">interview</a> with William Gates in Der Spiegel:<br />
+&#8220;I am quite admired.&#8221;
