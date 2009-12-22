@@ -4,4 +4,9 @@ layout: default
 <div id="post">
     <h2>{{ page.title }}</h2> &raquo; {{ page.date | date_to_string }}
     {{ content }}
+    <hr />
+    <div id="disqus_thread"></div>
+    <script type="text/javascript" src="http://pingswept.disqus.com/embed.js"></script>
+    <noscript><a href="http://pingswept.disqus.com/?url=ref">View the discussion thread.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
 </div>
