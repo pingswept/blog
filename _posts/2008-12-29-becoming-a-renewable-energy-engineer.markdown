@@ -54,9 +54,9 @@ Beyond a broad engineering education, you need to learn the basics of solar, win
 
 I'd start with Vaclav Smil's books:
 <ul>
-	<li><a href="http://books.google.com/books?id=lm1WAAAACAAJ">Energy: A Beginner's Guide</a></li>
-	<li><a href="http://books.google.com/books?id=2UM6KSEMoLUC">Energy at the Crossroads</a></li>
-	<li>An <a href="http://itp.nyu.edu/sustainability/energy/texts/smil_EnergyBiosphereCivilization1999.pdf">excerpt from a 1999 Smil book</a>, hosted, probably illegally, by Jeff Feddersen at NYU</li>
+<li><a href="http://books.google.com/books?id=lm1WAAAACAAJ">Energy: A Beginner's Guide</a></li>
+<li><a href="http://books.google.com/books?id=2UM6KSEMoLUC">Energy at the Crossroads</a></li>
+<li>An <a href="http://itp.nyu.edu/sustainability/energy/texts/smil_EnergyBiosphereCivilization1999.pdf">excerpt from a 1999 Smil book</a>, hosted, probably illegally, by Jeff Feddersen at NYU</li>
 </ul>
 
 Then I'd read in the subject areas.

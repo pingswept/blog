@@ -9,14 +9,14 @@ I was invited to speak at Olin College a few months back as part of a seminar se
 The video is posted in 6 parts below. If I had to summarize in a few lines what I said, I'd say:
 
 <ul>
-	<li>Most importantly: answer the right question.</li>
-	<li>If the question is, "How can I use our current energy infrastructure to propel myself in a 4000 pound steel cage?" the right answer is, "Build a hybrid SUV."</li>
-	<li>If the question is, "How can I kill more efficiently?" the right answer is, "Make robots kill on my behalf."</li>
-	<li>These are the wrong questions. Right now, the crucial questions we need to answer involve balancing our desire for the fruits of energy consumption against global heat death.</li>
-	<li>Differential equations: learn to solve them by computer. Learn when to distrust that computer.</li>
-	<li>Take statistics.</li>
-	<li>If a class is boring, it's because it's taught poorly. There are no college classes in boring subjects.</li>
-	<li>Go broad first. Going deep is fine if you have the passion, but as an investment, it's unlikely to pay off.</li>
+<li>Most importantly: answer the right question.</li>
+<li>If the question is, "How can I use our current energy infrastructure to propel myself in a 4000 pound steel cage?" the right answer is, "Build a hybrid SUV."</li>
+<li>If the question is, "How can I kill more efficiently?" the right answer is, "Make robots kill on my behalf."</li>
+<li>These are the wrong questions. Right now, the crucial questions we need to answer involve balancing our desire for the fruits of energy consumption against global heat death.</li>
+<li>Differential equations: learn to solve them by computer. Learn when to distrust that computer.</li>
+<li>Take statistics.</li>
+<li>If a class is boring, it's because it's taught poorly. There are no college classes in boring subjects.</li>
+<li>Go broad first. Going deep is fine if you have the passion, but as an investment, it's unlikely to pay off.</li>
 </ul>
 
 **Direct links:**

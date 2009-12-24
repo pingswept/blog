@@ -23,9 +23,9 @@ For the DC/DC converter, I looked at the pico-PSU, but rejected it in favor of t
 <a href="http://www.flickr.com/photos/pingswept/2057881038/" title="The DC-DC converter strapped in place by Ping Swept, on Flickr"><img src="http://farm3.static.flickr.com/2379/2057881038_98231f3cdd_m.jpg" width="240" height="180" alt="The DC-DC converter strapped in place" /></a>
 
 The M2-ATX-HV had a few advantages:
-	<li>My PC has an ATX12V power supply; I wasn't sure that it would run with a standard ATX supply. ATX12V has a second connector with 4 pins, which the M2-ATX-HV provides.</li>
-	<li>The HV version allows a wider input voltage. The Sola supply is nominally a 24 V supply, but I want to be able to run off both 12 V and 24 V supplies, plus a few volts on either side.</li>
-	<li>Slightly higher power-- with its original supply, my PC idled around 85 W, and I could get it to draw 150 W by ripping a CD while keeping both cores busy, one transcoding a variable bit rate mp3 to constant bit rate, the other compiling the Python interpreter. For reference, the CD drive used around 35 W. The DC/DC converter I got is rated for 140 W. As a pleasant surprise, the new supply is substantially more efficient, and the system, including the loss in the Sola supply, now draws only 65 W at idle.</li>
+<li>My PC has an ATX12V power supply; I wasn't sure that it would run with a standard ATX supply. ATX12V has a second connector with 4 pins, which the M2-ATX-HV provides.</li>
+<li>The HV version allows a wider input voltage. The Sola supply is nominally a 24 V supply, but I want to be able to run off both 12 V and 24 V supplies, plus a few volts on either side.</li>
+<li>Slightly higher power-- with its original supply, my PC idled around 85 W, and I could get it to draw 150 W by ripping a CD while keeping both cores busy, one transcoding a variable bit rate mp3 to constant bit rate, the other compiling the Python interpreter. For reference, the CD drive used around 35 W. The DC/DC converter I got is rated for 140 W. As a pleasant surprise, the new supply is substantially more efficient, and the system, including the loss in the Sola supply, now draws only 65 W at idle.</li>
 
 The M2-ATX-HV is a bit bigger, but my PC case is pretty large, so that wasn't a concern. Including all the cables and shipping, I paid $96.40 for the M2-ATX-HV-- about $30 for the advantages listed above.
 

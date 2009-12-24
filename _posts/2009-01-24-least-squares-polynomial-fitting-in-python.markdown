@@ -74,28 +74,28 @@ Python code
 
 Let’s suppose that we have some data that looks like a noisy parabola, and we want to fit a polynomial of degree 5 to it. (I chose 5 randomly; it’s a stupid choice. More on selection of polynomial degree in another post.)
 
-	import numpy as np
-	import scipy as sp
-	import matplotlib.pyplot as plt
-	 
-	degree = 5
-	 
-	# generate a noisy parabola
-	t = np.linspace(0,100,200)
-	parabola = t**2
-	noise = np.random.normal(0,300,200)
-	y = parabola + noise
+    import numpy as np
+    import scipy as sp
+    import matplotlib.pyplot as plt
+     
+    degree = 5
+     
+    # generate a noisy parabola
+    t = np.linspace(0,100,200)
+    parabola = t**2
+    noise = np.random.normal(0,300,200)
+    y = parabola + noise
 
 So now we have some fake data– an array of times and an array of noisy sensor readings. Next, we form the Vandermonde matrix and find an approximate solution for x. Note that numpy.linalg.lstsq() returns a tuple; we’re really only interested in the first element, which is the array of coefficients.
 
-	# form the Vandermonde matrix
-	A = np.vander(t, degree)
-	 
-	# find the x that minimizes the norm of Ax-y
-	(coeffs, residuals, rank, sing_vals) = np.linalg.lstsq(A, y)
-	 
-	# create a polynomial using coefficients
-	f = np.poly1d(coeffs)
+    # form the Vandermonde matrix
+    A = np.vander(t, degree)
+     
+    # find the x that minimizes the norm of Ax-y
+    (coeffs, residuals, rank, sing_vals) = np.linalg.lstsq(A, y)
+     
+    # create a polynomial using coefficients
+    f = np.poly1d(coeffs)
 
 Three lines of code later, we have a solution!
 
@@ -103,16 +103,16 @@ I could have also used numpy.polyfit() in place of numpy.linalg.lstsq(), but the
 
 Now we’ll plot the data and the fitted curve to see if the function actually works!
 
-	# for plot, estimate y for each observation time
-	y_est = f(t)
-	 
-	# create plot
-	plt.plot(t, y, '.', label = 'original data', markersize=5)
-	plt.plot(t, y_est, 'o-', label = 'estimate', markersize=1)
-	plt.xlabel('time')
-	plt.ylabel('sensor readings')
-	plt.title('least squares fit of degree 5')
-	plt.savefig('sample.png')
+    # for plot, estimate y for each observation time
+    y_est = f(t)
+     
+    # create plot
+    plt.plot(t, y, '.', label = 'original data', markersize=5)
+    plt.plot(t, y_est, 'o-', label = 'estimate', markersize=1)
+    plt.xlabel('time')
+    plt.ylabel('sensor readings')
+    plt.title('least squares fit of degree 5')
+    plt.savefig('sample.png')
 
 Least squares fit of a noisy parabola
 

@@ -12,6 +12,6 @@ I mostly agree with Pape's theory, but I think he ascribes too much control to n
 
 Other interesting information from Pape's article:
 <ol>
-	<li>What Bush II calls a war in which the US would "act preemptively" in <em>The National Security Strategy of the United States</em> has traditionally been called in international relations "preventive war." A "preemptive" attack typically refers to an attack which occurs in immediate response to observed battle preparations (troop deployments, for example).</li>
-	<li>In a footnote, Pape says that "In the standard list of preventive wars over the past two centuries, all were started by authoritarian states: Napoleonic Wars (1793-1815), Austro-Prussian War (1866), Franco-Prussian War (1870), Russo-Japanese War (1904), World War I (1914), Germany-Soviet Union (1941), and Japan-United States (1941)." Pape cites as a source Randall L. Schweller, <em>World Politics</em> 44:2, pp. 235-269.</li>
+<li>What Bush II calls a war in which the US would "act preemptively" in <em>The National Security Strategy of the United States</em> has traditionally been called in international relations "preventive war." A "preemptive" attack typically refers to an attack which occurs in immediate response to observed battle preparations (troop deployments, for example).</li>
+<li>In a footnote, Pape says that "In the standard list of preventive wars over the past two centuries, all were started by authoritarian states: Napoleonic Wars (1793-1815), Austro-Prussian War (1866), Franco-Prussian War (1870), Russo-Japanese War (1904), World War I (1914), Germany-Soviet Union (1941), and Japan-United States (1941)." Pape cites as a source Randall L. Schweller, <em>World Politics</em> 44:2, pp. 235-269.</li>
 </ol>

@@ -2,97 +2,97 @@
 layout: post
 title: UsefulProg 0.1
 ---
-As a documentation enthusiast, I find myself needing to change documents from one silly format to another on regular basis. Usually, I end up writing stupid Perl scripts to convert from one format to another, but I can never remember Perl syntax between efforts. I swear I&#8217;ve written the same text parsing code 4 times, and it hasn&#8217;t gotten easier.
+As a documentation enthusiast, I find myself needing to change documents from one silly format to another on regular basis. Usually, I end up writing stupid Perl scripts to convert from one format to another, but I can never remember Perl syntax between efforts. I swear I've written the same text parsing code 4 times, and it hasn't gotten easier.
 
 In an effort to end this depressing cycle, I spent some time this afternoon learning a little wxPython to make what I call UsefulProg.  UsefulProg reads in a text file. You enter some regular expressions, and then it filters the file with those expressions. When you screw up (like I always do), you hit the reset button, and it erases your mistakes. When you get the filters working the way you want, you cut and paste the result into wherever you need it.
 
-Here&#8217;s the code under a GPL license. It&#8217;s based on an example from the wxPython documentation.
+Here's the code under a GPL license. It's based on an example from the wxPython documentation.
 
-	from wxPython.wx import *
-	import os
-	import re
-		
-	class Form1(wxPanel):
-	    def __init__(self, parent, id):
-		wxPanel.__init__(self, parent, id)
-		
-		self.logger = wxTextCtrl(self,5, \"\",wxPoint(250,20), wxSize(250,100),wxTE_MULTILINE | wxTE_READONLY)
-		
-		#The input file display
-		self.inputlbl = wxStaticText(self,-1, \"Input file\",wxPoint(20,5))
-		f = open(\"/home/brandon/Python Experiments/dd_tpb.txt\", \"rb\")
-		self.inputfield = wxTextCtrl(self,6,f.read(),wxPoint(20,20), wxSize(200,700),wxTE_MULTILINE | wxTE_READONLY)
-		
-		#The output file display
-		self.outputlbl = wxStaticText(self,-1, \"Output file\",wxPoint(550,5))
-		self.outputfield = wxTextCtrl(self,6,\"\",wxPoint(550,20), wxSize(500,700),wxTE_MULTILINE | wxTE_READONLY)
-		self.outputfield.write(self.inputfield.GetValue())
-		
-		# The filter button
-		self.button =wxButton(self, 11, \"Filter\", wxPoint(300, 200))
-		EVT_BUTTON(self, 11, self.EvtFilterButton)
-		
-		# The reset button
-		self.button =wxButton(self, 12, \"Reset\", wxPoint(300, 240))
-		EVT_BUTTON(self, 12, self.EvtResetButton)
-		
-		# the edit control - one line version.
-		self.regexsample = wxStaticText(self,-1, \"Useful: [D|d]*? is non greedy match anything\",wxPoint(250,320))
-		self.lblname1 = wxStaticText(self, -1, \"Removal string 1 :\",wxPoint(250,380))
-		self.filter1 = wxTextCtrl(self, 20, \"(Rate[D|d]*?mments:n\", wxPoint(400, 380), wxSize(140,-1))
-		
-		self.lblname2 = wxStaticText(self, -1, \"Removal string 2 :\",wxPoint(250,480))
-		self.filter2 = wxTextCtrl(self, 20, \" *pixel\", wxPoint(400, 480), wxSize(140,-1))
-		
-		self.lblname3 = wxStaticText(self, -1, \"Removal string 3 :\",wxPoint(250,580))
-		self.filter3 = wxTextCtrl(self, 20, \"d+?. 	nt\", wxPoint(400, 580), wxSize(140,-1))
-		
-		self.filtlblA = wxStaticText(self, -1, \"Removal string 4 :\",wxPoint(250,680))
-		self.filterA = wxTextCtrl(self, 20, \"nDare\", wxPoint(400, 680), wxSize(140,-1))
-		self.replblA = wxStaticText(self, -1, \"Replacement string 4 :\",wxPoint(250,730))
-		self.newtextA = wxTextCtrl(self, 20, \"nnDare\", wxPoint(400, 730), wxSize(140,-1))
-		
-	    def OnClick(self,event):
-		self.logger.AppendText(\" Click on object with Id %dn\" %event.GetId())
-	    def EvtText(self, event):
-	       self.logger.AppendText(\"\") #('EvtText: %sn' % event.GetString())
-	    def EvtChar(self, event):
-		self.logger.AppendText(\"\")
-		event.Skip()
-	    def EvtFilterButton(self, event):
-		text = self.outputfield.GetValue()
-		
-		filter = self.filter1.GetValue()
-		text, reps = re.subn(filter,\"\",text)
-		self.outputfield.Clear()
-		self.outputfield.write(text)
-		self.logger.AppendText(\"%d removals made with filter 1n\" % reps)
-		
-		filter = self.filter2.GetValue()
-		text, reps = re.subn(filter,\"\",text)
-		self.outputfield.Clear()
-		self.outputfield.write(text)
-		self.logger.AppendText(\"%d removals made with filter 2n\" % reps)
-		
-		filter = self.filter3.GetValue()
-		text, reps = re.subn(filter,\"\",text)
-		self.outputfield.Clear()
-		self.outputfield.write(text)
-		self.logger.AppendText(\"%d removals made with filter 3n\" % reps)
-		
-		filter = self.filterA.GetValue()
-		newtext = self.newtextA.GetValue()
-		text, reps = re.subn(filter,newtext,text)
-		self.outputfield.Clear()
-		self.outputfield.write(text)
-		self.logger.AppendText(\"%d replacements made with filter An\" % reps)        
-		
-	    def EvtResetButton(self, event):
-		self.outputfield.Clear()
-		self.outputfield.write(self.inputfield.GetValue())
-		
-	app = wxPySimpleApp()
-	frame = wxFrame(None, -1,\" UsefulProgPRO\",(100,100),(1100,800))
-	Form1(frame,-1)
-	frame.Show(1)
-	app.MainLoop()
+    from wxPython.wx import *
+    import os
+    import re
+
+    class Form1(wxPanel):
+        def __init__(self, parent, id):
+    wxPanel.__init__(self, parent, id)
+
+    self.logger = wxTextCtrl(self,5, \"\",wxPoint(250,20), wxSize(250,100),wxTE_MULTILINE | wxTE_READONLY)
+
+    #The input file display
+    self.inputlbl = wxStaticText(self,-1, \"Input file\",wxPoint(20,5))
+    f = open(\"/home/brandon/Python Experiments/dd_tpb.txt\", \"rb\")
+    self.inputfield = wxTextCtrl(self,6,f.read(),wxPoint(20,20), wxSize(200,700),wxTE_MULTILINE | wxTE_READONLY)
+
+    #The output file display
+    self.outputlbl = wxStaticText(self,-1, \"Output file\",wxPoint(550,5))
+    self.outputfield = wxTextCtrl(self,6,\"\",wxPoint(550,20), wxSize(500,700),wxTE_MULTILINE | wxTE_READONLY)
+    self.outputfield.write(self.inputfield.GetValue())
+
+    # The filter button
+    self.button =wxButton(self, 11, \"Filter\", wxPoint(300, 200))
+    EVT_BUTTON(self, 11, self.EvtFilterButton)
+
+    # The reset button
+    self.button =wxButton(self, 12, \"Reset\", wxPoint(300, 240))
+    EVT_BUTTON(self, 12, self.EvtResetButton)
+
+    # the edit control - one line version.
+    self.regexsample = wxStaticText(self,-1, \"Useful: [D|d]*? is non greedy match anything\",wxPoint(250,320))
+    self.lblname1 = wxStaticText(self, -1, \"Removal string 1 :\",wxPoint(250,380))
+    self.filter1 = wxTextCtrl(self, 20, \"(Rate[D|d]*?mments:n\", wxPoint(400, 380), wxSize(140,-1))
+
+    self.lblname2 = wxStaticText(self, -1, \"Removal string 2 :\",wxPoint(250,480))
+    self.filter2 = wxTextCtrl(self, 20, \" *pixel\", wxPoint(400, 480), wxSize(140,-1))
+
+    self.lblname3 = wxStaticText(self, -1, \"Removal string 3 :\",wxPoint(250,580))
+    self.filter3 = wxTextCtrl(self, 20, \"d+?. nt\", wxPoint(400, 580), wxSize(140,-1))
+
+    self.filtlblA = wxStaticText(self, -1, \"Removal string 4 :\",wxPoint(250,680))
+    self.filterA = wxTextCtrl(self, 20, \"nDare\", wxPoint(400, 680), wxSize(140,-1))
+    self.replblA = wxStaticText(self, -1, \"Replacement string 4 :\",wxPoint(250,730))
+    self.newtextA = wxTextCtrl(self, 20, \"nnDare\", wxPoint(400, 730), wxSize(140,-1))
+
+        def OnClick(self,event):
+    self.logger.AppendText(\" Click on object with Id %dn\" %event.GetId())
+        def EvtText(self, event):
+           self.logger.AppendText(\"\") #('EvtText: %sn' % event.GetString())
+        def EvtChar(self, event):
+    self.logger.AppendText(\"\")
+    event.Skip()
+        def EvtFilterButton(self, event):
+    text = self.outputfield.GetValue()
+
+    filter = self.filter1.GetValue()
+    text, reps = re.subn(filter,\"\",text)
+    self.outputfield.Clear()
+    self.outputfield.write(text)
+    self.logger.AppendText(\"%d removals made with filter 1n\" % reps)
+
+    filter = self.filter2.GetValue()
+    text, reps = re.subn(filter,\"\",text)
+    self.outputfield.Clear()
+    self.outputfield.write(text)
+    self.logger.AppendText(\"%d removals made with filter 2n\" % reps)
+
+    filter = self.filter3.GetValue()
+    text, reps = re.subn(filter,\"\",text)
+    self.outputfield.Clear()
+    self.outputfield.write(text)
+    self.logger.AppendText(\"%d removals made with filter 3n\" % reps)
+
+    filter = self.filterA.GetValue()
+    newtext = self.newtextA.GetValue()
+    text, reps = re.subn(filter,newtext,text)
+    self.outputfield.Clear()
+    self.outputfield.write(text)
+    self.logger.AppendText(\"%d replacements made with filter An\" % reps)        
+
+        def EvtResetButton(self, event):
+    self.outputfield.Clear()
+    self.outputfield.write(self.inputfield.GetValue())
+
+    app = wxPySimpleApp()
+    frame = wxFrame(None, -1,\" UsefulProgPRO\",(100,100),(1100,800))
+    Form1(frame,-1)
+    frame.Show(1)
+    app.MainLoop()

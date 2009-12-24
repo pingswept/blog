@@ -7,9 +7,9 @@ wordpress_url: http://pingswept.org/2008/09/28/television-still-stupid-after-all
 Sharon and I recently moved to a new house, which resulted in a switch from Speakeasy DSL to RCN cable. As a result, we now have a TV signal coming into our house. Strangely, I don't think I have ever lived in a building with a cable connection, except for a 6 month stint in graduate school when I was busy enough building robots that I don't remember what room my roommates had the TV in.
 But now, I get to explore television as a visitor from the mid-80s. Here's what I remember from 1984 or so:
 <ul>
-	<li>The Jeffersons: a show about a family with the last name "Jefferson"</li>
-	<li>Rhoda:** a show about a woman named "Rhoda"</li>
-	<li>The Dukes of Hazzard: a show about a family with the last name "Duke" who live in Hazzard County. To liven things up, these Dukes engage in hazardous motoring in an orange car. This makes the name of the show a pun.</li>
+<li>The Jeffersons: a show about a family with the last name "Jefferson"</li>
+<li>Rhoda:** a show about a woman named "Rhoda"</li>
+<li>The Dukes of Hazzard: a show about a family with the last name "Duke" who live in Hazzard County. To liven things up, these Dukes engage in hazardous motoring in an orange car. This makes the name of the show a pun.</li>
 </ul>
 
 Now, show titles are abbreviated: CSI, ER, 24, NCIS. I don't know what these shows are about, but from the ads I've seen, they're about law enforcement and medical emergencies. We now have multiple editions, like CSI: Miami and CSI: New York. There appear to be a lot of shows about law enforcement, but that may be just an illusion induced by shows with opaque titles like Naruto (from a tv.com summary, I gather: a demon fox, an evil spirit trapped inside a baby, and "shinobi," which is a word I don't know). With the exception of the evil spirit trapped in the baby, which is creepy, these are trends that I expect to see in America, the land of the fearful, where Sarah Palin gets airtime. I'm happy to report that despite 150 channels, I don't feel like I've missed much in the last 20 years.

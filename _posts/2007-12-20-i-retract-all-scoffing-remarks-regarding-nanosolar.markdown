@@ -12,12 +12,12 @@ Nanosolar is claiming module costs of 1 $/W; the US solar industry is now <a hre
 
 It looks like they have beaten:
 <ul>
-	<li>Ascent Solar (thin film, CIGS, probaby through vacuum deposition)</li>
-	<li>Konarka (thin film, printed, organic cells)</li>
-	<li>Heliovolt (thin film, printed, CIGS cells)</li>
-	<li>SoloPower (thin film, CIGS, but electroplated, not printed)</li>
-	<li>Miasole (thin film, CIGS, but not printed)</li>
-	<li>Solyndra (thin-film CIGS, unknown process, but they're hiring people with semiconductor process experience)</li>
+<li>Ascent Solar (thin film, CIGS, probaby through vacuum deposition)</li>
+<li>Konarka (thin film, printed, organic cells)</li>
+<li>Heliovolt (thin film, printed, CIGS cells)</li>
+<li>SoloPower (thin film, CIGS, but electroplated, not printed)</li>
+<li>Miasole (thin film, CIGS, but not printed)</li>
+<li>Solyndra (thin-film CIGS, unknown process, but they're hiring people with semiconductor process experience)</li>
 </ul>
 
 But have they hit grid parity? Maybe.

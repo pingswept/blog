@@ -24,14 +24,14 @@ or you'll get the error "error: ‘PATH_MAX’ undeclared (first use in this fun
 <pre lang="bash">
 #!/bin/bash
 wget -nd --passive-ftp $@ || (
-	echo Retrying from gumstix alternate site...
-	index=$#-1
-	# Copy all params into an array
-	for (( i=0; $?==0; i++ ));do a[$i]=$1; shift; done
-	# Chop all but filename from last param and prepend out URL
-	a[$index]=${a[index]/*\//http:\/\/www.daimi.au.dk/~spider/gumstix/gumstix-buildroot/dl/}
-	# Now wget that from out server
-	wget -nd ${a[@]}
+echo Retrying from gumstix alternate site...
+index=$#-1
+# Copy all params into an array
+for (( i=0; $?==0; i++ ));do a[$i]=$1; shift; done
+# Chop all but filename from last param and prepend out URL
+a[$index]=${a[index]/*\//http:\/\/www.daimi.au.dk/~spider/gumstix/gumstix-buildroot/dl/}
+# Now wget that from out server
+wget -nd ${a[@]}
 )
 </pre>
 

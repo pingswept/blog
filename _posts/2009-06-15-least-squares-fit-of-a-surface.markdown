@@ -43,46 +43,45 @@ We can use two Vandermonde matrices next to each other.
 
 Here’s the Python code that creates the two Vandermonde matrices and joins them into one matrix. x, y, and z are lists of corresponding coordinates, so, for example, x\[5\], y\[5\] and z\[5\] are the coordinates of one point that the surface should approximate. The order of the points is not important.
 
-	import numpy as np
-	 
-	z = [0.0, 0.695, 1.345, 1.865, 2.225, 2.590, 0.0, 0.719, 1.405, 1.978, 2.398, 2.730, 0.0, 0.789, 1.474, 2.064, 2.472, 2.775, 0.0, 0.763, 1.453, 1.968, 2.356, 2.649]
-	 
-	x = [0.0, 12.0, 24.0, 36.0, 48.0, 60.0, 0.0, 12.0, 24.0, 36.0, 48.0, 60.0, 0.0, 12.0, 24.0, 36.0, 48.0, 60.0, 0.0, 12.0, 24.0, 36.0, 48.0, 60.0]
-	 
-	y = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 48.0, 48.0, 48.0, 48.0, 48.0, 48.0, 72.0, 72.0, 72.0, 72.0, 72.0, 72.0]
-	 
-	degree = 3
-	thickness = 0.167
-	 
-	# Set up the canonical least squares form
-	Ax = np.vander(x, degree)
-	Ay = np.vander(y, degree)
-	A = np.hstack((Ax, Ay))
-	 
-	# Solve for a least squares estimate
-	(coeffs, residuals, rank, sing_vals) = np.linalg.lstsq(A, z)
-	 
-	# Extract coefficients and create polynomials in x and y
-	xcoeffs = coeffs[0:degree]
-	ycoeffs = coeffs[degree:2 * degree]
-	 
-	fx = np.poly1d(xcoeffs)
-	fy = np.poly1d(ycoeffs)
+    import numpy as np
+     
+    z = [0.0, 0.695, 1.345, 1.865, 2.225, 2.590, 0.0, 0.719, 1.405, 1.978, 2.398, 2.730, 0.0, 0.789, 1.474, 2.064, 2.472, 2.775, 0.0, 0.763, 1.453, 1.968, 2.356, 2.649]
+     
+    x = [0.0, 12.0, 24.0, 36.0, 48.0, 60.0, 0.0, 12.0, 24.0, 36.0, 48.0, 60.0, 0.0, 12.0, 24.0, 36.0, 48.0, 60.0, 0.0, 12.0, 24.0, 36.0, 48.0, 60.0]
+     
+    y = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 48.0, 48.0, 48.0, 48.0, 48.0, 48.0, 72.0, 72.0, 72.0, 72.0, 72.0, 72.0]
+     
+    degree = 3
+    thickness = 0.167
+     
+    # Set up the canonical least squares form
+    Ax = np.vander(x, degree)
+    Ay = np.vander(y, degree)
+    A = np.hstack((Ax, Ay))
+     
+    # Solve for a least squares estimate
+    (coeffs, residuals, rank, sing_vals) = np.linalg.lstsq(A, z)
+     
+    # Extract coefficients and create polynomials in x and y
+    xcoeffs = coeffs[0:degree]
+    ycoeffs = coeffs[degree:2 * degree]
+     
+    fx = np.poly1d(xcoeffs)
+    fy = np.poly1d(ycoeffs)
 
 Once I knew the coefficients of the polynomial approximation, I could calculate the contours of the masonite. From a measurement of the stack of masonite, I knew the average thickness is 0.167 inches. (Thanks to Dr. Alex T. Tung, Ph.D., for helping me get the masonite home from Home Depot.) To find out where the first layer should end, I picked a series of stations spaced every 12 inches along the length of the floor in the y-direction. Along those stations, I solved f(x, y) = 0.167, f(x, y) = 2 * 0.167, f(x, y) = 3 * 0.167 and so forth.
 
 In practice, solving f(x, y) = c, where c is a constant, means finding the roots of the equation f(x, y) - c = 0. (The mathematicians call this solving the homogeneous equation.) In Python, the numpy.roots method solves the homogeneous case. For each contour/section crossing, I generated a polynomial of the form f(x, y) - c and solved it with numpy.roots.
 
-	ystations = range(0, 84, 12)
-	sections = [[np.poly1d(xcoeffs - [0,0,zoffset - fy(ypos)]) for zoffset in np.arange(thickness, max(z), thickness).tolist()] for ypos in ystations]
-	 
-        pts = [[min(func.roots) for func in list_of_fs] for list_of_fs in sections]
+    ystations = range(0, 84, 12)
+    sections = [[np.poly1d(xcoeffs - [0,0,zoffset - fy(ypos)]) for zoffset in np.arange(thickness, max(z), thickness).tolist()] for ypos in ystations]
+    pts = [[min(func.roots) for func in list_of_fs] for list_of_fs in sections]
 
 For fabrication, I printed out a list of the locations where the masonite contours crossed the stations.
 
-	for (pt_list, ystation) in zip(pts, ystations):
-	    print('\nBoundaries at station y = {0} inches:'.format(ystation))
-	    print('\t'.join(['{0:.3}'.format(pt) for pt in pt_list]))
+    for (pt_list, ystation) in zip(pts, ystations):
+        print('\nBoundaries at station y = {0} inches:'.format(ystation))
+        print('\t'.join(['{0:.3}'.format(pt) for pt in pt_list]))
 
 Armed with my list of measurements, I headed to the garage and set up some sawhorses with a sheet of plywood to keep the masonite from bowing and flopping around. It took a few hours of marking points and cutting gentle curves with a jigsaw, but the results were delightful.
 
