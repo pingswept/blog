@@ -1,8 +1,6 @@
 --- 
-wordpress_id: 67
 layout: post
 title: Films I have in my possession
-wordpress_url: http://www.betsymattox.com/pingswept/2005/02/21/films-i-have-in-my-possession/
 ---
 1. *The Quest for the Ninja Orb, Part II*
 2. *Bombs, Farts, Spys* \[sic\]

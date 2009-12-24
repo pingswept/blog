@@ -1,8 +1,6 @@
 --- 
-wordpress_id: 64
 layout: post
 title: All 350 mL
-wordpress_url: http://www.betsymattox.com/pingswept/2005/03/02/all-350-ml/
 ---
 	At work today, I was asked to go to CVS and buy 10-20 bottles that are 350 mL in volume.<br />
 <img src="http://pingswept.org/wp-photos/187499876.jpeg" alt="03-02-05_1828.jpg" />
