@@ -1,8 +1,6 @@
 --- 
-wordpress_id: 648
 layout: post
 title: Watercooling with an aluminum waterblock
-wordpress_url: http://pingswept.org/?p=648
 ---
 Last night, I finished assembling the waterblock for the new server in my basement. Since I'm new to this watercooling stuff, I decided that a design where the fluid path through the server has no potentially leaky fittings along it would be a good starting place. I made the waterblock from two chunks of 6061 aluminum, with a loop of copper tube sandwiched in the middle. I milled a semi-cylindrical groove in each plate of aluminum with a ball-end mill, and added relief on one side to allow space for a 180 bend in the tube. The plates are clamped together with 1/4-20 socket head cap screws. As I tightened the bolts, I could see the gaps around the tubes disappear, so thermal contact between the tube and the plates is at least decent. Unfortunately, the upper plate doesn't make good contact with the lower one. By design, there's a nominal 0.010 in gap between the two plates before the tubes are compressed. I tried adding shim stock between the two, but I couldn't easily balance the contact force between the tubes and the plates, so I left out the shims.
 
