@@ -1,0 +1,3 @@
+Back in January, I figured out how to <a href="http://pingswept.org/2009/01/24/least-squares-polynomial-fitting-in-python/">fit polynomials in Python</a>.
+
+But that's just a start. The coefficients you get from a least squares fit may not be well-behaved numerically. The answer is to add a second objective to your optimization. Instead of just minimizing the residuals, you also want to minimize the norm of the coefficients. This gives you a small x that also creates a curve that fits your data almost as well. The benefit of this is that when you go to actually use your fit, the calculations won't roll over and give you crazy errors.
