@@ -8,7 +8,25 @@ title: pingswept
         {% for post in site.posts limit:3 %}
         <li><h2><a href="{{ post.url }}">{{ post.title }}</a></h2><span class="postdate">{{ post.date | date_to_string }}</span></li>
         <li class="postcontent">{{ post.content }}</li>
+        <span class="item_comments">
+            Comments: <a href="{{ post.url }}#disqus_thread">(view/add your own)</a>
+        </span>
         {% endfor %}
         <li><h2><a href="http://pingswept.org/archives.html">Archives</a></h2></li>
     </ul>
-</div>                      
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+    var links = document.getElementsByTagName('a');
+    var query = '?';
+    for(var i = 0; i < links.length; i++) {
+        if(links[i].href.indexOf('#disqus_thread') >= 0) {
+            query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+        }
+    }
+    document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/pingswept/get_num_replies.js' + query + '"></' + 'script>');
+})();
+//]]>
+</script>
