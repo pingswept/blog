@@ -1,8 +1,6 @@
 --- 
-wordpress_id: 630
 layout: post
 title: 2009 woodstove data from the EPA
-wordpress_url: http://pingswept.org/?p=630
 ---
 The EPA regulates woodstove emissions in the US. Each year, they publish a list of the roughly 700 types of woodstoves sold in the US that includes an emissions metric (grams of particulate per hour) and a range of output power (BTU/h)  for each stove.
 

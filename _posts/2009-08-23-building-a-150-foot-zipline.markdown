@@ -1,8 +1,6 @@
 --- 
-wordpress_id: 548
 layout: post
 title: Building a 150 foot zipline
-wordpress_url: http://pingswept.org/?p=548
 ---
 My brother and his wife bought a house in Michigan a few months ago, and Sharon and I went out to visit them last weekend. The house is on a wooded lot a few miles outside of town. There are other houses that you can make out through the woods, but nobody really nearby. They probably own an acre or two of woods, and they abut a 15 acre park (which previously housed a privately-owned 1/3 scale steam railroad-- I'll save that for a later post).
 
@@ -18,15 +16,18 @@ Once the tennis court was recovered, the landscape was changed. Instead of a hou
 Later in the day, we talked about maybe putting a zipline in the yard on the other side of the house, but it didn't really seem like the right spot. The lawn was something of a valley; I didn't see an easy way to position the zipline so the rider wouldn't crash into the tree at the bottom. As it was getting dark, I walked around the yard and considered the possibilities. Coming around the corner to the tennis court, I noticed that the court was a good ten feet lower than the house, and there was a nice tree right at the edge of the yard. Ben pointed out that there was a massive tree on the far side of the tennis court. I paced the distance off at around 150 feet.
 
 As I was lying in bed that night, I did some calculations in my head. The potential energy of a person at the top of the hill would be converted into kinetic energy at the bottom of the hill. If we ignore wind resistance and friction in the pulleys, we can estimate an upper limit of the speed.
-$$!mgh = \frac{1}{2}mv^2$$
 
-The $$m$$ cancels out, so either we all die, or nobody does. When you reach the bottom, the maximum possible speed is
-$$!v = \sqrt{2gh}$$
+<img src="http://chart.apis.google.com/chart?cht=tx&chl=mgh = \frac{1}{2}mv^2">
 
-$$h$$ is around 10 feet, and $$g$$ is $$32 \frac{ft}{s^2}$$. This means that roughly
-$$!v = \sqrt{640}\approx\sqrt{625} = 25 \frac{ft}{s}$$.
+The m cancels out, so either we all die, or nobody does. When you reach the bottom, the maximum possible speed is
 
-I went to sleep thinking that a zipline where you landed at a $$25 \frac{ft}{s}$$ sprint was about as dangerous as I wanted.
+<img src="http://chart.apis.google.com/chart?cht=tx&chl=v = \sqrt{2gh}">
+
+h is around 10 feet, and g is 32 ft/s^2. This means that roughly
+
+<img src="http://chart.apis.google.com/chart?cht=tx&chl=v = \sqrt{640}\approx\sqrt{625} = 25 \frac{ft}{s}">
+
+I went to sleep thinking that a zipline where you landed at a 25 ft/s sprint was about as dangerous as I wanted.
 
 <a href="http://www.flickr.com/photos/pingswept/3847486590/" title="The zipline site, looking back up the hill by Brandon Stafford, on Flickr"><img src="http://farm3.static.flickr.com/2620/3847486590_65568b77cc.jpg" width="375" height="500" alt="The zipline site, looking back up the hill" /></a>
 **The zipline site, looking up the hill**

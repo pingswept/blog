@@ -16,7 +16,7 @@ As before, the first step is to arrange the equations in canonical form:
 Ax=y
 where:
 
-    * A is an M \times N full rank matrix with M > N (skinny)
+    * A is an M x N full rank matrix with M > N (skinny)
     * x is a vector of length N
     * y is a vector of length M
 
@@ -30,11 +30,11 @@ In polynomial fitting, A is called the Vandermonde matrix and takes the form:
 
 In the 2D case, we’re trying to find polynomial in x such that f(x) approximates y. In the 3D case at hand, we have two independent variables, so we’re looking for a polynomial in x and y such that f(x, y) approximates z. Rather than the 2D case:
 
-y = x_Nt^N + . . . + x_2 t^2 + x_1t + x_0
+<img src="http://chart.apis.google.com/chart?cht=tx&chl=y = x_Nt^N %2B . . . %2B x_2 t^2 %2B x_1t %2B x_0">
 
 we want the final output to look like this:
 
-z = a_Nx^N + . . . + a_2 x^2 + a_1x + a_0 + b_Ny^N + . . . + b_2 y^2 + b_1y + b_0
+<img src="http://chart.apis.google.com/chart?cht=tx&chl=z = a_Nx^N %2B . . . %2B a_2 x^2 %2B a_1x %2B a_0 %2B b_Ny^N %2B . . . %2B b_2 y^2 %2B b_1y %2B b_0">
 
 (Spike Curtis astutely notes in the comments that I am omitting the cross terms, such as xy, and refers us to a Matlab script. Spike is right, but the floor’s already fixed.)
 

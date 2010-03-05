@@ -33,9 +33,17 @@ One other wrinkle is the control scheme used by the new system. Viessmann boiler
 
 **Pictures**
 
-Here's the old system and the new system. If you click on the pictures, you'll get to Flickr, where I'll add a few notes about what the different parts in the picture do.
+Here are the old system and the new system. If you click on the pictures of the new system, you'll get to Flickr, where I've added a few notes about what the different parts in the picture do.
+
+*Old system with headbanging pipes*
+
+<a href="http://www.flickr.com/photos/pingswept/4023572789/"><img src="http://farm3.static.flickr.com/2727/4023572789_b21316e438.jpg" width="375" height="500" alt="The old gas boiler and the headbanging pipes" /></a>
+
+*New system*
 
 <a href="http://www.flickr.com/photos/pingswept/4235209753/"><img src="http://farm5.static.flickr.com/4046/4235209753_a381527a67.jpg" width="375" height="500" alt="The new boiler" /></a>
+
+*Supporting plumbing for new system*
 
 <a href="http://www.flickr.com/photos/pingswept/4235210985/"><img src="http://farm3.static.flickr.com/2648/4235210985_2bace95e1c.jpg" width="375" height="500" alt="Ancillary plumbing" /></a>
 
