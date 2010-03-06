@@ -43,6 +43,7 @@ We can use two Vandermonde matrices next to each other.
 
 Here’s the Python code that creates the two Vandermonde matrices and joins them into one matrix. x, y, and z are lists of corresponding coordinates, so, for example, x\[5\], y\[5\] and z\[5\] are the coordinates of one point that the surface should approximate. The order of the points is not important.
 
+<pre class="brush: python">
     import numpy as np
      
     z = [0.0, 0.695, 1.345, 1.865, 2.225, 2.590, 0.0, 0.719, 1.405, 1.978, 2.398, 2.730, 0.0, 0.789, 1.474, 2.064, 2.472, 2.775, 0.0, 0.763, 1.453, 1.968, 2.356, 2.649]
@@ -68,30 +69,43 @@ Here’s the Python code that creates the two Vandermonde matrices and joins the
      
     fx = np.poly1d(xcoeffs)
     fy = np.poly1d(ycoeffs)
+</pre>
 
 Once I knew the coefficients of the polynomial approximation, I could calculate the contours of the masonite. From a measurement of the stack of masonite, I knew the average thickness is 0.167 inches. (Thanks to Dr. Alex T. Tung, Ph.D., for helping me get the masonite home from Home Depot.) To find out where the first layer should end, I picked a series of stations spaced every 12 inches along the length of the floor in the y-direction. Along those stations, I solved f(x, y) = 0.167, f(x, y) = 2 * 0.167, f(x, y) = 3 * 0.167 and so forth.
 
 In practice, solving f(x, y) = c, where c is a constant, means finding the roots of the equation f(x, y) - c = 0. (The mathematicians call this solving the homogeneous equation.) In Python, the numpy.roots method solves the homogeneous case. For each contour/section crossing, I generated a polynomial of the form f(x, y) - c and solved it with numpy.roots.
 
+<pre class="brush: python">
     ystations = range(0, 84, 12)
     sections = [[np.poly1d(xcoeffs - [0,0,zoffset - fy(ypos)]) for zoffset in np.arange(thickness, max(z), thickness).tolist()] for ypos in ystations]
     pts = [[min(func.roots) for func in list_of_fs] for list_of_fs in sections]
+</pre>
 
 For fabrication, I printed out a list of the locations where the masonite contours crossed the stations.
 
+<pre class="brush: python">
     for (pt_list, ystation) in zip(pts, ystations):
         print('\nBoundaries at station y = {0} inches:'.format(ystation))
         print('\t'.join(['{0:.3}'.format(pt) for pt in pt_list]))
+</pre>
 
 Armed with my list of measurements, I headed to the garage and set up some sawhorses with a sheet of plywood to keep the masonite from bowing and flopping around. It took a few hours of marking points and cutting gentle curves with a jigsaw, but the results were delightful.
 
-The masonite platform (non-impressive view)
+*The masonite platform (non-impressive view)*
 
-Level and gleeful
+<a href="http://www.flickr.com/photos/pingswept/3627106741/"><img src="http://farm4.static.flickr.com/3401/3627106741_4ec24959d9.jpg" width="375" height="500" alt="The masonite platform (non-impressive view)" /></a>
 
-Side view of the masonite platform
+*Level and gleeful*
 
-Another side view of the masonite platform
+<a href="http://www.flickr.com/photos/pingswept/3627929546/"><img src="http://farm4.static.flickr.com/3542/3627929546_c88a341a57.jpg" width="500" height="375" alt="Level and gleeful" /></a>
+
+*Side view of the masonite platform*
+
+<a href="http://www.flickr.com/photos/pingswept/3630614507/"><img src="http://farm4.static.flickr.com/3324/3630614507_79b7731799.jpg" width="500" height="375" alt="Side view of the masonite platform" /></a>
+
+*Another side view of the masonite platform*
+
+<a href="http://www.flickr.com/photos/pingswept/3631431316/"><img src="http://farm4.static.flickr.com/3646/3631431316_9bac95a888.jpg" width="500" height="375" alt="Another side view of the masonite platform" /></a>
 
 As you can see above, I haven’t fastened the layers together yet. They seem to be sticking together reasonably well.
 
