@@ -8,10 +8,11 @@ The CSS, XHTML and design are released under GPL:
 body {
 	margin: 0;
 	padding: 0; 
-	font-size: 14px;
+	font-size: 18px;
 	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
 	background-color: #d5d6d7;
 	color: #444;
+    line-height: 1.4em;
 	}
 
 #column {
@@ -49,13 +50,12 @@ a {
 }
 
 a:hover {
-    color: #114477;
+    color: #3355BB;
     text-decoration: underline;
 }
 
 a:visited {
     color: #114477;
-    text-decoration: none;
 }
 
 h2 {
@@ -102,7 +102,8 @@ h2 {
 }
 
 .postdate {
-    font-size: 12px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 #sidebar {
@@ -110,7 +111,7 @@ h2 {
     float: right;
     width: 30%;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 ul li {

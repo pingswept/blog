@@ -62,7 +62,7 @@ The picture below shows me assembling a prototype of a massive 40 amp power stri
 
 *Laser eye surgery machine*
 
-I was the mechanical designer on for the concept development stage of this product for Alcon when I was at Ideo in 2005. From what I can tell, it never made it to market. From what I can tell, Alcon issued a massive product recall of this system's predecessor and then decided they were better off buying the next closest competitor (Wavelight) than building the machine themselves.
+I was the mechanical designer for the concept development stage of this product for Alcon when I was at Ideo in 2005. From what I can tell, it never made it to market; it seems that Alcon issued a massive product recall of this system's predecessor and then decided they were better off buying the next closest competitor (Wavelight) than building the machine themselves.
 
 <a href="http://www.ideo.com/work/item/delta-laser-eye-surgery-machine-concept"><img src="http://farm5.static.flickr.com/4026/4457474860_c28ef6b9be.jpg" width="475" height="235" alt="Alcon laser eye surgery machine" /></a>
 
@@ -112,6 +112,10 @@ After an unfortunate disagreement with the city of Cambridge about what constitu
 
 *A level floor*
 
+Our house has one room with a horribly sloped floor that needed a quick remedy. Much to the chagrin of my pragmatic friends, I measured the floor and wrote a Python script to calculate the contours of a least squares fit of a paraboloid to the measurements. I then cut layers of masonite to make a level platform that fit the doubly-curved surface.
+
+<a href="http://www.flickr.com/photos/pingswept/3631431316/"><img src="http://farm4.static.flickr.com/3646/3631431316_9bac95a888.jpg" width="500" height="375" alt="Another side view of the masonite platform" /></a>
+
 *A zipline at my brother's house*
 
 My brother discovered a grown-over grass tennis court in the woods near his house. We decided it would be best to arrive by zipline.
@@ -119,6 +123,12 @@ My brother discovered a grown-over grass tennis court in the woods near his hous
 <a href="http://www.flickr.com/photos/pingswept/3847493746/"><img src="http://farm3.static.flickr.com/2442/3847493746_5f0018d6f3.jpg" width="375" height="500" alt="Ben, method air on the zipline" /></a>
 
 *Sandhill Challenge car*
+
+In those heady days of the dotcom boom, when doing stupid things was smart, detritus from the MIT, Stanford, and Yale solar car teams coalesced to build a soapbox derby car. A few months before the race, we measured the slope of Sand Hill Road at night to determine the optimal weight for the car. (Strangely, this attracted the attention of the cops. How much less threatening can you get than measuring the slope of a piece of asphalt?)
+
+With a strong pushing team at the start, you want a very heavy car (~350 kg) to win. We built ours around a massive piece of steel I-beam with a rack for lead plates underneath. Unfortunately, we overestimated the strength of our pushing team. During each of our runs, we were removing lead plates and improving our time, but it was too little, too late. I think we placed fourth.
+
+In the picture below, you can see we are delivering a sound thrashing to a block of cheese.
 
 <a href="http://www.flickr.com/photos/pingswept/4456678893/"><img src="http://farm3.static.flickr.com/2763/4456678893_bf791f0782.jpg" width="500" height="345" alt="Sandhill challenge car" /></a>
 

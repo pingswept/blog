@@ -8,9 +8,11 @@ To compensate for the slope, I decided to fit a stack of masonite sheets to the 
 
 (In retrospect, the floor was close enough to singly-curved that I could have gotten away with a linear fit.) The blue thing in the picture is a level. I shimmed the level until it was worthy of its name, and then measured the distance to the floor with calipers.
 
+<a href="http://www.flickr.com/photos/pingswept/3453390885/"><img src="http://farm4.static.flickr.com/3603/3453390885_4727c27c5f.jpg" width="500" height="375" alt="Estimating the flatness of the floor" /></a>
+
 **Estimating the flatness of the floor**
 
-I’ll recount the basics from my earlier post about least squares fitting in Python. Skip ahead to the next section if you read that already.
+I’ll recount the basics from my [earlier post](http://pingswept.org/2009/01/24/least-squares-polynomial-fitting-in-python/) about least squares fitting in Python. Skip ahead to the next section if you read that already.
 
 As before, the first step is to arrange the equations in canonical form:
 Ax=y
