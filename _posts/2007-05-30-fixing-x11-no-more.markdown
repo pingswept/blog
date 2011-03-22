@@ -1,8 +1,7 @@
---- 
-wordpress_id: 141
-layout: post
+---
+date: 2007/05/30 00:00:00
+format: markdown
 title: Fixing X11 no more
-wordpress_url: http://pingswept.org/2007/05/30/fixing-x11-no-more/
 ---
 Last week, after building my own computers to run Linux for about 10 years, I ordered a computer from <a href="http://direct2dell.com/one2one/archive/2007/05/24/15994.aspx">Dell with Ubuntu Linux pre-installed</a>. Don't get me wrong-- I have enjoyed at least 80% of the hacking, crashing X11 repeatedly, trying to disable X11, giving up and using the terminal window at 640 x 480, crashing X11 repeatedly, and so on. In the last 2 or 3 years, Linux has become solid enough that I rarely need to perform tasks akin to surgery. With tested hardware from Dell, instead of hardware randomly selected from different (<a href="http://lwn.net/Articles/57847/">non-Belkin</a>) vendors, I'm betting that **I may not need to edit xorg.conf at all!**
 

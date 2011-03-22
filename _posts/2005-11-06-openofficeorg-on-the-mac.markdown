@@ -1,8 +1,7 @@
---- 
-wordpress_id: 42
-layout: post
+---
+date: 2005/11/06 00:00:00
+format: markdown
 title: OpenOffice.org on the Mac
-wordpress_url: http://www.betsymattox.com/pingswept/2005/11/06/openofficeorg-on-the-mac/
 ---
 Jason of Real Linux Geek <a href="http://real-linux-geek.blogspot.com/2005/11/massachusetts-makes-smart-move.html">mentions</a> that OpenOffice.org is available for many more platforms than Microsoft Office. He mentions that it runs on "Windows 9x/Me/XP/NT/2000, Linux, Macintosh, FreeBSD and Solaris."
 As someone in charge of buying office suites for a largely Mac institution, I'm sad to say that the status of OOo on the Mac is tenuous at best. There is a version that runs under X11, which requires an additional installation and a little user education; what's more, it runs slow as a dog. A really slow dog. Maybe a dog that was towing a sledge of bricks.

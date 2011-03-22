@@ -1,8 +1,8 @@
---- 
-wordpress_id: 423
-layout: post
+---
+date: 2009/06/01 00:00:00
+format: markdown
 title: Opening salvo in the Great Skunk War of 2009
-wordpress_url: http://pingswept.org/?p=423
+categories: skunks, trench warfare
 ---
 Our house in Somerville has two porches that serve as barracks for at least two skunks.
 

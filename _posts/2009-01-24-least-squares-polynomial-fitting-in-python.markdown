@@ -1,6 +1,8 @@
 ---
-layout: post
+format: markdown
+date: 2009/01/24 00:00:00
 title: Least squares polynomial fitting in Python
+categories: estimation, mathematics, python
 ---
 A few weeks ago at [work][1], in the course of reverse engineering a dissolved oxygen sensor calibration routine, [Jon][2] needed to fit a curve to measured data so he could calculate calibration values from sensor readings, or something like that. I don’t know how he did the fitting, but it got me thinking about least squares and mathematical modeling.
 
@@ -61,7 +63,7 @@ Each observation in your experiment corresponds to a row of A; A_i * x = y_i. Pr
 
 As a reminder, our model looks like this:
 
-![Ax = y](http;//pingswept.org/images/equations/ax_equals_y.png)
+![Ax = y](http://pingswept.org/images/equations/ax_equals_y.png)
 
 You can check that A makes sense by imagining the matrix multiplication of each row of A with x to equal the corresponding entry in y. For the second row of A, we have
 y_2 = x_Nt_2 + . . . + x_2t_2^2 + x_1t_2^1 + x_0
@@ -74,28 +76,32 @@ Python code
 
 Let’s suppose that we have some data that looks like a noisy parabola, and we want to fit a polynomial of degree 5 to it. (I chose 5 randomly; it’s a stupid choice. More on selection of polynomial degree in another post.)
 
-    import numpy as np
-    import scipy as sp
-    import matplotlib.pyplot as plt
-     
-    degree = 5
-     
-    # generate a noisy parabola
-    t = np.linspace(0,100,200)
-    parabola = t**2
-    noise = np.random.normal(0,300,200)
-    y = parabola + noise
+$$code(lang=python)
+import numpy as np
+import scipy as sp
+import matplotlib.pyplot as plt
+
+degree = 5
+
+# generate a noisy parabola
+t = np.linspace(0,100,200)
+parabola = t**2
+noise = np.random.normal(0,300,200)
+y = parabola + noise
+$$/code
 
 So now we have some fake data– an array of times and an array of noisy sensor readings. Next, we form the Vandermonde matrix and find an approximate solution for x. Note that numpy.linalg.lstsq() returns a tuple; we’re really only interested in the first element, which is the array of coefficients.
 
-    # form the Vandermonde matrix
-    A = np.vander(t, degree)
-     
-    # find the x that minimizes the norm of Ax-y
-    (coeffs, residuals, rank, sing_vals) = np.linalg.lstsq(A, y)
-     
-    # create a polynomial using coefficients
-    f = np.poly1d(coeffs)
+$$code(lang=python)
+# form the Vandermonde matrix
+A = np.vander(t, degree)
+ 
+# find the x that minimizes the norm of Ax-y
+(coeffs, residuals, rank, sing_vals) = np.linalg.lstsq(A, y)
+ 
+# create a polynomial using coefficients
+f = np.poly1d(coeffs)
+$$/code
 
 Three lines of code later, we have a solution!
 
@@ -103,20 +109,20 @@ I could have also used numpy.polyfit() in place of numpy.linalg.lstsq(), but the
 
 Now we’ll plot the data and the fitted curve to see if the function actually works!
 
-    # for plot, estimate y for each observation time
-    y_est = f(t)
-     
-    # create plot
-    plt.plot(t, y, '.', label = 'original data', markersize=5)
-    plt.plot(t, y_est, 'o-', label = 'estimate', markersize=1)
-    plt.xlabel('time')
-    plt.ylabel('sensor readings')
-    plt.title('least squares fit of degree 5')
-    plt.savefig('sample.png')
+$$code(lang=python)
+# for plot, estimate y for each observation time
+y_est = f(t)
+ 
+# create plot
+plt.plot(t, y, '.', label = 'original data', markersize=5)
+plt.plot(t, y_est, 'o-', label = 'estimate', markersize=1)
+plt.xlabel('time')
+plt.ylabel('sensor readings')
+plt.title('least squares fit of degree 5')
+plt.savefig('sample.png')
+$$/code
 
-Least squares fit of a noisy parabola
-
-Click the graph for a larger version.
+![Least squares fit of a noisy parabola](http://pingswept.org/img/sample.png)
 
 This post took two-thirds of eternity to write. Feel free to ask questions or point out how confused I am below.
 

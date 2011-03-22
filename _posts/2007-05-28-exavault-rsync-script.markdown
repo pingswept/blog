@@ -1,8 +1,7 @@
---- 
-wordpress_id: 137
-layout: post
+---
+date: 2007/05/28 00:00:00
+format: markdown
 title: Exavault rsync script
-wordpress_url: http://pingswept.org/2007/05/28/exavault-rsync-script/
 ---
 The company I work for recently started using a service called <a href="http://exavault.com">Exavault</a> to back up our data. We have a server running Linux that logs into our NAS using ssh every night and rsyncs the data with a local directory. It also dumps our mediawiki database (well, used to-- we're using <a href="http://socialtext.net/open">Socialtext</a> now) and subversion repository.
 
@@ -10,7 +9,7 @@ All of this data gets synchronized with Exavault's machines in Dublin, Californi
 
 This has been running with no known problems for about six months. Below are the bash scripts I wrote to do the synchronization.
 
-<pre>#!/bin/bash
+$$code(lang=bash)
 LOGFILE=/var/log/GME_backup/GME_backups.log
 echo "Syncing chemp to Exavault, starting $(date +%FT%T)" >> $LOGFILE
 echo "Dumping wiki database" >> $LOGFILE
@@ -30,12 +29,15 @@ rsync -av --exclude-from=no_backup.txt --progress /home/brandon/wiki_backup/ gre
 rsync -av --exclude-from=no_backup.txt --progress /var/www/wiki/ greenmountain@greenmountain.exavault.com:backup-wiki/ >> $LOGFILE
 echo "Finished at $(date +%FT%T)" >> $LOGFILE
 echo "----------------***-------------------" >> $LOGFILE</pre>
+$$/code
 
 The other script:
 
-<pre>#!/bin/bash
+$$code(lang=bash)
+#!/bin/bash
 LOGFILE=/var/log/GME_backup/GME_backups.log
 echo "Syncing Q to Chemp, starting $(date +%FT%T)" >> $LOGFILE
 rsync -a --exclude-from=no_backup.txt --progress root@192.168.2.4:/raid/WeatherPhenom/  /home/brandon/Q_backup/ >> $LOGFILE
 echo "Finished at $(date +%FT%T)" >> $LOGFILE
 echo "---------------------------------" >> $LOGFILE</pre>
+$$/code

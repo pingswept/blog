@@ -1,5 +1,6 @@
---- 
-layout: post
+---
+format: markdown
+date: 2005/11/20 00:00:00
 title: Curtis Chong, OpenDocument, accessibility, and web standards
 ---
 David Berlind at ZDNet has been <a href="http://blogs.zdnet.com/BTL/?p=2163">exchanging email with Curtis Chong</a>, the president of the <a href="http://www.nfb.org/nfbcs.htm">National Federation of the Blind in Computer Science</a>, on the topic of the OpenDocument policy in Massachusetts. Chong's concern is that Massachusetts discontinuing the use of Microsoft Office will result in screen readers failing to work for people with disabilities. Berlind thinks that moving to an open standard will mean that once screen readers are fixed to work with the standard, they will work forever.

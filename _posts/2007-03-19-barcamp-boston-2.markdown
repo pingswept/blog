@@ -1,8 +1,7 @@
---- 
-wordpress_id: 139
-layout: post
+---
+date: 2007/03/19 00:00:00
+format: markdown
 title: Barcamp Boston 2
-wordpress_url: http://pingswept.org/2007/03/19/barcamp-boston-2/
 ---
 My favorite quote from the weekend: "I'm just a recreational paranoid."
 

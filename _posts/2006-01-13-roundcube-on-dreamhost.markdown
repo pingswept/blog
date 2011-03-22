@@ -1,8 +1,7 @@
---- 
-wordpress_id: 104
-layout: post
+---
+date: 2006/01/13 00:00:00
+format: markdown
 title: Installing Roundcube on Dreamhost
-wordpress_url: http://pingswept.org/2006/01/13/roundcube-on-dreamhost/
 ---
 I followed Hookturns' guide to <a href="http://www.hookturns.com/setting-up-roundcube-on-dreamhost/">installing Roundcube on Dreamhost</a> a few days ago, but I used a more recent version (<a href="http://sourceforge.net/project/showfiles.php?group_id=139281&package_id=171500&release_id=378726">roundcubemail-cvs-20051216.tar.gz</a>) and found that it still worked with the following changes:
 <ol>

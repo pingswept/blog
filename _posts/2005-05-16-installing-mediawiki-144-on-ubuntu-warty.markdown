@@ -1,8 +1,7 @@
---- 
-wordpress_id: 51
-layout: post
+---
+date: 2005/05/16 00:00:00
+format: markdown
 title: Installing Mediawiki-1.4.4 on Ubuntu Warty
-wordpress_url: http://www.betsymattox.com/pingswept/2005/05/16/installing-mediawiki-144-on-ubuntu-warty/
 ---
 I installed Mediawiki, the software that runs Wikipedia, on an Ubuntu
 Warty machine yesterday. I issued an sudo -s command at the start so

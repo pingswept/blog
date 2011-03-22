@@ -1,8 +1,7 @@
---- 
-wordpress_id: 25
-layout: post
+---
+date: 2005/12/10 00:00:00
+format: markdown
 title: Citizen journalists vs. the Boston Globe
-wordpress_url: http://www.betsymattox.com/pingswept/2005/12/10/citizen-journalists-vs-the-boston-globe/
 ---
 The Boston Globe, a subsidiary of the New York Times, published a <a href="http://www.boston.com/news/local/articles/2005/11/26/romney_administration_reviewing_trips_made_by_technology_chief/">shameful article</a> by Stephen Kurkjian about Massachusetts CIO Peter Quinn failing to provide detailed estimates about trips he took to conferences in 2004. The smoking gun of the article was: “He provided the name of the conferences he was attending, but only the total amount of money that the trip cost on three of them . . .” Before publication, the Globe failed to contact Quinn’s supervisor at the time, former Secretary of Administration and Finance Eric Kriss.
 

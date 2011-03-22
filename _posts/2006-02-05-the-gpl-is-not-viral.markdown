@@ -1,8 +1,7 @@
---- 
-wordpress_id: 115
-layout: post
+---
+date: 2006/02/05 00:00:00
+format: markdown
 title: The GPL is not viral
-wordpress_url: http://pingswept.org/2006/02/05/the-gpl-is-not-viral/
 ---
 I was listening to a recording of Chris Messina talking about building infrastructure for the open source community at BarCamp Dallas; in the middle of the recording, a discussion started about the new version of the GNU General Public License.
 

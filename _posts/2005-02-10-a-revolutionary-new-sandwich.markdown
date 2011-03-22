@@ -1,5 +1,6 @@
---- 
-layout: post
+---
+format: markdown
+date: 2005/02/10 00:00:00
 title: A revolutionary new sandwich
 ---
 I'll be the first to admit that the doughnut is a fine food. It tastes sweet, it is inexpensive, and it is available throughout the Commonwealth and beyond.

@@ -1,8 +1,7 @@
---- 
-wordpress_id: 161
-layout: post
+---
+date: 2008/04/05 00:00:00
+format: markdown
 title: The doctrine of the farm
-wordpress_url: http://pingswept.org/2008/04/05/the-doctrine-of-the-farm/
 ---
 Aspiring amateur agrarian, Ben <a href="http://fiveislandsorchard.wordpress.com/2008/03/30/why-do-all-these-engineers-think-they-want-to-be-farmers/">speculates</a> that his engineering friends who dream of becoming farmers may be engaging in "subconscious rebellion against the rampant specialization of modern life."
 

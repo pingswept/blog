@@ -1,8 +1,7 @@
---- 
-wordpress_id: 102
-layout: post
+---
+date: 2006/01/05 00:00:00
+format: markdown
 title: A few corrections to Mr. Goelzer
-wordpress_url: http://pingswept.org/2006/01/05/a-few-corrections-to-mr-goelzer/
 ---
 I am hesitant to go head-to-head with an <a href="http://goelzer.com/blog">A-lister like Goelzer</a>, but while I appreciate <a href="http://www.goelzer.com/blog/index.php/2006/01/05/brandon-stafford-citizen-journalist-par-excellence">his recent post complimenting my blog</a>, it had a few inaccuracies.
 

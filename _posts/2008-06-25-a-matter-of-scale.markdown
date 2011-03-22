@@ -1,8 +1,7 @@
---- 
-wordpress_id: 163
-layout: post
+---
+date: 2008/06/25 00:00:00
+format: markdown
 title: A matter of scale
-wordpress_url: http://pingswept.org/2008/06/25/a-matter-of-scale/
 ---
 I am periodically accosted at parties when someone mentions to a friend that I work on renewable energy.
 
@@ -12,7 +11,7 @@ The problem is one of scale. To explain what I mean, I have to talk about a scul
 
 Arthur Ganson has a sculpture at the MIT museum consisting of a 12-stage geartrain, where each stage reduces the speed of rotation by a factor of 50. The left end is spinning furiously at around 200 rpm; the right end is embedded in a concrete block. The end in the concrete makes one revolution every 2 trillion years or so.
 
-<a href='http://pingswept.org/wp-content/uploads/2008/06/arthur-ganson-machine-with-concrete.jpg' title='Arthur Ganson, machine with concrete'><img src='http://pingswept.org/wp-content/uploads/2008/06/arthur-ganson-machine-with-concrete.thumbnail.jpg' alt='Arthur Ganson, machine with concrete' /></a>
+<a href='http://pingswept.org/img/arthur-ganson-machine-with-concrete.jpg' title='Arthur Ganson, machine with concrete'><img src='http://pingswept.org/img/arthur-ganson-machine-with-concrete.thumbnail.jpg' alt='Arthur Ganson, machine with concrete' /></a>
 
 (You can see a video of the sculpture at the 8:30 mark in this <a href="http://www.ted.com/index.php/talks/arthur_ganson_makes_moving_sculpture.html">video from the 2004 TED conference</a>, but finish reading this first.)
 

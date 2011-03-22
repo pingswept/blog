@@ -1,8 +1,8 @@
---- 
-wordpress_id: 469
-layout: post
+---
+date: 2009/07/26 00:00:00
+format: markdown
 title: Buildroot on the Gumstix Verdex XL6P
-wordpress_url: http://pingswept.org/?p=469
+categories: gumstix, linux, software
 ---
 Hello internet,
 

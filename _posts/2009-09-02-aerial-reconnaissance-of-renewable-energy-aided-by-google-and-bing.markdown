@@ -1,6 +1,8 @@
---- 
-layout: post
+---
+format: markdown
+date: 2009/09/02 00:00:00
 title: Aerial reconnaissance of renewable energy, aided by Google and Bing
+categories: energy
 ---
 Here's a story for you, told through links to satellite imagery.
 

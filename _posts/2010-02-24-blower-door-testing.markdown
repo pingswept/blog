@@ -1,6 +1,8 @@
 ---
-layout: post
+format: markdown
+date: 2010/02/24 00:00:00
 title: Estimating air changes per hour with a blower door
+categories: energy, engineering, estimation, heating
 ---
 When I was trying to [figure out how big a gas boiler we needed] [1] for our house a few months ago, I tried to account for both the insulation in our walls as well as the air leaks that let warm air escape as cold air sneaks in. I had read that an old, drafty house turns over its volume in air once per hour. That seemed high to me, but I was looking for a conservative estimate, so that's what I used in my calculations. Since then, I've been hoping to find a way to make a better estimate.
 

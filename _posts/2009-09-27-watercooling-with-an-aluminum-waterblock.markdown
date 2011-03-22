@@ -1,6 +1,8 @@
---- 
-layout: post
+---
+format: markdown
+date: 2009/09/27 00:00:00
 title: Watercooling with an aluminum waterblock
+categories: engineering, projects
 ---
 Last night, I finished assembling the waterblock for the new server in my basement. Since I'm new to this watercooling stuff, I decided that a design where the fluid path through the server has no potentially leaky fittings along it would be a good starting place. I made the waterblock from two chunks of 6061 aluminum, with a loop of copper tube sandwiched in the middle. I milled a semi-cylindrical groove in each plate of aluminum with a ball-end mill, and added relief on one side to allow space for a 180 bend in the tube. The plates are clamped together with 1/4-20 socket head cap screws. As I tightened the bolts, I could see the gaps around the tubes disappear, so thermal contact between the tube and the plates is at least decent. Unfortunately, the upper plate doesn't make good contact with the lower one. By design, there's a nominal 0.010 in gap between the two plates before the tubes are compressed. I tried adding shim stock between the two, but I couldn't easily balance the contact force between the tubes and the plates, so I left out the shims.
 
@@ -14,7 +16,7 @@ Last night, I finished assembling the waterblock for the new server in my baseme
 
 I fired up the server, and it looks like watercooling is a lot more effective than I expected. The blue line is for the CPU that was air-cooled, and the purple line is for the watercooler. The blue line dives after 10 minutes or so because that's when I realized one of the fans aimed at CPU1 had stopped. If the fans all worked, I bet the watercooler would still win on absolute temperature, but the fans might win on efficiency.
 
-<a href="http://pingswept.org/images/2009/watercool_chart_2009-09-26.png"><img src="http://pingswept.org/images/2009/09/watercool_chart_2009-09-26-300x267.png" alt="watercool_chart_2009-09-26" width="300" height="267" /></a>
+<a href="http://pingswept.org/images/2009/watercool_chart_2009-09-26.png"><img src="http://pingswept.org/images/2009/watercool_chart_2009-09-26-300x267.png" alt="watercool_chart_2009-09-26" width="300" height="267" /></a>
 
 The circulation pump, a Laing SM-909-NT-14 designed for hot tubs, I think, is rated for either 15 or 65 W, depending on which part of the label you believe. (I'll have to measure it to find out for sure.) It maxes out at a volumetric flow rate of 8 L/min, but with the small diameter copper tube attached, it drops to 2.4 L/min (40 cm<sup>3</sup>/s). The ID of the tube is 0.48 cm, which puts the mean velocity at 2.25 m/s. The Reynolds number for this flow is around 1000, which is below the transition to turbulent flow, which occurs around 2300. Looking at the jet coming out the end of the tube, it looks laminar.
 

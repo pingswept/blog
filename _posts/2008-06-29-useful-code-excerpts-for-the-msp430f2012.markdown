@@ -1,8 +1,7 @@
---- 
-wordpress_id: 147
-layout: post
+---
+date: 2008/06/29 00:00:00
+format: markdown
 title: Useful code excerpts for the MSP430F2012
-wordpress_url: http://pingswept.org/2008/06/29/useful-code-excerpts-for-the-msp430f2012/
 ---
 Here are a couple little code excerpts that took me some time to figure out. I'm hoping that Google might help the rest of the world's MSP430F2012 programmers save 5 minutes. (If they all find it, a total savings of 55 minutes!)
 

@@ -1,6 +1,8 @@
 ---
-layout: post
+format: markdown
+date: 2010/04/12 00:00:00
 title: Designing embedded systems with web frameworks
+categories: django, embedded electronics, engineering, geekery, linux, python, rascalmicro
 ---
 
 I have a prediction.

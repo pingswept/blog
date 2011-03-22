@@ -1,8 +1,7 @@
---- 
-wordpress_id: 111
-layout: post
+---
+date: 2006/01/16 00:00:00
+format: markdown
 title: GPLv3
-wordpress_url: http://pingswept.org/2006/01/16/gplv3/
 ---
 I attended a version of BarCamp for old lawyers today-- the launch of the first draft of GPLv3, put on by the Free Software Foundation at MIT. Eben Moglen, Richard Stallman, Bruce Perens, Andrew Tridgell, Larry Rosen, Bob Sutor-- all the stars were out in Cambridge, laptops shined up and beeping accessories a-dangle!
 

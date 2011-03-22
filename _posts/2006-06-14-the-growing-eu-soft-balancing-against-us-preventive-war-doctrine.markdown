@@ -1,8 +1,7 @@
---- 
-wordpress_id: 128
-layout: post
+---
+date: 2006/06/14 00:00:00
+format: markdown
 title: The growing EU "soft balancing" against US preventive war doctrine?
-wordpress_url: http://pingswept.org/2006/06/14/the-growing-eu-soft-balancing-against-us-preventive-war-doctrine/
 ---
 Fellow foreign policy zealot Marian's <a href="http://ruminationsandreflections.blogspot.com/2006/06/turkey-and-croatia-long-but-determined.html">post about the addition of Turkey to the European Union</a> overlapped with an article by Robert A. Pape in the Summer 2005 issue of International Security that I read this morning. Pape is a proponent of the "soft balancing" theory of international relations. In his words, "States balance when they take action intended to make it hard for strong states to use their military advantage against others. . . . Mechanisms of soft balancing include territorial denial, entangling diplomacy, economic strengthening, and signaling of resolve to participate in a balancing coalition." (<a href="http://www.mitpressjournals.org/toc/isec/30/1"><em>International Security</em> 30:1</a>, p. 36).
 

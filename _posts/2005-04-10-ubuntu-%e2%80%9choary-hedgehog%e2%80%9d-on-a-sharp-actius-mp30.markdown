@@ -1,6 +1,6 @@
---- 
-wordpress_id: 53
-layout: post
+---
+date: 2005/04/10 00:00:00
+format: markdown
 title: "Ubuntu \xE2\x80\x9CHoary Hedgehog\xE2\x80\x9D on a Sharp Actius MP30"
 ---
 I just installed the default Ubuntu "Hoary Hedgehog" release on my Sharp Actius MP30 laptop. The results were about the same as with the preview release-- still need to add a kernel option to get the trackpad working, and I still haven't managed to get the built-in wireless working.

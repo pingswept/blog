@@ -1,8 +1,7 @@
---- 
-wordpress_id: 43
-layout: post
-title: "Hiawatha Bray misunderstands Massachusetts\xE2\x80\x99 OpenDocument requirement"
-wordpress_url: http://www.betsymattox.com/pingswept/2005/10/30/hiawatha-bray-misunderstands-massachusetts%e2%80%99-opendocument-requirement/
+---
+date: 2005/10/30 00:00:00
+format: markdown
+title: "Hiawatha Bray misunderstands Massachusetts' OpenDocument requirement"
 ---
 Boston Globe reporter Hiawatha Bray had <a href="http://www.boston.com/business/articles/2005/10/29/senators_question_file_storage_shift/">an article yesterday</a>, October 29, 2005, about <a href="http://www.mass.gov/portal/site/massgovportal/menuitem.59254d74c0e831c14db4a11030468a0c/?pageID=itdterminal&#38;L=4&#38;L0=Home&#38;L1=Policies%2c+Standards+%26+Legal&#38;L2=Open+Standards&#38;L3=Open+Formats&#38;sid=Aitd&#38;b=terminalcontent&#38;f=policies_standards_opendocformfaqs&#38;csid=Aitd">Massachusetts' proposed switch to OpenDocument</a>. He seems to misunderstand the whole point of the switch-- he writes as if Massachusetts has refused to use Microsoft Office, rather than refused to use Office's proprietary formats.
 The good news is that in our modern era of email, instead of just fuming, I can send him an email. It's probably questionable as to whether that actually changes anything. Maybe it's just a palliative measure used by the Globe to keep zealots like me from storming their offices. Anyway, here's the email I sent him.

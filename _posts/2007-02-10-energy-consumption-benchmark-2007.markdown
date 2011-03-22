@@ -1,8 +1,7 @@
---- 
-wordpress_id: 135
-layout: post
+---
+date: 2007/02/10 00:00:00
+format: markdown
 title: Personal energy consumption benchmark 2007
-wordpress_url: http://pingswept.org/2007/02/10/energy-consumption-benchmark-2007/
 ---
 As of the start of 2007, I am living in Cambridge, Massachusetts, and commuting 16 miles round trip by car at 35 mpg to <a href="http://www.greenmountainengineering.com">GreenMountain Engineering</a> in Waltham 250 days/year. That's about 125 gallons of diesel per year, and I drive an additional 20% for other reasons. That's around 150 gallons * 155 MJ/gallon = 25000 MJ/year = 25 GJ/year. Increase that by about a third to include the amortization of the energy used to build the car and transport the fuel before sale, <a href="http://www.ilea.org/lcas/macleanlave1998.html">according to the Institute for Lifecycle Environmental Assessment</a> (summary of study by Maclean and Lave of Carnegie Mellon, 1988). That's 33 GJ/year.
 

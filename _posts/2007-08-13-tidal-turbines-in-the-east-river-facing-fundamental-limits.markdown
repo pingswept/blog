@@ -1,9 +1,8 @@
---- 
-wordpress_id: 145
-layout: post
+---
+date: 2007/08/13 00:00:00
+format: markdown
 title: Tidal turbines in the East River facing fundamental limits
 excerpt: After <a href="http://www.nytimes.com/2007/08/13/nyregion/13power.html">a New York Times article this morning</a>, <a href="http://fiveislandsorchard.wordpress.com/">Ben</a> and I were hashing over the potential for successful tidal turbines (well, he was ranting; I was hashing).
-wordpress_url: http://pingswept.org/2007/08/13/tidal-turbines-in-the-east-river-facing-fundamental-limits/
 ---
 After <a href="http://www.nytimes.com/2007/08/13/nyregion/13power.html">a New York Times article this morning</a>, <a href="http://fiveislandsorchard.wordpress.com/">Ben</a> and I were hashing over the potential for successful tidal turbines (well, he was ranting; I was hashing).
 

@@ -1,8 +1,7 @@
---- 
-wordpress_id: 28
-layout: post
+---
+date: 2005/12/03 00:00:00
+format: markdown
 title: Robert Kuttner, Google, and cookies
-wordpress_url: http://www.betsymattox.com/pingswept/2005/12/03/robert-kuttner-google-and-cookies/
 ---
 Robert Kuttner needs to learn more about computers before he <a href="http://www.boston.com/news/globe/editorial_opinion/oped/articles/2005/12/03/google_search_and_seizure/">spouts off</a> in a prominent newspaper about how they work. It is true that Google uses cookies, but they are not Google's "whole business model". Their business model is based on the idea that someone searching for cheese is likely to be interested in an ad for cheese. It is not based on cookies.
 Kuttner writes, "Herewith an idea that I am putting into the public domain, which could make some computer-whiz a billionaire: One of Google's competitors could guarantee users of its search engines that all data keeping track of searches will be permanently discarded after 24 hours." I don't think anyone will become a billionaire off this one, herewith, or anywhere elsewith. As anyone who can open "Preferences" on their browser can learn, you can refuse to allow cookies to be stored on your computer. Furthermore, even if Google does record your search history when you let them, you can defeat this through even a weak attempt at anonymization. We don't need a competitor to Google to do this. We just need to turn off cookies.

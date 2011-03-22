@@ -1,6 +1,8 @@
---- 
-layout: post
+---
+format: markdown
+date: 2009/08/23 00:00:00
 title: Building a 150 foot zipline
+categories: engineering, projects
 ---
 My brother and his wife bought a house in Michigan a few months ago, and Sharon and I went out to visit them last weekend. The house is on a wooded lot a few miles outside of town. There are other houses that you can make out through the woods, but nobody really nearby. They probably own an acre or two of woods, and they abut a 15 acre park (which previously housed a privately-owned 1/3 scale steam railroad-- I'll save that for a later post).
 
@@ -8,7 +10,7 @@ At some point, we were standing around in the yard when Ben pointed out an overg
 
 A few days later, I dragged Ben's 6.5 horsepower beast of a lawnmower out of the shed and fired it up. 30 minutes later, nothing taller than three inches lived within the perimeter of the court.
 
-<a href="http://www.flickr.com/photos/pingswept/3847491286/" title="My brother's newly discovered grass tennis court, neglected for decades, after I mowed it by Brandon Stafford, on Flickr"><img src="http://farm3.static.flickr.com/2547/3847491286_28c4518cca.jpg" width="500" height="375" alt="My brother's newly discovered grass tennis court, neglected for decades, after I mowed it" /></a>
+<a href="http://www.flickr.com/photos/pingswept/3847491286/" title="My brother's newly discovered grass tennis court, neglected for decades, after I mowed it by Brandon Stafford, man, on Flickr"><img src="http://farm3.static.flickr.com/2547/3847491286_28c4518cca.jpg" width="500" height="375" alt="My brother's newly discovered grass tennis court, neglected for decades, after I mowed it" /></a>
 **The tennis court, recovered**
 
 Once the tennis court was recovered, the landscape was changed. Instead of a house in the woods, we had in our possession a house overlooking a small athletic field. There was talk of a croquet pitch or maybe a small soccer or frisbee game. I mowed the rest of the field, and we thought about the possibilities.

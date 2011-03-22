@@ -1,8 +1,7 @@
---- 
-wordpress_id: 129
-layout: post
+---
+date: 2006/09/05 00:00:00
+format: markdown
 title: Uberpower by Josef Joffe
-wordpress_url: http://pingswept.org/2006/12/05/uberpower-by-josef-joffe/
 ---
 Uberpower contains 7 chapters: 2 that describe the United States' status as the last remaining superpower, 2 about the rise of sentiments for and against the US, and 3 that describe possible solutions. The first two chapters are informative, and then everything goes to hell in the second pair of chapters, leaving the remaining 3 chapters suspect.
 

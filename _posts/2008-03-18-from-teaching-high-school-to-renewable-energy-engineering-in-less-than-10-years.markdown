@@ -1,8 +1,7 @@
---- 
-wordpress_id: 160
-layout: post
+---
+date: 2008/03/18 00:00:00
+format: markdown
 title: From teaching high school to renewable energy engineering in less than 10 years
-wordpress_url: http://pingswept.org/2008/03/18/from-teaching-high-school-to-renewable-energy-engineering-in-less-than-10-years/
 ---
 <blockquote>"Ultimately, my goal is to work at a small engineering company developing alternative transportation technology-- projects like the solar car, but more practical."</blockquote>
 

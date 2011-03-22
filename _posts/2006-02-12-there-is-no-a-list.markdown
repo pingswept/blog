@@ -1,8 +1,7 @@
---- 
-wordpress_id: 116
-layout: post
+---
+date: 2006/02/12 00:00:00
+format: markdown
 title: There is no A-list.
-wordpress_url: http://pingswept.org/2006/02/12/there-is-no-a-list/
 ---
 [Doc Searls][1] and [Seth Finkelstein][2] have been discussing the hierarchy in the blogosphere. Doc Searls is claiming that, "<font color="black">the Internet blew away the porches of membership. You don't need to bark at a door you can just as easily walk around."</font> He's claiming that there are no gatekeepers regulating the popularity of blogs.
 

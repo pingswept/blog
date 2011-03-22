@@ -1,8 +1,7 @@
---- 
-wordpress_id: 26
-layout: post
+---
+date: 2005/12/10 00:00:00
+format: markdown
 title: Why wait to see whether history will repeat itself with Microsoft and Office 12 formats?
-wordpress_url: http://www.betsymattox.com/pingswept/2005/12/10/why-wait-to-see-whether-history-will-repeat-itself-with-microsoft-and-office-12-formats/
 ---
 David Berlind has <a href="http://blogs.zdnet.com/BTL/?p=2257">posted another great summary</a> of recent events involving Microsoft's Office 12 formats, OpenDocument, ECMA, and the ISO. The quick summary is that Microsoft has submitted a plan to get ECMA approval of their formats for Office 12. ECMA would then submit the standard to the ISO for approval. Microsoft has said that they will not sue anyone for infringing their patents in the course of implementing the Office 12 file formats. There is some concern about the possibility of Microsoft suing people who offer only partial implementations of the formats.
 In <a href="http://www.zdnet.com/5208-10532-0.html?forumID=1&#38;threadID=15872&#38;messageID=315529&#38;start=-33">response to one of the comments</a> on his blog, Berlind writes: "You could say "history will repeat itself." But then again, Microsoft's covenant not to sue was a pretty big change for the company. So, if it can make that change, can't it also break from its past in other ways?"

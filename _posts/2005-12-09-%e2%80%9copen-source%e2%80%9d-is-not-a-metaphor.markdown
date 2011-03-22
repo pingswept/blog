@@ -1,8 +1,7 @@
---- 
-wordpress_id: 27
-layout: post
-title: "\xE2\x80\x9COpen source\xE2\x80\x9D is not a metaphor"
-wordpress_url: http://www.betsymattox.com/pingswept/2005/12/09/%e2%80%9copen-source%e2%80%9d-is-not-a-metaphor/
+---
+date: 2005/12/09 00:00:00
+format: markdown
+title: "\"Open source\" is not a metaphor"
 ---
 Daniel Terdiman at CNet has <a href="http://news.zdnet.com/2100-9588_22-5988267.html">an article up today claiming that "the open source label doesn't really fit Wikipedia." </a>He's right about that, but his explanation is wrong.
 Here's what Terdiman says about open source: "'Open source,' at least the way it's been used in tech circles over the years, usually connotes successful, volunteer projects like the Linux operating system, which has strict controls and is monitored by a handful of people who make the call on what is handed over to the public."

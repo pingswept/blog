@@ -1,5 +1,6 @@
---- 
-layout: post
+---
+format: markdown
+date: 2005/01/30 00:00:00
 title: iPods for everyone
 ---
 This post is pretty far from done. This is just a smattering of facts right now. Why are you even reading this?

@@ -1,9 +1,8 @@
---- 
-wordpress_id: 370
-layout: post
+---
+date: 2009/03/24 00:00:00
+format: markdown
 title: Evaluating renewable energy companies
-excerpt: As part of my job at <a href="http://greenmountainengineering.com">GreenMountain</a>, I work with a lot of renewable energy startups. As a result, my friends are constantly telling me about new startups that they're excited about. This often leads to a discussion of how I evaluate renewable energy companies. The companies that my friends think are on the way to the top are rarely the ones that I think will win, so I think I should try to explain myself.
-wordpress_url: http://pingswept.org/?p=370
+categories: energy, engineering
 ---
 As part of my job at <a href="http://greenmountainengineering.com">GreenMountain</a>, I work with a lot of renewable energy startups. As a result, my friends are constantly telling me about new startups that they're excited about. This often leads to a discussion of how I evaluate renewable energy companies. The companies that my friends think are on the way to the top are rarely the ones that I think will win, so I think I should try to explain myself.
 
@@ -19,7 +18,7 @@ It was brilliant, but the only reason it worked was that we got the frialator oi
 
 **Breakthroughs in the lab are not enough.**
 
-Every few weeks, I hear news of a breakthrough in solar cell technology in a laboratory setting. Usually, it's the <a href="http://en.wikipedia.org/wiki/Dye-sensitized_solar_cell">Grätzel cell</a> again. If not, it's often a new manufacturing technique that is purported to be cheap in high volume, but which is currently being produced in very low volume. Even the largest cell producers don't have a good idea of how cheap their cells will be when they scale  beyond GW levels. (Maybe they're pretty good at 10 GW, but that's pushing it.) Claiming to be able to make those predictions accurately when you're below 1 kW is not credible.
+Every few weeks, I hear news of a breakthrough in solar cell technology in a laboratory setting. Usually, it's the <a href="http://en.wikipedia.org/wiki/Dye-sensitized_solar_cell">Grätzel cell</a> again. If not, it's often a new manufacturing technique that is purported to be cheap in high volume, but which is currently being produced in very low volume. Even the largest cell producers don't have a good idea of how cheap their cells will be when they scale beyond GW levels. (Maybe they're pretty good at 10 GW, but that's pushing it.) Claiming to be able to make those predictions accurately when you're below 1 kW is not credible.
 
 **You will not challenge Vestas soon.**
 

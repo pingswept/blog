@@ -1,8 +1,7 @@
---- 
-wordpress_id: 131
-layout: post
+---
+date: 2006/12/17 00:00:00
+format: markdown
 title: Wind turbine costs
-wordpress_url: http://pingswept.org/2006/12/17/wind-turbine-costs/
 ---
 I've been arguing with <a href="http://fiveislandsorchard.wordpress.com">my associate Ben</a> about the relative costs of wind turbines. (We work at a <a href="http://www.greenmountainengineering.com">GreenMountain, a renewable energy engineering firm near Boston</a>, so this is what we do for fun.) We're both puzzled over the continued growth in the size of wind turbines.
 

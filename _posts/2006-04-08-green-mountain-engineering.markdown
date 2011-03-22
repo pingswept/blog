@@ -1,8 +1,7 @@
---- 
-wordpress_id: 126
-layout: post
+---
+date: 2006/04/08 00:00:00
+format: markdown
 title: Green Mountain Engineering
-wordpress_url: http://pingswept.org/2006/04/08/green-mountain-engineering/
 ---
 Yesterday, I received an email from Eerik Hantsoo saying that Green Mountain Engineering is hiring. I had never heard of them before, even though I live just a few miles away. From their website, they sound like exactly the sort of company that I have been trying to find.
 

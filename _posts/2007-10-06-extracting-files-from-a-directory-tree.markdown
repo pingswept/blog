@@ -1,8 +1,7 @@
---- 
-wordpress_id: 148
-layout: post
+---
+date: 2007/10/06 00:00:00
+format: markdown
 title: Extracting files from a directory tree
-wordpress_url: http://pingswept.org/2007/10/06/extracting-files-from-a-directory-tree/
 ---
 Mr. <a href="http://fiveislandsorchard.wordpress.com/">Ben Polito</a> has recently beating his drum to the tune that I am a repressed **mechanical** engineer who needs to release his inner **software** engineer.
 

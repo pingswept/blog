@@ -1,8 +1,7 @@
---- 
-wordpress_id: 169
-layout: post
+---
+date: 2008/09/28 00:00:00
+format: markdown
 title: "Television: still stupid after all these years"
-wordpress_url: http://pingswept.org/2008/09/28/television-still-stupid-after-all-these-years/
 ---
 Sharon and I recently moved to a new house, which resulted in a switch from Speakeasy DSL to RCN cable. As a result, we now have a TV signal coming into our house. Strangely, I don't think I have ever lived in a building with a cable connection, except for a 6 month stint in graduate school when I was busy enough building robots that I don't remember what room my roommates had the TV in.
 But now, I get to explore television as a visitor from the mid-80s. Here's what I remember from 1984 or so:

@@ -1,8 +1,7 @@
---- 
-wordpress_id: 127
-layout: post
+---
+date: 2006/04/30 00:00:00
+format: markdown
 title: Jarhead by Anthony Swofford and State of War by James Risen
-wordpress_url: http://pingswept.org/2006/04/30/jarhead-by-anthony-swofford-and-state-of-war-by-james-risen/
 ---
 I read two books this week: Jarhead and State of War.
 

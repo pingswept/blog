@@ -1,6 +1,8 @@
 ---
-layout: post
+format: markdown
+date: 2010/01/23 00:00:00
 title: Hard Times athletics
+categories: energy, hard times
 ---
 
 (See my [previous post][1] for the background to this post.)

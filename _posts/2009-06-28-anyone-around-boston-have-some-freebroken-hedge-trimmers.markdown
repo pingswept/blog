@@ -1,8 +1,8 @@
---- 
-wordpress_id: 450
-layout: post
+---
+date: 2009/06/28 00:00:00
+format: markdown
 title: Anyone around Boston have some free/broken hedge trimmers?
-wordpress_url: http://pingswept.org/2009/06/28/anyone-around-boston-have-some-freebroken-hedge-trimmers/
+categories: engineering
 ---
 Greetings, fellow internet denizen! I am concocting a device that I call The Electric Lawn Mower That Doesn't Suck.
 

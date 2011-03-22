@@ -1,5 +1,9 @@
---- 
-layout: post
+
+---
+date: 1997/11/01 00:00:00
+categories: Category 1
+date: 1997/11/01 00:00:00
+format: markdown
 title: Dork tricks
 ---
 The following statements I consider to be established facts:

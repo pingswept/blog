@@ -1,6 +1,8 @@
 ---
-layout: post
+format: markdown
+date: 2010/02/04 00:00:00
 title: Measuring insulation with an IR camera
+categories: energy, engineering, heating
 ---
 I got my hands on a thermal imaging camera for a few hours recently and took a look around the house to see what I could learn. The camera detects infrared radiation, which is proportional to surface temperature. When you're inside a house in the winter, the poorly insulated bits look blue, because they're colder. From the outside, the poorly insulated parts look red, because they're hotter than the surroundings. (This is assuming you have the camera set to adjust the spectrum to cover the temperatures in the field of view. The camera I was using, a Flir i60, could either adjust automatically or stay fixed so you could compare temperatures across multiple pictures.)
 

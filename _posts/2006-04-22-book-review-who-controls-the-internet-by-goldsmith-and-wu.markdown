@@ -1,8 +1,7 @@
---- 
-wordpress_id: 125
-layout: post
+---
+date: 2006/04/22 00:00:00
+format: markdown
 title: "Book review: Who Controls the Internet? by Goldsmith and Wu"
-wordpress_url: http://pingswept.org/2006/04/22/book-review-who-controls-the-internet-by-goldsmith-and-wu/
 ---
 Longtime readers of this site will be loath to discover another tedious book review of a soft technical book, but perhaps there are a few new readers who have some life left yet. Read on, unknowing vanguard of the newly alienated!
 

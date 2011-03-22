@@ -1,6 +1,8 @@
 ---
-layout: post
+format: markdown
+date: 2010/03/31 00:00:00
 title: Picking a Cortex A8 processor for an embedded Linux board in 2010
+categories: arm, electronics, geekery, linux
 ---
 [ARM](http://www.arm.com) has several different processor families in production at present. The newest releases are the Cortex processors, which come in three series-- A, R, and M. (See what they did there?) The M processors are the weakest and cheapest, below $10 even in low quantities. The R processors, intended for real-time applications like anti-lock brakes in cars, are the next step up. The top of the heap are the Cortex A series. So far, the A8 and A9 have been released, and the A5 is [scheduled for release in 2011](http://arstechnica.com/gadgets/news/2009/10/arm-fills-out-cpu-lineup-with-cortex-a5.ars). The A8 is the processor at the heart of some recent smartphones, like the Iphone 3GS, the Nexus One and the Droid, for example.
 

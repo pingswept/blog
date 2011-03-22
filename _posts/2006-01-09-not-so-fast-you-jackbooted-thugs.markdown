@@ -1,8 +1,7 @@
---- 
-wordpress_id: 105
-layout: post
+---
+date: 2006/01/09 00:00:00
+format: markdown
 title: Not so fast, you jackbooted thugs
-wordpress_url: http://pingswept.org/2006/01/09/my-name-is-brandon-stafford-and-yes-my-intent-is-to-annoy-you/
 ---
 Hello wiretappers. If you are listening, could you please point out to Mr. Bush and the Justice Department that while my general intent with much of this blog is to annoy people (recently, Robert Kuttner, Alan Yates, et al.) through the internet, I am not doing so anonymously.
 

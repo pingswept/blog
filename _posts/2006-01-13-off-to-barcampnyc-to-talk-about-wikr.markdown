@@ -1,8 +1,7 @@
---- 
-wordpress_id: 107
-layout: post
+---
+date: 2006/01/13 00:00:00
+format: markdown
 title: Off to BarCampNYC to talk about Wikr
-wordpress_url: http://pingswept.org/2006/01/13/off-to-barcampnyc-to-talk-about-wikr/
 ---
 Stage 2 of my trip to New York City for BarCampNYC begins tomorrow morning around 7:30. Stage 1 was last night when I drove down to Boston from Wiscasset, Maine, <a href="http://chewonki.org">where I work</a>. I spent the day debugging a DNS problem and preparing for the <a href="http://pingswept.org/wikr">Wikr</a> presentation at BarCamp.
 

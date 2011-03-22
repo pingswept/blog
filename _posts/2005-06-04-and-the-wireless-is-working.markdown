@@ -1,8 +1,7 @@
---- 
-wordpress_id: 50
-layout: post
+---
+date: 2005/06/04 00:00:00
+format: markdown
 title: And the wireless is working . . .
-wordpress_url: http://www.betsymattox.com/pingswept/2005/06/04/and-the-wireless-is-working/
 ---
 After bungling around with wireless drivers, the wireless-tools package,<br />
 and Google for a few weeks, I had an interesting thought. I knew that a<br />

@@ -1,8 +1,7 @@
---- 
-wordpress_id: 41
-layout: post
+---
+date: 2005/11/06 00:00:00
+format: markdown
 title: Sun, IBM, et al. to fix ODF accessibility problems
-wordpress_url: http://www.betsymattox.com/pingswept/2005/11/06/sun-ibm-et-al-to-fix-odf-accessibility-problems/
 ---
 Andy Updegrove, one of the partners at the Boston law firm, Gesmer Updegrove LLP, <a href="http://www.consortiuminfo.org/newsblog/blog.php?ID=1705">reports from a meeting</a> at IBM in Armonk, NY, that, "There has been a commitment made to not only close the gap between Microsoft Office and ODF by the Commonwealth's deadline of January 1, 2007, but also to make ODF a superior alternative to Office for those with disabilities by that date, if not before." The companies represented at the meeting who I presume are making this commitment include IBM, Sun, Adobe, Corel, Computer Associates, Google, Nokia, Novell, and RedHat. That's a lot of the big guys.
 Accessibility for those with disabilities appears to be the major impediment to ODF adoption, but from the tone of Pacheco's questioning at the hearing last Monday, it seems to me that the real problem is that he doesn't understand the difference between a document format and an office suite. I suspect he's just pissed off because the world is changing faster than he can update the model in his mind, and he's getting low-frequency aliasing from the . . . never mind. Discussion between a representative of the Massachusetts ITD (Peter Quinn?) and Pacheco, from <a href="http://www.consortiuminfo.org/newsblog/blog.php?ID=1696">Updegrove's transcript of the meeting</a>:

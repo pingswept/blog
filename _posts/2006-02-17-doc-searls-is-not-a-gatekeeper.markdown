@@ -1,8 +1,7 @@
---- 
-wordpress_id: 118
-layout: post
+---
+date: 2006/02/17 00:00:00
+format: markdown
 title: Doc Searls is not a gatekeeper.
-wordpress_url: http://pingswept.org/2006/02/17/doc-searls-is-not-a-gatekeeper/
 ---
 I know, I know, it's sooo <a href="http://sethf.com/infothought/blog/archives/000970.html">February 11th</a> to discuss the gatekeeper issue, but Z-listers such as myself don't spend all their time blogging.
 

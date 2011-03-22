@@ -1,8 +1,7 @@
---- 
-wordpress_id: 47
-layout: post
+---
+date: 2005/08/23 00:00:00
+format: markdown
 title: Prius vs. Insight vs. biodiesel TDI
-wordpress_url: http://www.betsymattox.com/pingswept/2005/08/23/prius-vs-insight-vs-biodiesel-tdi/
 ---
 I want to minimize the amount energy I'll use commuting back and forth between Boston and Maine. (Say, whatever happened to the railroad?) It's about 156 miles each way.
 The Insight is the smallest and probably the lightest car. I'd bet it's the most aerodynamic too. On the other hand, the Prius and the TDI are much more pleasant cars in their external appearance and interiors. Also, I can make free biodiesel at the foundation for which I'll be working.

@@ -1,8 +1,7 @@
---- 
-wordpress_id: 22
-layout: post
-title: "Daniel Brandt and Wikipedia\xE2\x80\x99s reliability"
-wordpress_url: http://www.betsymattox.com/pingswept/2005/12/16/daniel-brandt-and-wikipedia%e2%80%99s-reliability/
+---
+date: 2005/12/16 00:00:00
+format: markdown
+title: "Daniel Brandt and Wikipedia's reliability"
 ---
 Daniel Terdiman has posted <a href="http://news.zdnet.com/2100-9588_22-5996542.html?tag=nl.e540">an interesting interview with Daniel Brandt</a> about his efforts to locate Brian Chase, the man who inserted false information into John Seigenthaler's biography on Wikipedia. I thought that <a href="http://news.zdnet.com/5208-9588-0.html?forumID=1&#38;threadID=16038&#38;messageID=317987&#38;start=-1">a remark Daniel Brandt made in the comments</a> attached to the interview was interesting. Talking about tracking down the Chase, he said: " Yes, I got lucky because there was a server on that address. I have never claimed that I was anything but lucky. Non-technical journalists frequently see the Internet infrastructure as some sort of black box, and 'cyber-sleuth' makes better copy than 'I got lucky.' That's not my fault."
 That's an example of a journalist spreading misinformation about him. Brandt has no recourse, and he doesn't care. He doesn't care because it's a minor distortion, not libelous, but it's strange that he offers that defense for himself but agrees with John Seigenthaler's righteous fury. Couldn't Seigenthaler also say "That's not my fault"?

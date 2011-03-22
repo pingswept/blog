@@ -1,8 +1,7 @@
---- 
-wordpress_id: 159
-layout: post
+---
+date: 2008/02/24 00:00:00
+format: markdown
 title: Popularizing the backyard zoopraxiscope
-wordpress_url: http://pingswept.org/2008/02/24/popularizing-the-backyard-zoopraxis/
 ---
 Hard times evangelist Ben Polito <a href="http://fiveislandsorchard.wordpress.com/2008/02/17/on-actually-changing-our-behavior/">asked an interesting question</a> on his blog a week ago: "Why is it that even people who care about \[global warming and oil supply issues\] don’t actually make relatively simple choices that could significantly reduce their impact?"
 

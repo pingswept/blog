@@ -1,8 +1,8 @@
---- 
-wordpress_id: 103
-layout: post
+---
+date: 2006/01/08 00:00:00
+format: markdown
 title: Installing Xubuntu on a G3 iMac
-wordpress_url: http://pingswept.org/2006/01/08/installing-xubuntu-on-a-g3-imac/
+categories: apple, linux, xubuntu
 ---
 I work in a school where we have lots of old iMacs that are barely usable under OS 9.2. The newest browser we can get for OS 9 is Netscape 7.0, which crashes a lot (repeatably on Gmail, for example).
 

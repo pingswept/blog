@@ -1,8 +1,7 @@
---- 
-wordpress_id: 124
-layout: post
+---
+date: 2006/03/29 00:00:00
+format: markdown
 title: Building my own secure mail, file, and web server
-wordpress_url: http://pingswept.org/2006/03/29/building-my-own-secure-mail-file-and-web-server/
 ---
 After multiple complaints from an <a href="http://goelzer.com">irritating associate</a> of mine, I am building a secure server for my various secure computing needs. The complaints have focused on the fact that I have a Gmail account. While I generally agree that allowing a company to host all of my personal email, where it can be indexed, queried, and sold to various individuals and companies around the world, is a bad idea, so far, the worst side effect has been all the Google ads for Dallas real estate. Like I think Kennedy's really dead!
 

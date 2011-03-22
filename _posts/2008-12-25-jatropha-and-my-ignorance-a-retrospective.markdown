@@ -1,8 +1,7 @@
---- 
-wordpress_id: 168
-layout: post
+---
+date: 2008/12/25 00:00:00
+format: markdown
 title: "Jatropha and my ignorance: a retrospective"
-wordpress_url: http://pingswept.org/?p=168
 ---
 I don't know a damn thing about jatropha oil.
 

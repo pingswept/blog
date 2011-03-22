@@ -1,5 +1,9 @@
---- 
-layout: post
+
+---
+date: 2003/12/14 00:00:00
+categories: Category 1
+date: 2003/12/14 00:00:00
+format: markdown
 title: My window
 ---
 In 1993, I returned to my college dorm room to find that I had left the window open. I closed the window, and went to the bathroom. When I returned from the bathroom, the window was open again. I assumed that someone was hiding in my room. There wasn't anyone under the bed, so I opened the closet. A man named Victor who had fled to Spain 12 months previous leapt out of the closet wearing rubber boots and brandishing a frying pan.

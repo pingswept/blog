@@ -1,8 +1,7 @@
---- 
-wordpress_id: 114
-layout: post
+---
+date: 2006/02/05 00:00:00
+format: markdown
 title: Tormented by Mike Goelzer
-wordpress_url: http://pingswept.org/2006/02/05/tormented-by-mike-goelzer/
 ---
 A recent exchange with Mike that he has posted on my blog against my will:
 <div style="padding-left: 20px; text-indent: -16px">From: **<span id="_user_mike@">Mike Goelzer</span>**</div>

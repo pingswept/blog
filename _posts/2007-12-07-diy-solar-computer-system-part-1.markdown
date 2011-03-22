@@ -1,8 +1,7 @@
---- 
-wordpress_id: 151
-layout: post
+---
+date: 2007/12/07 00:00:00
+format: markdown
 title: DIY solar computer system, part 1
-wordpress_url: http://pingswept.org/2007/12/07/diy-solar-computer-system-part-1/
 ---
 Like a lot of semi-urban computer enthusiasts who plan on living for a few decades after the onset of global warming, I have a few computers that are always on, and I wish that I could find an economically viable way of reducing the emissions generated as a side effect of the power they require. Also, when the hard times come and grid power gets flaky or drops out entirely, it would make the local warlord happy if I could use a computer to calculate optimal irrigation ditch depths, or the like. (Note to self: learn to use abacus while leisure time still exists.)
 

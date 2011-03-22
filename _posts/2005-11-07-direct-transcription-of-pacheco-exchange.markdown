@@ -1,5 +1,6 @@
---- 
-layout: post
+---
+format: markdown
+date: 2005/11/07 00:00:00
 title: Direct transcription of Pacheco exchange
 ---
 David Berlind of ZDNet has a <a href="http://blogs.zdnet.com/BTL/index.php?p=2120">lengthy analysis</a> of the Halloween hearing of Massachusetts' Committee on Post Audit and Oversight. He also has what he claims is a transcription of the passage I quoted yesterday from Andy Updegrove's "rough transcription." Additionally, he has <a href="http://i.i.com.com/cnwk.1d/i/z/e/200511/Oct31ODFhearing.mp3">the audio available for download</a>.

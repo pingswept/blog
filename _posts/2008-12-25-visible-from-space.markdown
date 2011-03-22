@@ -1,8 +1,7 @@
---- 
-wordpress_id: 192
-layout: post
+---
+date: 2008/12/25 00:00:00
+format: markdown
 title: Visible from space
-wordpress_url: http://pingswept.org/?p=192
 ---
 I am excited to report a personal engineering milestone: something I had a hand in designing is visible from space. In the picture, the item of note is long, skinny, horizontal, and white.
 <img src="http://pingswept.org/images/2008/google-maps-view-300x196.png" alt="The view from space" width="300" height="196" />

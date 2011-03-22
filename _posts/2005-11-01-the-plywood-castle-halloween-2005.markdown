@@ -1,8 +1,7 @@
---- 
-wordpress_id: 677
-layout: post
+---
+date: 2005/11/01 00:00:00
+format: markdown
 title: The plywood castle, Halloween 2005
-wordpress_url: http://pingswept.org/?p=677
 ---
 In 2004, I was caught unawares by Halloween on Crescent Street. I didn't expect many kids to show up, so I figured I'd just not get any candy and stay upstairs for a while. Approximately 300 kids showed up, and I had to hide with the lights off for 4 hours.
 

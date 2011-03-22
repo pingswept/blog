@@ -1,8 +1,7 @@
---- 
-wordpress_id: 123
-layout: post
+---
+date: 2006/03/13 00:00:00
+format: markdown
 title: How to install OS X Tiger 10.4 on an old iBook with no DVD drive
-wordpress_url: http://pingswept.org/2006/03/13/how-to-install-os-x-tiger-104-on-an-old-ibook-with-no-dvd-drive/
 ---
 You need another Mac with a DVD drive. I'll call that the desktop, although it could be another iBook. Note that this is probably only worth doing if you've added 512 MB of RAM to your old iBook. Without extra RAM, Tiger runs painfully slowly.
 <ol>

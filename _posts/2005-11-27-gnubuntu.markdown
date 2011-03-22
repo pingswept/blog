@@ -1,8 +1,7 @@
---- 
-wordpress_id: 29
-layout: post
+---
+date: 2005/11/27 00:00:00
+format: markdown
 title: Gnubuntu
-wordpress_url: http://www.betsymattox.com/pingswept/2005/11/27/gnubuntu/
 ---
 Mark Shuttleworth <a href="http://lists.ubuntu.com/archives/ubuntu-devel/2005-November/013261.html">mentioned a few days ago on the Ubuntu mailing list</a> that the Ubuntu folks were interested in developing a version of Ubuntu that contains only software deemed by the Free Software Foundation to be "free." Shuttleworth mentions that they might collaborate with Ututo, an Argentinian Linux distribution that includes only free software (<a href="https://www.ututo.org/xp/modules/xoopsfaq/index.php?cat_id=5#q17">English description of project</a>).
 I was curious about how much non-free software was included in Ubuntu, so I installed the virtual Richard M. Stallman, or vrms (which sounds like a joke, but is not):

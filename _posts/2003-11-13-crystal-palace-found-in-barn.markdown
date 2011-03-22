@@ -1,5 +1,9 @@
---- 
-layout: post
+
+---
+date: 2003/11/13 00:00:00
+categories: Category 1
+date: 2003/11/13 00:00:00
+format: markdown
 title: Crystal palace found in barn
 ---
 About two months ago, the San Francisco Conservatory of Flowers reopened after 8 years of closure in Golden Gate Park. This was reported in the local paper, and the history of the conservatory was discussed. The paper (I believe this was the San Jose Mercury News) claimed that the conservatory was discovered packed in boxes in the barn of a wealthy man (James Lick) upon his death. This is allegedly true, but cannot be.

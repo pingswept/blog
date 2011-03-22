@@ -1,5 +1,9 @@
---- 
-layout: post
+
+---
+date: 2003/12/13 00:00:00
+categories: Category 1
+date: 2003/12/13 00:00:00
+format: markdown
 title: "Forts of the 1980's"
 ---
 I grew up in a house next to an elementary school. In the 1970's, there was an area of shrubs and tall grass in between our backyard and the school parking lot called "the field." Around 1980, the so-called field was flattened out and turned into an athletic field suitable for playing soccer. At the same time, the school installed a cyclone fence topped with three rows of barbed wire along most of the edge of the field. The fence ended halfway down the back of our lot, which made the shortest path free of barbed wire to all destinations southeast around the end of the fence and through our backyard. The consequences of this traffic pattern will be dealt with at a later date.

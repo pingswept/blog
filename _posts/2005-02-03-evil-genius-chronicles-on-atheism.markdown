@@ -1,5 +1,6 @@
---- 
-layout: post
+---
+format: markdown
+date: 2005/02/03 00:00:00
 title: Evil Genius Chronicles on atheism
 ---
 Dave Slusher of Evil Genius Chronicles has a <a href="http://www.evilgeniuschronicles.org/cgi-bin/blosxom.cgi/2005/02/01#050201_01">podcast about his atheism</a>.

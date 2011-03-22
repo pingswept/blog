@@ -1,8 +1,7 @@
---- 
-wordpress_id: 166
-layout: post
+---
+date: 2008/07/20 00:00:00
+format: markdown
 title: Tower of epic fail in Dubai
-wordpress_url: http://pingswept.org/2008/07/20/tower-of-epic-fail-in-dubai/
 ---
 A gentleman by the name of David Fisher has been getting some attention (examples: <a href="http://online.wsj.com/public/article/SB117625795099465923-WFaTx4FSsy1oW4x8lS4eK1518io_20070418.html">WSJ</a>, <a href="http://www.newyorker.com/talk/2008/07/21/080721ta_talk_goldberger/">New Yorker</a>, <a href="http://www.inhabitat.com/2007/05/16/david-fishers-twirling-wind-power-tower/">Inhabitat</a>)  by describing his design for a new building in Dubai. It would be best for the world if bad ideas like these were ignored and forgotten, but without some knowledge of engineering, it's not obvious that his ideas are bad.
 

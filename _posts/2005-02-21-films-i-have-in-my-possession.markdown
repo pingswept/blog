@@ -1,5 +1,6 @@
---- 
-layout: post
+---
+format: markdown
+date: 2005/02/21 00:00:00
 title: Films I have in my possession
 ---
 1. *The Quest for the Ninja Orb, Part II*

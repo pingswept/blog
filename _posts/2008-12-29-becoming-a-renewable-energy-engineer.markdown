@@ -1,8 +1,7 @@
---- 
-wordpress_id: 201
-layout: post
+---
+date: 2008/12/29 00:00:00
+format: markdown
 title: Becoming a renewable energy engineer
-wordpress_url: http://pingswept.org/?p=201
 ---
 Due to an unlikely confluence of world energy trends, my interest in engineering, and the internet, lots of people ask me how they can get <a href="http://www.greenmountainengineering.com/brandon_stafford.php">my job</a> as a renewable energy engineer. Most of them don't want my job literally, but they do want to work on the engineering side of renewable energy. I generally don't mind answering that kind of question, but I'm busy enough that I thought it would be worthwhile to summarize my answers to the basic questions. I realize that this will probably make more people email me rather than fewer, but at least we'll be able to skip the first few questions; the efficiency of the world should be slightly higher.
 

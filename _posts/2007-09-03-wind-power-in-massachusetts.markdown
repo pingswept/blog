@@ -1,8 +1,7 @@
---- 
-wordpress_id: 146
-layout: post
+---
+date: 2007/09/03 00:00:00
+format: markdown
 title: Wind power in Massachusetts
-wordpress_url: http://pingswept.org/2007/09/03/wind-power-in-massachusetts/
 ---
 In a comment to my last post, Ben Harris suggests that I read <a href="http://capewindbook.typepad.com/blog/about_the_book/index.html">Cape Wind</a> by Williams and Whitcomb. I haven't read the book yet, but I did read up on Cape Wind.
 

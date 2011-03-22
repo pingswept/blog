@@ -1,8 +1,7 @@
---- 
-wordpress_id: 142
-layout: post
+---
+date: 2007/06/03 00:00:00
+format: markdown
 title: Finally booting pre-installed Linux on an OEM PC
-wordpress_url: http://pingswept.org/2007/06/03/finally-booting-pre-installed-linux-on-an-oem-pc/
 ---
 The Dell XPS 410n that I ordered on May 24th arrived this Saturday. After 10 years of using Linux, I was finally able to order a prebuilt computer from a major OEM without paying anyone for an operating system that I would delete shortly after unboxing. Instead of devoting half of Saturday afternoon to installing Linux, I had a working Linux system 19 minutes after opening the box. I think I probably spent more time picking a desktop background from Flickr than configuring the machine.
 

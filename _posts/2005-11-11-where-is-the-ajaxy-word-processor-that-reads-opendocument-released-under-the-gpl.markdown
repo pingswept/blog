@@ -1,8 +1,7 @@
---- 
-wordpress_id: 38
-layout: post
+---
+date: 2005/11/11 00:00:00
+format: markdown
 title: Where is the AJAXy word processor that reads OpenDocument released under the GPL?
-wordpress_url: http://www.betsymattox.com/pingswept/2005/11/11/where-is-the-ajaxy-word-processor-that-reads-opendocument-released-under-the-gpl/
 ---
 The <a href="http://chewonki.org">organization that I work for</a> has been struggling to find a way to exchange editable text documents across platforms (Windows, OS X and Linux) without also exchanging viruses or relying on a server at the far end of our T1 line.
 

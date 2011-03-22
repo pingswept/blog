@@ -1,5 +1,9 @@
---- 
-layout: post
+
+---
+date: 2004/10/20 00:00:00
+categories: Category 1
+date: 2004/10/20 00:00:00
+format: markdown
 title: Moving to 0.7 mm lead
 ---
 My first great pencil was the classic PD105T "Techniclick," which I used from 1999 until 2002. Two years ago, after a brief investigation of the PD235T "Techniclick II," I migrated away from the Techniclick platform entirely. The Techniclick has a small plastic cap that covers the eraser, which necessitates removal of the cap whenever erasing is required. (Admittedly, the Techniclick is a consumer-grade pencil, aimed more at college students than providers of professional services.) Though I can't say that the aesthetics of my replacement, the QE515 "TwistErase III," match those of the Techniclicks, the superior erasing system of the TwistErase won me over.

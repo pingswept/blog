@@ -1,8 +1,7 @@
---- 
-wordpress_id: 144
-layout: post
+---
+date: 2007/07/22 00:00:00
+format: markdown
 title: Python on the Gumstix Verdex
-wordpress_url: http://pingswept.org/2007/07/22/python-on-the-gumstix-verdex/
 ---
 Being both a <a href="http://en.wikipedia.org/wiki/Python_(programming_language)">Python</a> zealot and an embedded systems zealot, I've been looking for an embedded system that I can program in Python. Most of the embedded code <a href="http://greenmountainengineering.com">I write professionally</a> I write in C. Having learned Python a few years ago, I'm finding C increasingly painful, approximately in proportion to my facility with Python.
 

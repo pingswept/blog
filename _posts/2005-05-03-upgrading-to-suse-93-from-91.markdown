@@ -1,8 +1,7 @@
---- 
-wordpress_id: 52
-layout: post
+---
+date: 2005/05/03 00:00:00
+format: markdown
 title: Upgrading to SuSE 9.3 from 9.1
-wordpress_url: http://www.betsymattox.com/pingswept/2005/05/03/upgrading-to-suse-93-from-91/
 ---
 I just upgraded my desktop machine from SuSE Linux 9.1 Pro to 9.3 Pro.<br />
 It took a little over an hour, and nothing particularly horrible<br />

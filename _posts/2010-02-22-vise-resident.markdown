@@ -1,6 +1,8 @@
 ---
-layout: post
+format: markdown
+date: 2010/02/22 00:00:00
 title: Vise resident
+categories: tools, woodworking, shops
 ---
 My brother was kind enough to give me a woodworking vise for my birthday. In related news, my dad gave me a beefy old vise from his basement the next day (which was Christmas). As a result, there are now two heavy-duty vises residing in our basement.
 

@@ -1,8 +1,7 @@
---- 
-wordpress_id: 112
-layout: post
+---
+date: 2006/01/28 00:00:00
+format: markdown
 title: Comma separated list to .csv for Apple Mail import
-wordpress_url: http://pingswept.org/2006/01/28/comma-separated-list-to-csv-for-apple-mail-import/
 ---
 A handy command for turning a comma-separated list into a standard .csv file. I used this to convert old Eudora contacts files into a format that Apple's Mail could import.
 

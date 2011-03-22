@@ -1,8 +1,7 @@
---- 
-wordpress_id: 152
-layout: post
+---
+date: 2007/12/20 00:00:00
+format: markdown
 title: I retract all scoffing remarks regarding Nanosolar
-wordpress_url: http://pingswept.org/2007/12/20/i-retract-all-scoffing-remarks-regarding-nanosolar/
 ---
 Historically, I have spent a fair amount of time deriding Nanosolar for claiming that they would build a 430 MW/year solar cell factory by the end of 2007.
 

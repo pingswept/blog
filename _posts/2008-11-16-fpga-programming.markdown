@@ -1,14 +1,13 @@
--- 
-wordpress_id: 170
-layout: post
+---
+format: markdown
+date: 2008/11/16 00:00:00
 title: FPGA programming
-wordpress_url: http://pingswept.org/?p=170
 ---
 After a little bit of work and screwing around with installers, I have programmed an FPGA for the first time. I wrote a short bit of Verilog that creates a 4-bit counter in a Xilinx Spartan 3A FPGA. Now, when I feed the FPGA a 50 MHz square wave on a certain pin, it counts the rising edges and outputs the count on 4 digital lines. Of course, it has to start over when it gets to 15.
 
 The oscilloscope screenshot below shows the two highest order bits counting up in binary in response to the input signal.
 
-<a href="http://pingswept.org/images/2008/fpga_counter.png"><img src="http://pingswept.org/images/2008/fpga_counter-300x212.png" alt="Counting at 6.25 MHz" title="fpga_counter" width="300" height="212" class="size-medium wp-image-171" /></a>
+<a href="http://pingswept.org/images/2008/fpga_counter.png"><img src="http://pingswept.org/images/2008/fpga_counter-300x212.png" alt="Counting at 6.25 MHz" title="fpga_counter" width="300" height="212" class="size-medium" /></a>
 
 This may seem like a stupid way to spend your time-- who needs a 4-bit counter? You may be right.
 

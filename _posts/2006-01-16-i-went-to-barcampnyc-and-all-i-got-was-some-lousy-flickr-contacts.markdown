@@ -1,8 +1,7 @@
---- 
-wordpress_id: 110
-layout: post
+---
+date: 2006/01/16 00:00:00
+format: markdown
 title: I went to BarCampNYC and all I got was some lousy Flickr contacts
-wordpress_url: http://pingswept.org/2006/01/16/i-went-to-barcampnyc-and-all-i-got-was-some-lousy-flickr-contacts/
 ---
 I returned from <a href="http://barcamp.org/index.cgi?BarCampNYC">BarCamp</a> in New York last night. Overall, it was more fun than educational, but that's only because it was so fun.
 

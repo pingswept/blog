@@ -1,8 +1,8 @@
---- 
-wordpress_id: 383
-layout: post
+---
+date: 2009/07/10 00:00:00
+format: markdown
 title: Drain heat recovery
-wordpress_url: http://pingswept.org/?p=383
+categories: energy, engineering
 ---
 For the last few months, I've been thinking that a drain heat recovery system might be worth installing in our basement. The idea is that while you take a shower, you run the cold water refilling your water heater through a copper coil wrapped around the hot water going down the drain. There's a <a href="http://www.energysavers.gov/your_home/water_heating/index.cfm/mytopic=13040">nice diagram</a> on the EERE site. (Unfortunately, the EERE site also estimates the payback time at 2.5-7 years, which I think is bunk.) This kind of system doesn't work to recover energy when the draining and refilling doesn't happen at the same time, as with a dishwasher-- when the dishwasher releases the hot water, your water heater has long since refilled (or your on-demand system has turned off).
 

@@ -1,8 +1,7 @@
---- 
-wordpress_id: 134
-layout: post
+---
+date: 2006/12/30 00:00:00
+format: markdown
 title: Incandescent vs. compact fluorescent vs. LEDs vs. halogen
-wordpress_url: http://pingswept.org/2006/12/30/incandescent-vs-compact-fluorescent-vs-leds-vs-halogen/
 ---
 In 1996, I worked at <a href="http://chewonki.org">an environmental foundation on the coast of Maine</a> that was an early adopter of compact fluorescent bulbs. At the time, they were expensive, and they flickered when you turned them on. After a long winter of getting flickered at every time I turned on the light, I started avoiding compact fluorescent bulbs.
 

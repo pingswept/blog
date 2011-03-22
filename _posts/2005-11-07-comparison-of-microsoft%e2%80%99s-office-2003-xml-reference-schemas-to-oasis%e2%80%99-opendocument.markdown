@@ -1,8 +1,7 @@
---- 
-wordpress_id: 39
-layout: post
+---
+date: 2005/11/07 00:00:00
+format: markdown
 title: "Comparison of Microsoft\xE2\x80\x99s Office 2003 XML Reference Schemas to OASIS\xE2\x80\x99 OpenDocument"
-wordpress_url: http://www.betsymattox.com/pingswept/2005/11/07/comparison-of-microsoft%e2%80%99s-office-2003-xml-reference-schemas-to-oasis%e2%80%99-opendocument/
 ---
 In the dispute with the Massachusetts state government over their planned adoption of the OpenDocument format, Microsoft <a href="http://www.microsoft.com/office/preview/developers/fileoverview.mspx">has claimed</a> that their Open XML formats, which they recently announced will be the default format for the pending Office 12, will be "published and made available under the same royalty-free license that exists for the Microsoft Office 2003 Reference Schemas—openly offered and available for broad industry use." While the 2003 Reference Schemas specifications are freely available (for example, the <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/wordxmlcdk/html/cdkPrimerPlaceholder_HV01113631.asp">Word 2003 XML Reference</a>) under a royalty-free license, saying that the specifications are "openly offered" is disingenuous.
 Microsoft has patented techniques used to in their "open" formats. The license for the specifications <a href="http://www.microsoft.com/mscorp/ip/format/xmlpatentlicense.asp">includes a patent license</a>, which states that "Except as provided below, Microsoft hereby grants you a royalty-free license under Microsoft's Necessary Claims to make, use, sell, offer to sell, import, and otherwise distribute Licensed Implementations solely for the purpose of reading and writing files that comply with the Microsoft specifications for the Office Schemas." Unfortunately, the provisions below include: "You are not licensed to sublicense or transfer your rights."

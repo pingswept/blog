@@ -1,6 +1,8 @@
---- 
-layout: post
+---
+format: markdown
+date: 2009/08/22 00:00:00
 title: Building Blender 2.5 from source on Ubuntu 9.04
+categories: software
 ---
 I recently tried building an early release of <a href="http://www.blender.org/development/current-projects/blender-25-project/">Blender 2.5</a> from source on Ubuntu Linux 9.04 (the so-called 'Jaunty Jackalope'). So that the world might benefit from my tribulations, I thought I'd record the details here.
 
@@ -59,4 +61,4 @@ The build process will create two folders in the same folder as your blender2.5 
 
 Victory is yours!
 
-<a href="http://pingswept.org/images/2009/08/blender-2.5.png"><img src="http://pingswept.org/images/2009/08/blender-2.5.png" alt="Screenshot of Blender 2.5" width="425" /></a>
+<a href="http://pingswept.org/img/blender-2.5.png"><img src="http://pingswept.org/img/blender-2.5.png" alt="Screenshot of Blender 2.5" width="425" /></a>

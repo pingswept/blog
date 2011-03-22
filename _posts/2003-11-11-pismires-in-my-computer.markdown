@@ -1,5 +1,9 @@
---- 
-layout: post
+
+---
+date: 2003/11/11 00:00:00
+categories: Category 1
+date: 2003/11/11 00:00:00
+format: markdown
 title: Pismires in my computer
 ---
 Tonight, I was attempting to add a CD-ROM drive to one of my computers, when made a horrifying discovery. My computer, which is near the window, was no longer secure (despite running OpenBSD). I found that a large number of ants had infiltrated my home, slipped across to the desk by way of an Ethernet cable, and were making themselves comfortable between the motherboard and the bottom of the case.

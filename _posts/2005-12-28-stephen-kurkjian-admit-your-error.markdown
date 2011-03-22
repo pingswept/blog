@@ -1,5 +1,6 @@
---- 
-layout: post
+---
+format: markdown
+date: 2005/12/28 00:00:00
 title: "Stephen Kurkjian: admit your error"
 ---
 Stephen Kurkjian, a writer for the Boston Globe, <a href="http://www.boston.com/news/local/massachusetts/articles/2005/12/28/technology_adviser_quits_unexpectedly/">reported today on the resignation of Massachusetts CIO Peter Quinn</a>. Kurkjian failed to mention that his poor reporting one of the causes of Quinn's resignation.

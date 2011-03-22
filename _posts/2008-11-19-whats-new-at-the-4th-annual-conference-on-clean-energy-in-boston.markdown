@@ -1,8 +1,7 @@
---- 
-wordpress_id: 176
-layout: post
+---
+date: 2008/11/19 00:00:00
+format: markdown
 title: What's new at the 4th Annual Conference on Clean Energy in Boston
-wordpress_url: http://pingswept.org/?p=176
 ---
 I'm taking notes at the 4th Annual Conference on Clean Energy in Boston today; I figured I might as well share what I learn with the world.
 

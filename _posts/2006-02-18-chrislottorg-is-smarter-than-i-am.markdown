@@ -1,8 +1,7 @@
---- 
-wordpress_id: 120
-layout: post
+---
+date: 2006/02/18 00:00:00
+format: markdown
 title: Chrislott.org is smarter than I am
-wordpress_url: http://pingswept.org/2006/02/18/chrislottorg-is-smarter-than-i-am/
 ---
 Chris Lott has <a href="http://www.chrislott.org/2006/02/18/gatekeepers-and-terminology/">a great post</a> responding to my last post about this gatekeeper business.
 
