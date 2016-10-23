@@ -1,4 +1,3 @@
-
 ---
 date: 1997/11/01 00:00:00
 categories: Category 1
