@@ -1,10 +1,11 @@
 #!/usr/bin/env python
 
-import codecs, markdown2, os
+import codecs, markdown2, os, shutil
 
 header = open('header.txt', 'r').read()
 
-dirlist = os.listdir('.')
+postlist = os.listdir('posts')
+pagelist = os.listdir('pages')
 
 def isPage(filename):
     if ".markdown" in filename:
@@ -25,12 +26,21 @@ def formatRecipeForPrinting(basename, infile, outfile):
     outfile.write(html)
     outfile.write('</body>\n</html>')
 
-for file in sorted(filter(isPage, dirlist)):
+if not os.path.exists('output'):
+    os.makedirs('output')
+
+for file in sorted(filter(isPage, pagelist)):
     (basename, ext) = file.split('.')
-    infile = codecs.open(file, 'r', 'utf-8')
+    infile = codecs.open('pages/'+ file, 'r', 'utf-8')
     outfile = open('output/' + basename + '.html', 'w')
     formatRecipeForPrinting(basename, infile, outfile)
     infile.close()
     outfile.close()
     print('Done with {0}'.format(infile.name))
     print('')
+
+for dir in ['css', 'files', 'img']:
+    dest = 'output/' + dir
+    if(os.path.isdir(dest)):
+        shutil.rmtree(dest)
+    shutil.copytree(dir, dest)

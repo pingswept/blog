@@ -8,3 +8,8 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>-->
 </head>
 <body>
+<header>
+<div id="title">pingswept.org</div>
+<div id="tagline">now with web 1.0 again</div>
+<img src="img/islesboro_1000.png">
+</header>

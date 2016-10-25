@@ -280,3 +280,25 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
     article { padding: 0rem; }
     .page-break { display: block; page-break-before: always; }
 }
+
+#title {
+    position: relative;
+    left: 25px;
+    top: 230px;
+    opacity: 0.3;
+    font-size: 24px;
+    font-family: 'Trebuchet', Arial, Sans-Serif;
+    font-weight: bold;
+    color: white;
+}
+
+#tagline {
+    position: relative;
+    left: 780px;
+    top: 250px;
+    opacity: 0.3;
+    font-size: 18px;
+    font-family: 'Trebuchet', Arial, Sans-Serif;
+    font-weight: bold;
+    color: white;
+}
