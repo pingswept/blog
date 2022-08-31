@@ -1,7 +1,7 @@
 ---
 date: 2005/04/10 00:00:00
 format: markdown
-title: "Ubuntu \xE2\x80\x9CHoary Hedgehog\xE2\x80\x9D on a Sharp Actius MP30"
+title: "Ubuntu Hoary Hedgehog on a Sharp Actius MP30"
 ---
 I just installed the default Ubuntu "Hoary Hedgehog" release on my Sharp Actius MP30 laptop. The results were about the same as with the preview release-- still need to add a kernel option to get the trackpad working, and I still haven't managed to get the built-in wireless working.
 I still have some hope: <a href="http://www.cameltail.com/projects/sharp/">some guy named Carl at Cameltail</a> has managed to get the wireless working under Slackware 10.0.
