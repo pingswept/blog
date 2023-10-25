@@ -1,6 +1,6 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
-import codecs, markdown2, os, shutil
+import codecs, markdown, os, shutil
 
 header = open('header.txt', 'r').read()
 
@@ -15,7 +15,7 @@ def isPage(filename):
 
 def formatRecipeForPrinting(basename, infile, outfile):
     print('Processing {0} into {1}'.format(infile.name, outfile.name))
-    html = markdown2.markdown(infile.read(), extras=['metadata']).encode('utf8')
+    html = markdown.markdown(infile.read(), extras=['metadata']).encode('utf8')
     outfile.write(header)
     outfile.write('<h2>{0}</h2>'.format(' '.join(basename.split('-')).capitalize()))
     #for field in ['Date', 'Makes', 'Source', 'Time']:
@@ -23,7 +23,7 @@ def formatRecipeForPrinting(basename, infile, outfile):
     #        outfile.write('<div id="{0}">{0}: {1}</div>'.format(field, html.metadata[field]))
     #    except KeyError:
     #        pass
-    outfile.write(html)
+    outfile.write(html.decode('utf-8'))
     outfile.write('</body>\n</html>')
 
 if not os.path.exists('output'):
