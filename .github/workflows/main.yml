@@ -1,0 +1,20 @@
+name: Build pingswept.org
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Build pingswept.org
+        uses: garygrossgarten/github-action-ssh@release
+        with:
+          command: cd pingswept; git pull https://github.com/pingswept/blog.git; /pingswept/blog/make-pingswept-org.py; cp -r ./output/* /var/www/pingswept.org/
+          host: 162.216.18.236
+          username: root
+          passphrase: ${{ secrets.PASSPHRASE }}
+          privateKey: ${{ secrets.PRIVATE_KEY}}
+
+        env:
+          CI: true
