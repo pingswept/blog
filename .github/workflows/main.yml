@@ -10,7 +10,7 @@ jobs:
       - name: Build pingswept.org
         uses: garygrossgarten/github-action-ssh@release
         with:
-          command: cd pingswept; git pull https://github.com/pingswept/blog.git; blog/make-pingswept-org.py; cp -r ./output/* /var/www/pingswept.org/
+          command: cd pingswept.org; git pull https://github.com/pingswept/blog.git; ./make-pingswept-org.py; cp -r ./output/* /var/www/pingswept.org/
           host: 162.216.18.236
           username: root
           passphrase: ${{ secrets.PASSPHRASE }}
