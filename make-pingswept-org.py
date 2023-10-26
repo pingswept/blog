@@ -26,6 +26,23 @@ def formatRecipeForPrinting(basename, infile, outfile):
     outfile.write(html.decode('utf-8'))
     outfile.write('</body>\n</html>')
 
+def writeSidebar():
+    with open('sidebar.html', 'w') as sb:
+        sb.write(
+'''
+<div id="sidebar">  
+    Static pages
+    <ul>
+''')
+        for filename in sorted(filter(isPage, pagelist)):
+            (basename, ext) = filename.split('.')
+            sb.write('      <li><a href="http://pingswept.org/static/{0}.html">{1}</a></li>\n'.format(basename, basename.replace('-', ' ').capitalize()))
+        sb.write(
+'''    </ul> 
+</div> <!-- end sidebar -->
+''')
+    sb.close()
+
 if not os.path.exists('output'):
     os.makedirs('output')
 
@@ -44,3 +61,5 @@ for dir in ['css', 'files', 'img']:
     if(os.path.isdir(dest)):
         shutil.rmtree(dest)
     shutil.copytree(dir, dest)
+
+writeSidebar()
