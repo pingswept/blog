@@ -2,6 +2,8 @@
 
 import codecs, markdown, os, shutil
 
+POSTS_PER_PAGE = 4
+
 header = open('header.txt', 'r').read()
 
 postlist = os.listdir('posts')
@@ -56,6 +58,18 @@ def writeSidebar():
 ''')
     sb.close()
 
+def writeIndex():
+    posts = sorted(filter(isPage, postlist))
+    outfile = open('index.html', 'w')
+    for post in posts[-4:]:
+        with open('posts/' + post, 'r') as infile:
+            print('Adding {0} to index.html'.format(infile.name))
+            html = markdown.markdown(infile.read(), extras=['metadata']).encode('utf8')
+            outfile.write(header)
+            outfile.write('<h2>{0}</h2>'.format(' '.join(basename.split('-')).capitalize()))
+            outfile.write(html.decode('utf-8'))
+    outfile.write('</body>\n</html>')
+
 if not os.path.exists('output'):
     os.makedirs('output')
 
@@ -84,6 +98,8 @@ for file in sorted(filter(isPage, postlist)):
     infile.close()
     print('Done with {0}'.format(infile.name))
     print('')
+
+writeIndex()
 
 for dir in ['css', 'files', 'img']:
     dest = 'output/' + dir
