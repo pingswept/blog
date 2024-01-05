@@ -84,7 +84,7 @@ def writeIndex():
             p = frontmatter.load(infile) # split off the YAML header
             outfile.write('<h3>{0}</h3>'.format(p['date']))
             html = markdown.markdown(p.content, extras=['metadata'], extensions=[TailwindExtension()]).encode('utf8')
-            outfile.write('<article class="prose mx-auto"><h2>{0}</h2>'.format(' '.join(post.split('-')[3:]).split('.')[0].capitalize()))
+            outfile.write('<article class="prose mx-auto"><h2>{0}</h2>'.format(p['title']))
             outfile.write(html.decode('utf-8'))
             outfile.write('</article>')
     outfile.write('</body>\n</html>')
