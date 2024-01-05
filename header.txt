@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title></title>
+    <title>pingswept.org</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/tufte.css"/>
-    <!--<link rel="stylesheet" href="recipebook.css" />
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>-->
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
 <header>
