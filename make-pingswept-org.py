@@ -60,7 +60,7 @@ def writeSidebar():
 
 def writeIndex():
     posts = sorted(filter(isPage, postlist))
-    outfile = open('index.html', 'w')
+    outfile = open('output/index.html', 'w')
     for post in posts[-4:]:
         with open('posts/' + post, 'r') as infile:
             print('Adding {0} to index.html'.format(infile.name))
