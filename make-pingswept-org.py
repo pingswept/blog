@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import codecs, frontmatter, markdown, os, shutil
+import datetime as dt
 from markdown.extensions import Extension
 from markdown.treeprocessors import Treeprocessor
 
@@ -82,7 +83,8 @@ def writeIndex():
         with open('posts/' + post, 'r') as infile:
             print('Adding {0} to index.html'.format(infile.name))
             p = frontmatter.load(infile) # split off the YAML header
-            outfile.write('<h3>{0}</h3>'.format(p['date']))
+            d = dt.datetime.strptime(p['date'].split(' ')[0], "%Y/%m/%d").strftime("%B %d, %Y")
+            outfile.write('<h4 class="text-slate-700 font-light">{0}</h4>'.format(d))
             html = markdown.markdown(p.content, extras=['metadata'], extensions=[TailwindExtension()]).encode('utf8')
             outfile.write('<article class="prose mx-auto"><h2>{0}</h2>'.format(p['title']))
             outfile.write(html.decode('utf-8'))
