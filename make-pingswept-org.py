@@ -60,7 +60,7 @@ def writeSidebar():
 
 def writeIndex():
     posts = sorted(filter(isPage, postlist))
-    outfile = open('index.html', 'w')
+    outfile = open('output/index.html', 'w')
     outfile.write(header)
     for post in reversed(posts[-4:]):
         with open('posts/' + post, 'r') as infile:
