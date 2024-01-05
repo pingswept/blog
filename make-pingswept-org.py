@@ -1,6 +1,32 @@
 #!/usr/bin/env python3
 
-import codecs, markdown, os, shutil
+import codecs, frontmatter, markdown, os, shutil
+from markdown.extensions import Extension
+from markdown.treeprocessors import Treeprocessor
+
+# for Tailwind extension stuff below,
+# see https://www.mattlayman.com/blog/2023/python-markdown-tailwind-best-buds/
+
+class TailwindExtension(Extension):
+    """An extension to add classes to tags"""
+
+    def extendMarkdown(self, md):
+        md.treeprocessors.register(
+            TailwindTreeProcessor(md), "tailwind", 20)
+
+
+class TailwindTreeProcessor(Treeprocessor):
+    """Walk the root node and modify any discovered tag"""
+
+    classes = {
+        "a": "underline text-blue-700 hover:text-blue-500",
+    }
+
+    def run(self, root):
+        for node in root.iter():
+            tag_classes = self.classes.get(node.tag)
+            if tag_classes:
+                node.attrib["class"] = tag_classes
 
 POSTS_PER_PAGE = 4
 
@@ -16,28 +42,18 @@ def isPage(filename):
         return False
 
 def writePage(basename, infile, outfile):
-    print('Processing {0} into {1}'.format(infile.name, outfile.name))
+    #print('Processing {0} into {1}'.format(infile.name, outfile.name))
     html = markdown.markdown(infile.read(), extras=['metadata']).encode('utf8')
     outfile.write(header)
     outfile.write('<h2>{0}</h2>'.format(' '.join(basename.split('-')).capitalize()))
-    #for field in ['Date', 'Makes', 'Source', 'Time']:
-    #    try:
-    #        outfile.write('<div id="{0}">{0}: {1}</div>'.format(field, html.metadata[field]))
-    #    except KeyError:
-    #        pass
     outfile.write(html.decode('utf-8'))
     outfile.write('</body>\n</html>')
 
 def writePost(basename, infile, outfile):
-    print('Processing {0} into {1}'.format(infile.name, outfile.name))
+    #print('Processing {0} into {1}'.format(infile.name, outfile.name))
     html = markdown.markdown(infile.read(), extras=['metadata']).encode('utf8')
     outfile.write(header)
     outfile.write('<h2>{0}</h2>'.format(' '.join(basename.split('-')).capitalize()))
-    #for field in ['Date', 'Makes', 'Source', 'Time']:
-    #    try:
-    #        outfile.write('<div id="{0}">{0}: {1}</div>'.format(field, html.metadata[field]))
-    #    except KeyError:
-    #        pass
     outfile.write(html.decode('utf-8'))
     outfile.write('</body>\n</html>')
 
@@ -65,9 +81,12 @@ def writeIndex():
     for post in reversed(posts[-4:]):
         with open('posts/' + post, 'r') as infile:
             print('Adding {0} to index.html'.format(infile.name))
-            html = markdown.markdown(infile.read(), extras=['metadata']).encode('utf8')
-            outfile.write('<h2>{0}</h2>'.format(' '.join(post.split('-')[3:]).capitalize()))
+            p = frontmatter.load(infile) # split off the YAML header
+            outfile.write('<h3>{0}</h3>'.format(p['date']))
+            html = markdown.markdown(p.content, extras=['metadata'], extensions=[TailwindExtension()]).encode('utf8')
+            outfile.write('<article class="prose mx-auto"><h2>{0}</h2>'.format(' '.join(post.split('-')[3:]).split('.')[0].capitalize()))
             outfile.write(html.decode('utf-8'))
+            outfile.write('</article>')
     outfile.write('</body>\n</html>')
 
 def copyStaticFiles():
@@ -89,7 +108,7 @@ def processPages():
         writePage(basename, infile, outfile)
         infile.close()
         outfile.close()
-        print('Done with {0}\n'.format(infile.name))
+        #print('Done with {0}\n'.format(infile.name))
 
 def processPosts():
     for file in sorted(filter(isPage, postlist)):
@@ -105,8 +124,7 @@ def processPosts():
         with open(filepath, 'w') as outfile:
             writePost(basename, infile, outfile)
         infile.close()
-        print('Done with {0}'.format(infile.name))
-        print('')
+        #print('Done with {0}'.format(infile.name))
 
 if __name__ == '__main__':
     createOutputDirectory()

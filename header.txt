@@ -3,11 +3,11 @@
 <head>
     <title>pingswept.org</title>
     <meta charset="utf-8">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
 </head>
-<body>
-<header>
-<div id="title">pingswept.org</div>
-<div id="tagline">now with web 1.0 again</div>
-<img src="img/islesboro_1000.png">
-</header>
+<body class="prose mx-auto">
+    <header>
+    <div id="title" style="position:relative;height:auto;width:auto;left:25px;top:175px;opacity:0.3;font-size:24px;font-family:'Trebuchet',Arial,Sans-Serif;font-weight:bold;color:white;">pingswept.org</div>
+    <div id="tagline" style="text-align:right;position:relative;height:auto;width:auto;right:25px;top:200px;opacity:0.3;font-size:18px;font-family:'Trebuchet',Arial,Sans-Serif;font-weight:bold;color:white;">now with web 1.0 again</div>
+    <img src="img/islesboro_1000.png">
+    </header>
