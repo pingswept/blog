@@ -70,12 +70,18 @@ for file in sorted(filter(isPage, pagelist)):
     print('')
 
 for file in sorted(filter(isPage, postlist)):
-    (basename, ext) = file.split('.')
+    (date_and_basename, ext) = file.split('.')
     infile = codecs.open('posts/'+ file, 'r', 'utf-8')
-    outfile = open('output/' + basename + '.html', 'w')
-    writePage(basename, infile, outfile)
+    name_chunks = date_and_basename.split('-')
+    year = name_chunks[0]
+    month = name_chunks[1]
+    day = name_chunks[2]
+    basename = '-'.join(name_chunks[3:])
+    filepath = 'output/' + year + '/' + month + '/' + day + '/' + basename + '.html'
+    os.makedirs(os.path.dirname(filepath), exist_ok=True)
+    with open(filepath, 'w') as outfile:
+        writePost(basename, infile, outfile)
     infile.close()
-    outfile.close()
     print('Done with {0}'.format(infile.name))
     print('')
 
