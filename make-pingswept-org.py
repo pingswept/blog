@@ -92,9 +92,11 @@ def writeIndex():
     outfile.write('</body>\n</html>')
 
 def writeMultiPostPage(index, filenames):
-    outfile = open('output/page/' + index + '.html', 'w')
+    filepath = 'output/page/{0}.html'.format(index)
+    os.makedirs(os.path.dirname(filepath), exist_ok=True)
+    outfile = open(filepath, 'w')
     outfile.write(header)
-    for post in filenames:
+    for post in reversed(filenames):
         with open('posts/' + post, 'r') as infile:
             print('Adding {0} to multipost page'.format(infile.name))
             p = frontmatter.load(infile) # split off the YAML header
@@ -104,9 +106,15 @@ def writeMultiPostPage(index, filenames):
             outfile.write('<article class="prose mx-auto"><h2>{0}</h2>'.format(p['title']))
             outfile.write(html.decode('utf-8'))
             outfile.write('</article>')
-    outfile.write('<a href="/page/' + current - 1 + '.html">older posts</a>')
-    outfile.write('<a href="/page/' + current + 1 + '.html">older posts</a>')
+    outfile.write('<a href="/page/{0}.html">older posts</a>'.format(index - 1))
+    outfile.write('<a href="/page/{0}.html">newer posts</a>'.format(index + 1))
     outfile.write('</body>\n</html>')
+
+def writeMultiposts():
+    posts = sorted(filter(isPage, postlist))
+    chunks = [posts[x:x+POSTS_PER_PAGE] for x in range(0, len(posts), POSTS_PER_PAGE)]
+    for idx, chunk in enumerate(chunks):
+        writeMultiPostPage(idx, chunk)    
 
 def copyStaticFiles():
     for dir in ['css', 'files', 'img']:
@@ -152,3 +160,4 @@ if __name__ == '__main__':
     processPosts()
     writeSidebar()
     copyStaticFiles()
+    writeMultiposts()
