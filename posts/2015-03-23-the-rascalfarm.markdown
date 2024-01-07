@@ -14,7 +14,7 @@ I'm now basing the Rascal on top of the Beaglebone Black hardware, so I needed a
 
 My first attempt was just a maple 1x6 I scored during a makerspace cleanup a few months back. I sliced the board up into 2 shelves and 14 dividers. I used a pin nailer to attach the dividers to the base.
 
-![10 Rascal prototypes in a wooden rack](/imgs/2015/02/rascalfarm-rev1-2015-02-10.jpg)
+![10 Rascal prototypes in a wooden rack](/img/rascalfarm-rev1-2015-02-10.jpg)
 
 It's hard to discern on the lower shelf, but the rainbow of Ethernet cables is plugged into a 16 port switch.
 
@@ -26,7 +26,7 @@ To stiffen up the dividers, I switched to wooden biscuit joints. I also reshaped
 
 I cut the biscuit slots using a biscuit joiner in my basement. Each biscuit was spaced from the previous one as it was cut with a 1.522" +/- 0.010" spacer block. The picture below shows the first divider and spacer in place. The major weakness of this design is that the errors in position accumulate from slot to slot. One of the levels came out beautifully, but the second one was off by around 0.100" by the last divider. I hadn't done much woodworking with hard maple before, so I didn't realize that this much error would look sloppy in the end. With pine, I could have just clamped the bejesus out of everything, and it would look fine (though not exactly square).
 
-![a biscuit joiner next to a board with slots cut in it](/imgs/2015/02/rascalfarm-rev2-biscuit-joiner-2015-02-10.jpg)
+![a biscuit joiner next to a board with slots cut in it](/img/rascalfarm-rev2-biscuit-joiner-2015-02-10.jpg)
 
 (Here are the slots with the biscuits inserted.)
 
