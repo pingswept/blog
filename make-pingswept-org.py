@@ -115,7 +115,7 @@ def writeMultiPostPage(index, filenames):
         outfile.write('<a href="/page/{0}.html">older posts</a>'.format(index + 1))
     if(index > 0):
         if(index == 1):
-            outfile.write('<a href="/index.html">newer posts</a>'
+            outfile.write('<a href="/index.html">newer posts</a>')
         else:
             outfile.write('<a href="/page/{0}.html">newer posts</a>'.format(index - 1))
     outfile.write('</body>\n</html>')
