@@ -1,8 +1,9 @@
 ---
-date: 2006/01/13 00:00:00
+date: 2006-01-13T00:00:00.000Z
 format: markdown
 title: Off to BarCampNYC to talk about Wikr
 ---
+
 Stage 2 of my trip to New York City for BarCampNYC begins tomorrow morning around 7:30. Stage 1 was last night when I drove down to Boston from Wiscasset, Maine, <a href="http://chewonki.org">where I work</a>. I spent the day debugging a DNS problem and preparing for the <a href="http://pingswept.org/wikr">Wikr</a> presentation at BarCamp.
 
 Wikr is a Firefox extension that Mike Goelzer and I have been working on. (Yes, it's a stupid name, but at least it's short.) The idea is to establish **a means for synchronizing web improvements across trusted peer groups**.

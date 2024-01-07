@@ -1,8 +1,9 @@
 ---
-date: 2006/12/17 00:00:00
+date: 2006-12-17T00:00:00.000Z
 format: markdown
 title: Wind turbine costs
 ---
+
 I've been arguing with <a href="http://fiveislandsorchard.wordpress.com">my associate Ben</a> about the relative costs of wind turbines. (We work at a <a href="http://www.greenmountainengineering.com">GreenMountain, a renewable energy engineering firm near Boston</a>, so this is what we do for fun.) We're both puzzled over the continued growth in the size of wind turbines.
 
 Aldo da Rosa writes in <em>Fundamentals of Renewable Energy Processes, Elsevier Academic Press, 2005</em> (pp. 599-600):

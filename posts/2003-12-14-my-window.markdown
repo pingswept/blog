@@ -1,11 +1,10 @@
-
 ---
-date: 2003/12/14 00:00:00
 categories: Category 1
-date: 2003/12/14 00:00:00
+date: 2003-12-14T00:00:00.000Z
 format: markdown
 title: My window
 ---
+
 In 1993, I returned to my college dorm room to find that I had left the window open. I closed the window, and went to the bathroom. When I returned from the bathroom, the window was open again. I assumed that someone was hiding in my room. There wasn't anyone under the bed, so I opened the closet. A man named Victor who had fled to Spain 12 months previous leapt out of the closet wearing rubber boots and brandishing a frying pan.
 
 Victor, who lived down the hall from me in 1991, chased me out the door, upstairs, down the hall, downstairs, down the hall, outside, across the street, and into another dorm before I was able to find a door that I could lock behind me. I regret that I was not able to elude him; I think I might have been devoting too large a fraction of my energy to yelling things like, "I am being pursued by a ghost!"

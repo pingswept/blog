@@ -1,11 +1,11 @@
 ---
-date: 2005/12/16 00:00:00
+date: 2005-12-16T00:00:00.000Z
 format: markdown
-title: "Daniel Brandt and Wikipedia's reliability"
+title: Daniel Brandt and Wikipedia's reliability
 ---
+
 Daniel Terdiman has posted <a href="http://news.zdnet.com/2100-9588_22-5996542.html?tag=nl.e540">an interesting interview with Daniel Brandt</a> about his efforts to locate Brian Chase, the man who inserted false information into John Seigenthaler's biography on Wikipedia. I thought that <a href="http://news.zdnet.com/5208-9588-0.html?forumID=1&#38;threadID=16038&#38;messageID=317987&#38;start=-1">a remark Daniel Brandt made in the comments</a> attached to the interview was interesting. Talking about tracking down the Chase, he said: " Yes, I got lucky because there was a server on that address. I have never claimed that I was anything but lucky. Non-technical journalists frequently see the Internet infrastructure as some sort of black box, and 'cyber-sleuth' makes better copy than 'I got lucky.' That's not my fault."
 That's an example of a journalist spreading misinformation about him. Brandt has no recourse, and he doesn't care. He doesn't care because it's a minor distortion, not libelous, but it's strange that he offers that defense for himself but agrees with John Seigenthaler's righteous fury. Couldn't Seigenthaler also say "That's not my fault"?
 I think taking Wikipedia to task for permitting libel despite their best efforts is silly. Wikipedia is about as dangerous as me writing "Special Lecture at Harvard, 7 pm, December 22nd. Professor Henderson will discuss John Seigenthaler involvement in planning the Kennedy assassination," on a piece of paper and posting it in Harvard Square. The levels of traffic and exposure are about the same. It's true that Wikipedia in the aggregate gets lots of traffic, but not Seigenthaler's page. If Seigenthaler's page were a high traffic page, the error would get caught sooner. The police are not fact-checking flyers in Harvard Square, so why police Wikipedia? If the Harvard Square example is ridiculous, then pick any other forum or mailing list on the internet.
 Since I was in 3rd grade, people have been telling me "Don't believe everything you read!" and "Don't believe everything you see on TV!" Those are educational cliches. When <a href="http://www.nature.com/news/2005/051212/full/438900a.html">Nature looks at Wikipedia vs. Britannica statistically</a>, Wikipedia does pretty well. So what's the problem?
 Note: Terdiman's article bears the ZDNet tag "open source." Why? Is Daniel Terdiman tagging his own articles about Wikipedia with the tag "open source," even though he wrote <a href="http://news.zdnet.com/2100-9588_22-5988267.html">an article last week arguing that the term "open source" was inappropriate for Wikipedia</a>?
-

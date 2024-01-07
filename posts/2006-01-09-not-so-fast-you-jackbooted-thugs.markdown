@@ -1,8 +1,9 @@
 ---
-date: 2006/01/09 00:00:00
+date: 2006-01-09T00:00:00.000Z
 format: markdown
 title: Not so fast, you jackbooted thugs
 ---
+
 Hello wiretappers. If you are listening, could you please point out to Mr. Bush and the Justice Department that while my general intent with much of this blog is to annoy people (recently, Robert Kuttner, Alan Yates, et al.) through the internet, I am not doing so anonymously.
 
 It seems that Mr. Bush has signed into law <a href="http://thomas.loc.gov/cgi-bin/query/z?c109:H.R.3402:">H.R. 3402</a>, which has a section 113 that adds this phrase:

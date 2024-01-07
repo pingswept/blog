@@ -1,8 +1,9 @@
 ---
-date: 2007/10/27 00:00:00
+date: 2007-10-27T00:00:00.000Z
 format: markdown
 title: Pope and Bacon a dangerous combo
 ---
+
 After meeting Ubuntu zealots <a href="http://popey.com">Alan Pope</a> and <a href="http://jonobacon.org">Jono Bacon</a> at <a href="http://fosscamp.org">Fosscamp</a> this morning, I made the mistake of leaving my laptop screen unlocked within the range of these two dangerous characters while I went to the bathroom. What's worse, I left a terminal window with a root prompt open on the desktop. (I don't remember why-- I think I was installing some software earlier.) When I got back, this so-called "Pope" had blown up the font size on my terminal window and added "rm -rf /" at the root prompt.
 
 It was good for a laugh. Unfortunately, I didn't have the poise to take a screenshot.

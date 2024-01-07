@@ -1,8 +1,9 @@
 ---
+date: 2005-01-30T00:00:00.000Z
 format: markdown
-date: 2005/01/30 00:00:00
 title: iPods for everyone
 ---
+
 This post is pretty far from done. This is just a smattering of facts right now. Why are you even reading this?
 
 When Apple released the original iPod in November of 2001, it was the largest capacity portable mp3 player to hit the market. It was not the first, the cheapest, or lightest. Unlike most of its competitors . . . 
@@ -52,4 +53,3 @@ Jonathan Ive, according to USA Today
 
 Amy Scott of Marketplace on National Public Radio, 050211,<br />
 claims that The Sharper Image only keeps 11% of the revenue from its iPod sales.
-

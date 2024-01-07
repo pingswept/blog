@@ -1,9 +1,10 @@
 ---
-date: 2009/06/01 00:00:00
+categories: skunks, trench warfare
+date: 2009-06-01T00:00:00.000Z
 format: markdown
 title: Opening salvo in the Great Skunk War of 2009
-categories: skunks, trench warfare
 ---
+
 Our house in Somerville has two porches that serve as barracks for at least two skunks.
 
 Today, Sharon and I fired the first salvo, using a piece of chicken wire (AKA "hardware cloth") to prevent Merle (the commander-in-chief of the skunk army) from tunneling under the lattice work under the front porch.

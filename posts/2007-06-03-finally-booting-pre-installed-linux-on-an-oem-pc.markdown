@@ -1,8 +1,9 @@
 ---
-date: 2007/06/03 00:00:00
+date: 2007-06-03T00:00:00.000Z
 format: markdown
 title: Finally booting pre-installed Linux on an OEM PC
 ---
+
 The Dell XPS 410n that I ordered on May 24th arrived this Saturday. After 10 years of using Linux, I was finally able to order a prebuilt computer from a major OEM without paying anyone for an operating system that I would delete shortly after unboxing. Instead of devoting half of Saturday afternoon to installing Linux, I had a working Linux system 19 minutes after opening the box. I think I probably spent more time picking a desktop background from Flickr than configuring the machine.
 
 <a href="http://www.flickr.com/photos/pingswept/528118691/" title="Booting Ubuntu on a Dell XPS 410n"><img src="http://farm2.static.flickr.com/1186/528118691_1e9ea21829_m.jpg" width="240" height="180" alt="Finally booting pre-installed Linux on an OEM PC" /></a>
@@ -15,4 +16,4 @@ Ubuntu wasn't perfect-- it did fail to identify my HP f2105 monitor's maximum re
 
 (Update: after running a Synaptic update, I could enable the restricted Nvidia driver and turn on Compiz-- no geek-level intervention necessary.)
 
-Overall, I'm delighted with what Dell and the wealthy gentleman from Canonical have done. For me, 2007 is the year of the Linux on the desktop. I offer my sincere congratulations and thanks to the Ubuntu folks at Canonical and Dell. 
+Overall, I'm delighted with what Dell and the wealthy gentleman from Canonical have done. For me, 2007 is the year of the Linux on the desktop. I offer my sincere congratulations and thanks to the Ubuntu folks at Canonical and Dell.

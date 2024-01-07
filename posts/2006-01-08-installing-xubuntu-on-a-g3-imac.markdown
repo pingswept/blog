@@ -1,9 +1,10 @@
 ---
-date: 2006/01/08 00:00:00
+categories: apple, linux, xubuntu
+date: 2006-01-08T00:00:00.000Z
 format: markdown
 title: Installing Xubuntu on a G3 iMac
-categories: apple, linux, xubuntu
 ---
+
 I work in a school where we have lots of old iMacs that are barely usable under OS 9.2. The newest browser we can get for OS 9 is Netscape 7.0, which crashes a lot (repeatably on Gmail, for example).
 
 [Xubuntu][1] is a derivative of <a href="http://www.ubuntulinux.org/">Ubuntu Linux</a> designed for low-end machines. It uses the <a href="http://www.xfce.org/">XFCE desktop</a>. I've just finished installing Xubuntu on a 400 Mhz iMac. It went reasonably smoothly, and now that I know the few tricks listed below, doing it again should be quite easy.

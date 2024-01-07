@@ -1,8 +1,9 @@
 ---
-date: 2005/08/24 00:00:00
+date: 2005-08-24T00:00:00.000Z
 format: markdown
 title: Am I in over my head?
 ---
+
 Here is a conversation I had today, shortened for humorous effect:
 
 "Are we using the new server yet?"
@@ -16,4 +17,3 @@ Here is a conversation I had today, shortened for humorous effect:
 "Great! Is the technology plan on the server somewhere?"
 
 "I don't know. . . . I have a paper copy."
-

@@ -1,8 +1,9 @@
 ---
-date: 2005/12/09 00:00:00
+date: 2005-12-09T00:00:00.000Z
 format: markdown
-title: "\"Open source\" is not a metaphor"
+title: '"Open source" is not a metaphor'
 ---
+
 Daniel Terdiman at CNet has <a href="http://news.zdnet.com/2100-9588_22-5988267.html">an article up today claiming that "the open source label doesn't really fit Wikipedia." </a>He's right about that, but his explanation is wrong.
 Here's what Terdiman says about open source: "'Open source,' at least the way it's been used in tech circles over the years, usually connotes successful, volunteer projects like the Linux operating system, which has strict controls and is monitored by a handful of people who make the call on what is handed over to the public."
 This is not the way "open source" is used in tech circles, unless one of the people standing in the circle is someone who just wandered over from the people-who-misinterpret-the-literal-as-the-metaphorical circle.
@@ -14,4 +15,3 @@ I think that Daniel Terdiman should seriously consider the possibility that he h
 There are other terms that can be used to describe Wikipedia that are not wrong. "Collaborative" is pretty good. Later on, Terdiman calls Wikipedia: "grand and very subjective experiment in collective writing." That's sounds good too.
 I suspect that what's actually happened is that Terdiman has been misled by other confused journalists. For example, a few days ago, Katherine Seelye of the New York Times had <a href="http://www.iht.com/articles/2005/12/05/business/wiki.php">an article in the International Herald Tribune</a> titled: "Wikipedia: Open-source, and open to abuse." However, her article didn't actually use the phrase "Open source." Through Google, I also found <a href="http://www.925m.com/archives/2005/12/wikipedias_open.html">an article titled: "Wikipedia's Open-Source Licks Open Wound"</a> by Jaime Gottlieb that recounts the recent scandals with John Siegenthaler (former opinions editor for the fact-rich paper USA Today) and Adam Curry. Gottlieb's article appears on 925M.com, "an online advertising community." (I don't know what that is.)
 If anyone has counterexamples of "open source" being used to mean "collaboratively edited" or in some other metaphorical manner, I'd love to see them. In the meantime, I suggest Terdiman retitle his article, "Journalist notices discord from misuse of common technical term."
-

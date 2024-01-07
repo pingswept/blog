@@ -1,8 +1,9 @@
 ---
-date: 2008/04/05 00:00:00
+date: 2008-04-05T00:00:00.000Z
 format: markdown
 title: The doctrine of the farm
 ---
+
 Aspiring amateur agrarian, Ben <a href="http://fiveislandsorchard.wordpress.com/2008/03/30/why-do-all-these-engineers-think-they-want-to-be-farmers/">speculates</a> that his engineering friends who dream of becoming farmers may be engaging in "subconscious rebellion against the rampant specialization of modern life."
 
 I think he's right, but for me, it's not subconscious.

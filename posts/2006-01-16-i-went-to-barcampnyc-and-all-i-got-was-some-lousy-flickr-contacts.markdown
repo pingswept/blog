@@ -1,8 +1,9 @@
 ---
-date: 2006/01/16 00:00:00
+date: 2006-01-16T00:00:00.000Z
 format: markdown
 title: I went to BarCampNYC and all I got was some lousy Flickr contacts
 ---
+
 I returned from <a href="http://barcamp.org/index.cgi?BarCampNYC">BarCamp</a> in New York last night. Overall, it was more fun than educational, but that's only because it was so fun.
 
 Some geeks in Palo Alto started BarCamp last summer as a response to O'Reilly's invite-only Foo Camp. Then came BarCamp in Amsterdam, and then BarCamp in New York. About 70 people showed up for 36 hours of geeking out in the 9th floor office of a t-shirt company. I only knew three of the people there, though as a bonus, Noah T. Winer (yes, THE Noah T. Winer) showed up on Saturday night unannounced. In general, it was very refreshing to be able to make ridiculously technical jokes and still get a few laughs.

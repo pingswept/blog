@@ -1,8 +1,8 @@
 ---
-format: markdown
-date: 2010/01/18 00:00:00
-title: Efficiency, exercise, and the modern condition
 categories: hard times, energy
+date: 2010-01-18T00:00:00.000Z
+format: markdown
+title: Efficiency, exercise, and the modern condition
 ---
 
 Shortly after we bought our house, with its 500 ft<sup>2</sup> lawn, one of my colleagues was kind enough to give me a vintage reel mower. It weighs 48 pounds. It was manufactured shortly after 1918, as dated by the patent on the cast handle, which I believe refers to [this patent][1]. It's very similar, but not quite identical, to [this mower][2].

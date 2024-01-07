@@ -1,9 +1,10 @@
 ---
-format: markdown
-date: 2009/08/22 00:00:00
-title: Building Blender 2.5 from source on Ubuntu 9.04
 categories: software
+date: 2009-08-22T00:00:00.000Z
+format: markdown
+title: Building Blender 2.5 from source on Ubuntu 9.04
 ---
+
 I recently tried building an early release of <a href="http://www.blender.org/development/current-projects/blender-25-project/">Blender 2.5</a> from source on Ubuntu Linux 9.04 (the so-called 'Jaunty Jackalope'). So that the world might benefit from my tribulations, I thought I'd record the details here.
 
 The 2.5 build process is standardized against Python 3.1, which isn't in the Ubuntu repositories yet, so you have to build that from source. Download the 3.1.1 tarball from python.org and build it like this:

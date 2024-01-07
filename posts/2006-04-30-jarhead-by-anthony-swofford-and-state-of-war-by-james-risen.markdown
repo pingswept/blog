@@ -1,8 +1,9 @@
 ---
-date: 2006/04/30 00:00:00
+date: 2006-04-30T00:00:00.000Z
 format: markdown
 title: Jarhead by Anthony Swofford and State of War by James Risen
 ---
+
 I read two books this week: Jarhead and State of War.
 
 *Jarhead* is a memoir covering the author's work as a Marine fighting in the 1991 Gulf War. It contains a lot of profanity and crude expressions, but I suspect this is an honest recollection of the war. *Jarhead* evoked a sympathetic mood in describing the Marine's experiences and yet still describes the emotional chaos and devastation convincingly.

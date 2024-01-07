@@ -2,6 +2,7 @@
 
 import codecs, frontmatter, markdown, os, shutil
 import datetime as dt
+import re
 
 postlist = os.listdir('posts')
 pagelist = os.listdir('pages')
@@ -21,5 +22,16 @@ def modifyDateField(filelist):
         with open('posts/' + file, 'w') as outfile:
             outfile.write(frontmatter.dumps(p) + '\n')
 
+def fixDates(filelist):
+    for file in sorted(filter(isPage, filelist)):
+        with open('posts/' + file, 'r') as infile:
+            print('Checking {0}'.format(infile.name))
+            text = infile.readlines()
+            modified_text = re.sub(r'^date: \'(.*?)\'$', r'date: \1', text, flags=re.MULTILINE)
+        with open('posts/' + file, 'w') as outfile:
+            outfile.write(modified_text)
+
+
 if __name__ == '__main__':
-    modifyDateField(postlist)
+    #modifyDateField(postlist)
+    fixDates(postlist)

@@ -1,8 +1,9 @@
 ---
-date: 2005/03/20 00:00:00
+date: 2005-03-20T00:00:00.000Z
 format: markdown
-title: "There's a good burrito at Rengstorff and Middlefield"
+title: There's a good burrito at Rengstorff and Middlefield
 ---
+
 **La Costena, Los Altos Taqueria, and La Bamba**
 
 These three burrito shops all do business at the same intersection in Mountain View, CA. Los Altos Taqueria is my default choice-- an excellent burrito and horchata for cheap, plus free chips and decent seating. La Costena has the best carne asada burrito I've ever eaten, but they're slightly more expensive, and your seating choices are either inside a convenience store or on a narrow walkway next to Rengstorff. On a warm day, you can sit on the grass at the dental plaza across the street. La Bamba is not a favorite of mine-- it's generally cold, the seats all face the wall, and the burritos are both slightly pricy and slightly spicy for my tastes.
@@ -72,4 +73,3 @@ A great burrito, but not open late. Karlita is the daughter of the family that r
 *S. Euclid Avenue, Ontario, CA*
 
 Strangely, this franchise is where my burrito addiction began.
-

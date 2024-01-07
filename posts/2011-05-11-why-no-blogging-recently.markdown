@@ -1,6 +1,6 @@
 ---
 format: markdown
-date: 2011/05/11 00:00:00
+date: 2011-05-11T00:00:00.000Z
 title: Why hasn't Brandon been blogging recently?
 draft: False
 categories: rascal

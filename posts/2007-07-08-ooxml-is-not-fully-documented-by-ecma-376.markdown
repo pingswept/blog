@@ -1,9 +1,13 @@
 ---
-date: 2007/07/08 00:00:00
+date: 2007-07-08T00:00:00.000Z
+excerpt: No explanation of "the behavior of Microsoft Word 95" is given. How might
+  a competing vendor determine all the rules that Word 95 uses for character spacing?
+  Type all possible sequences of characters in all fonts on a computer borrowed from
+  the Computer History Museum, and then analyze the results?
 format: markdown
 title: OOXML is not fully documented by ECMA 376
-excerpt: No explanation of "the behavior of Microsoft Word 95" is given. How might a competing vendor determine all the rules that Word 95 uses for character spacing? Type all possible sequences of characters in all fonts on a computer borrowed from the Computer History Museum, and then analyze the results?
 ---
+
 Comment sent to Massachusetts about their bone-headed inclusion of ECMA 376 (OOXML) in their latest draft of the Enterprise Technical Reference Model:
 
 <blockquote>Hello,
@@ -40,4 +44,3 @@ Thanks for your consideration,
 Brandon Stafford
 Cambridge, MA
 </blockquote>
-

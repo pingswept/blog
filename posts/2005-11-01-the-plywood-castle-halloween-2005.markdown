@@ -1,8 +1,9 @@
 ---
-date: 2005/11/01 00:00:00
+date: 2005-11-01T00:00:00.000Z
 format: markdown
 title: The plywood castle, Halloween 2005
 ---
+
 In 2004, I was caught unawares by Halloween on Crescent Street. I didn't expect many kids to show up, so I figured I'd just not get any candy and stay upstairs for a while. Approximately 300 kids showed up, and I had to hide with the lights off for 4 hours.
 
 This year, Aaron, who lives nearby in Somerville, and I built a castle in front of my house. We've both worked at <a href="http://chewonki.org">Camp Chewonki</a> in Wiscasset, Maine, for 10 years, so we have a fair bit of experience with treasure hunts, carnivals, talent shows, and the like. I had some old plywood in my backyard, so on Sunday night, we spent a few hours cutting crenelations and preparing the ramparts for siege.

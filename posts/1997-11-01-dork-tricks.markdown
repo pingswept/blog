@@ -1,10 +1,10 @@
 ---
-date: 1997/11/01 00:00:00
 categories: Category 1
-date: 1997/11/01 00:00:00
+date: 1997-11-01T00:00:00.000Z
 format: markdown
 title: Dork tricks
 ---
+
 The following statements I consider to be established facts:
 
 1. Every male human currently aged between 18 and 30 used to skate, and most of them secretly wish that they still did.

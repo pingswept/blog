@@ -1,8 +1,9 @@
 ---
-date: 2005/10/10 00:00:00
+date: 2005-10-10T00:00:00.000Z
 format: markdown
 title: Hiding the port number on SchoolBell using mod_rewrite
 ---
+
 I've just set up the Shuttleworth Foundation's slick little calendar server, SchoolBell. It runs on port 7180 by default, but I didn't want to my colleagues (that's what you call everyone else if you work at a school) to have to remember that. Digging around in the README file for a related program, SchoolTool, I found a suggestion that mod_rewrite would help me out.
 In the end, this worked on Ubuntu 5.10, Breezy Badger:
 

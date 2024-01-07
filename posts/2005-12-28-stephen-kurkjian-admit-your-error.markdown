@@ -1,8 +1,9 @@
 ---
+date: 2005-12-28T00:00:00.000Z
 format: markdown
-date: 2005/12/28 00:00:00
-title: "Stephen Kurkjian: admit your error"
+title: 'Stephen Kurkjian: admit your error'
 ---
+
 Stephen Kurkjian, a writer for the Boston Globe, <a href="http://www.boston.com/news/local/massachusetts/articles/2005/12/28/technology_adviser_quits_unexpectedly/">reported today on the resignation of Massachusetts CIO Peter Quinn</a>. Kurkjian failed to mention that his poor reporting one of the causes of Quinn's resignation.
 
 The background to Quinn's resignation involves his controversial initiative that will require that all Massachusetts government computer systems store documents in OpenDocument format by January 1st, 2007. Microsoft, the major software supplier to the government, would naturally prefer that Massachusetts mandate the use of their new non-standard XML formats. The alternative, OpenDocument, is a standard already used by software shipping today; additionally, it is approved by an international standards body, OASIS, and has been submitted to the ISO.
@@ -18,4 +19,3 @@ In <a href="http://www.boston.com/news/local/massachusetts/articles/2005/12/28/t
 It's shocking that Stephen Kurkjian, while explaining that Quinn was quitting because of the stress of recent events, fails to mention that he was personally the cause of one the most significant events. Kurkjian mentions "a report in November that Quinn had failed to fill out the required state forms." This fails to acknowledge that the report was a newspaper article, not a formal report of any sort; that the report was wrong; and that the report was written by Stephen Kurkjian, the same guy now reporting on Quinn's resignation.
 
 It's certainly possible that most of the stress that pushed Quinn to quit came from other sources-- for example, the testimony of Microsoft's Alan Yates, or the strange misunderstandings of Representative Pacheco. However, given that Kurkjian wrote the erroneous report, he should take responsibility for his error.
-

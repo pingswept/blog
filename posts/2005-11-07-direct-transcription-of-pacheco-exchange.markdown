@@ -1,8 +1,9 @@
 ---
+date: 2005-11-07T00:00:00.000Z
 format: markdown
-date: 2005/11/07 00:00:00
 title: Direct transcription of Pacheco exchange
 ---
+
 David Berlind of ZDNet has a <a href="http://blogs.zdnet.com/BTL/index.php?p=2120">lengthy analysis</a> of the Halloween hearing of Massachusetts' Committee on Post Audit and Oversight. He also has what he claims is a transcription of the passage I quoted yesterday from Andy Updegrove's "rough transcription." Additionally, he has <a href="http://i.i.com.com/cnwk.1d/i/z/e/200511/Oct31ODFhearing.mp3">the audio available for download</a>.
 From Berlind:
 <blockquote>**[MP@44:05]** In the proposal that the Library of Congress has before them, have they opted for OpenOffice? <br />    **<br />     LH:** OpenDocument Format and PDF 
@@ -13,4 +14,3 @@ From Berlind:
    ** LH:** Senator, that is not ITD's understanding. ITD understands that there are multiple office applications that support OpenDocument Format and we know from Microsoft's recent adoption of the PDF format that it's quite possible -- even for the vendor that owns 90 percent of the desktops that you fund -- that they too could support OpenDocument Format if they chose to do so. A gentleman whose last name is..
    ** MP:** Within the timeline that your talking about. You're talking about January 2007.&nbsp; I know because I had the same feeling that you just expressed.&nbsp; Why can't we do this with PDF and it's my understanding that PDF took well over a year to develop. I know we just had an annoucement but there was a lot of development going on before that announcement took place. </blockquote>
 I'm downloading the audio right now. It appears that a section of Pacheco's statements (not the one quoted above) that Berlind claims occurs at 31:30 actually occurs at 33:30.
-

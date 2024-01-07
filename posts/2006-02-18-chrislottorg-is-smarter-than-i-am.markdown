@@ -1,8 +1,9 @@
 ---
-date: 2006/02/18 00:00:00
+date: 2006-02-18T00:00:00.000Z
 format: markdown
 title: Chrislott.org is smarter than I am
 ---
+
 Chris Lott has <a href="http://www.chrislott.org/2006/02/18/gatekeepers-and-terminology/">a great post</a> responding to my last post about this gatekeeper business.
 
 As I commented on his blog:

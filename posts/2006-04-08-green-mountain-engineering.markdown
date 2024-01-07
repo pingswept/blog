@@ -1,8 +1,9 @@
 ---
-date: 2006/04/08 00:00:00
+date: 2006-04-08T00:00:00.000Z
 format: markdown
 title: Green Mountain Engineering
 ---
+
 Yesterday, I received an email from Eerik Hantsoo saying that Green Mountain Engineering is hiring. I had never heard of them before, even though I live just a few miles away. From their website, they sound like exactly the sort of company that I have been trying to find.
 
 Then I thought that as soon as my friend mentions to them that I'm interested, they'll try to prefilter me using Google. (At least, that's what I would do.) They'll find this blog, and then they'll read this post.

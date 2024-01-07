@@ -1,8 +1,9 @@
 ---
+date: 2005-03-07T00:00:00.000Z
 format: markdown
-date: 2005/03/07 00:00:00
 title: The caring problem
 ---
+
 Ethan Zuckerman has an <a href="http://blogs.law.harvard.edu/ethan/2005/03/07#a798">interesting post</a> that suggests   an explanation for the lack of news coverage of Africa in the Western press. His theory (recycled from Joi Ito) is that people care about news from nations to which they have some personal connection.
 
 I spent two weeks at the University of Dar es Salaam in Tanzania a few years ago, teaching a workshop on embedded systems for the International Atomic Energy Agency.  While I don't think that the workshop was particularly effective, it made me care about Africa, and East Africa in particular.

@@ -1,8 +1,9 @@
 ---
-date: 2006/02/05 00:00:00
+date: 2006-02-05T00:00:00.000Z
 format: markdown
 title: The GPL is not viral
 ---
+
 I was listening to a recording of Chris Messina talking about building infrastructure for the open source community at BarCamp Dallas; in the middle of the recording, a discussion started about the new version of the GNU General Public License.
 
 Someone in the crowd claims the GPL is a "viral" license. This is a claim that has been repeated for years; unfortunately, it's a ridiculous metaphor. The GPL says that if you download code under the GPL, change the source code, and release a new version, you have to release your changes to the source as well.

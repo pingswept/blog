@@ -1,8 +1,9 @@
 ---
-date: 2008/02/24 00:00:00
+date: 2008-02-24T00:00:00.000Z
 format: markdown
 title: Popularizing the backyard zoopraxiscope
 ---
+
 Hard times evangelist Ben Polito <a href="http://fiveislandsorchard.wordpress.com/2008/02/17/on-actually-changing-our-behavior/">asked an interesting question</a> on his blog a week ago: "Why is it that even people who care about \[global warming and oil supply issues\] don’t actually make relatively simple choices that could significantly reduce their impact?"
 
 I've wondered about this myself. Our behavior is complex, but I think the answer is that we are accustomed to the idea that environmental problems can be solved by marginal changes. There are two ideas here-- that our behavior is guided by our expectations of what sorts of behavior are customary, and that marginal changes can solve big problems.

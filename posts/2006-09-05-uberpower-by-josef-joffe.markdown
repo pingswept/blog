@@ -1,8 +1,9 @@
 ---
-date: 2006/09/05 00:00:00
+date: 2006-09-05T00:00:00.000Z
 format: markdown
 title: Uberpower by Josef Joffe
 ---
+
 Uberpower contains 7 chapters: 2 that describe the United States' status as the last remaining superpower, 2 about the rise of sentiments for and against the US, and 3 that describe possible solutions. The first two chapters are informative, and then everything goes to hell in the second pair of chapters, leaving the remaining 3 chapters suspect.
 
 I went over the edge in chapter 4, "The Rise of Americanism." Joffe claims that there has recently been a surge in anti-Americanism, driven by a surge in Americanism. He uses Google searches for "anti-Americanism 2004" to measure the "sudden surge" in anti-Americanism. He writes:

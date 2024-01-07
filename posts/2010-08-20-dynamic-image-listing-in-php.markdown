@@ -1,6 +1,6 @@
 ---
 format: markdown
-date: 2010/08/20 00:00:00
+date: 2010-08-20T00:00:00Z
 title: Dynamic image listing in PHP
 categories: code, php
 ---

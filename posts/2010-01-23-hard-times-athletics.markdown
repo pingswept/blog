@@ -1,8 +1,8 @@
 ---
-format: markdown
-date: 2010/01/23 00:00:00
-title: Hard Times athletics
 categories: energy, hard times
+date: 2010-01-23T00:00:00.000Z
+format: markdown
+title: Hard Times athletics
 ---
 
 (See my [previous post][1] for the background to this post.)

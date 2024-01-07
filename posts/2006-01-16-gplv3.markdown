@@ -1,8 +1,9 @@
 ---
-date: 2006/01/16 00:00:00
+date: 2006-01-16T00:00:00.000Z
 format: markdown
 title: GPLv3
 ---
+
 I attended a version of BarCamp for old lawyers today-- the launch of the first draft of GPLv3, put on by the Free Software Foundation at MIT. Eben Moglen, Richard Stallman, Bruce Perens, Andrew Tridgell, Larry Rosen, Bob Sutor-- all the stars were out in Cambridge, laptops shined up and beeping accessories a-dangle!
 
 Richard Stallman is far more amusing than he gets credit for-- more details in <a href="http://en.wikinews.org/wiki/Free_Software_Foundation_releases_first_draft_of_GPLv3">the Wikinews article</a> I started.

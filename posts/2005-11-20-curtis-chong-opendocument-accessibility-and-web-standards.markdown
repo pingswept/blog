@@ -1,8 +1,9 @@
 ---
+date: 2005-11-20T00:00:00.000Z
 format: markdown
-date: 2005/11/20 00:00:00
 title: Curtis Chong, OpenDocument, accessibility, and web standards
 ---
+
 David Berlind at ZDNet has been <a href="http://blogs.zdnet.com/BTL/?p=2163">exchanging email with Curtis Chong</a>, the president of the <a href="http://www.nfb.org/nfbcs.htm">National Federation of the Blind in Computer Science</a>, on the topic of the OpenDocument policy in Massachusetts. Chong's concern is that Massachusetts discontinuing the use of Microsoft Office will result in screen readers failing to work for people with disabilities. Berlind thinks that moving to an open standard will mean that once screen readers are fixed to work with the standard, they will work forever.
 
 The tough part of the question is deciding when to adopt a new, open standard over a dominant, proprietary standard. As far as I know, nobody makes the argument that proprietary standards are better for the person using the standard. I suspect that even a Microsoft zealot would love to erase their history of changing file formats with new releases of Word, if they could maintain the same features and market share they have today.
@@ -17,4 +18,3 @@ The role of government, (for example, the state government of Massachusetts, whe
 
 What does the long view tell us about file formats? By now, it is predictable that Microsoft will continue to change formats and force upgrades on their customers. It has been happening for approximately 20 years-- I first used Microsoft Word 1985; I suffered; and I stopped using it regularly in 2001. If nobody forces us to switch to an open standard, it is very likely that the pain will continue. I suspect that Microsoft actually *needs* to change standards to stay competitive. Given that most people would be reasonably satisfied with the functionality of Word 97, if Microsoft loses the battle against OpenDocument, and there are free alternatives that reach the level of Word 97, they're hosed.
 Is it time to switch to OpenDocument? I use OpenDocument on a daily basis for spreadsheets and text documents. It works. The Massachusetts policy allows that accessibility will trump format, i.e. nobody will be forced to use OpenDocument if it means they can't read it. Given that escape clause, OpenDocument's maturity, and the strong incentive for all of Microsoft's competitors to make OpenDocument work for everyone, mandating the use of OpenDocument is exactly what the Massachusetts government should be doing.
-

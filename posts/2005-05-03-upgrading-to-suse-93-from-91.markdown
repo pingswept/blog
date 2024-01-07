@@ -1,8 +1,9 @@
 ---
-date: 2005/05/03 00:00:00
+date: 2005-05-03T00:00:00.000Z
 format: markdown
 title: Upgrading to SuSE 9.3 from 9.1
 ---
+
 I just upgraded my desktop machine from SuSE Linux 9.1 Pro to 9.3 Pro.<br />
 It took a little over an hour, and nothing particularly horrible<br />
 happened, so far as I can tell.

@@ -1,8 +1,10 @@
 ---
-date: 2005/12/10 00:00:00
+date: 2005-12-10T00:00:00.000Z
 format: markdown
-title: Why wait to see whether history will repeat itself with Microsoft and Office 12 formats?
+title: Why wait to see whether history will repeat itself with Microsoft and Office
+  12 formats?
 ---
+
 David Berlind has <a href="http://blogs.zdnet.com/BTL/?p=2257">posted another great summary</a> of recent events involving Microsoft's Office 12 formats, OpenDocument, ECMA, and the ISO. The quick summary is that Microsoft has submitted a plan to get ECMA approval of their formats for Office 12. ECMA would then submit the standard to the ISO for approval. Microsoft has said that they will not sue anyone for infringing their patents in the course of implementing the Office 12 file formats. There is some concern about the possibility of Microsoft suing people who offer only partial implementations of the formats.
 In <a href="http://www.zdnet.com/5208-10532-0.html?forumID=1&#38;threadID=15872&#38;messageID=315529&#38;start=-33">response to one of the comments</a> on his blog, Berlind writes: "You could say "history will repeat itself." But then again, Microsoft's covenant not to sue was a pretty big change for the company. So, if it can make that change, can't it also break from its past in other ways?"
 I think Microsoft might be genuinely changing. On the other hand, maybe they're not. What is the incentive for the residents of Massachusetts, such as me, to give Microsoft the benefit of the doubt? OpenDocument is already approved by OASIS, and it's likely that it will pass through the ISO before Microsoft's formats. <a href="http://opendocumentfellowship.org/Applications/HomePage">OpenDocument is available for use in multiple products</a>, right now.
@@ -10,4 +12,3 @@ So why should I want my government to wait? Will Microsoft's formats provide som
 If Microsoft's intentions are actually good-- if they aren't just trying to hold on to their lock on formats for as long as they can-- why won't they support OpenDocument? The argument for Microsoft centers on their formats being just as good as OpenDocument. If they're just as good, then let's pick OpenDocument and avoid the risk that Microsoft may not have our best interests at heart.
 I'd love to hear a rebuttal to my argument on technical grounds. The only comparison of the two formats I know of is <a href="http://www.groklaw.net/article.php?story=20051125144611543">on Groklaw</a>, but I didn't think the article was so good. It didn't give me a good understanding the relative benefits of what the authors call "mixed" and "non-mixed" models for XML. It did make the good point that OpenDocument reuses other existing standards like SVG, while Microsoft does not.
 (I've been waiting for widespread SVG support for years; I can't believe that we still use the gd library for the creation of graphics programmatically when we could use SVG.)
-

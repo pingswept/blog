@@ -1,8 +1,9 @@
 ---
-date: 2005/05/16 00:00:00
+date: 2005-05-16T00:00:00.000Z
 format: markdown
 title: Installing Mediawiki-1.4.4 on Ubuntu Warty
 ---
+
 I installed Mediawiki, the software that runs Wikipedia, on an Ubuntu
 Warty machine yesterday. I issued an sudo -s command at the start so
 that I didn’t have to type sudo repeatedly.

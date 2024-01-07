@@ -1,8 +1,9 @@
 ---
-date: 2006/06/14 00:00:00
+date: 2006-06-14T00:00:00.000Z
 format: markdown
 title: The growing EU "soft balancing" against US preventive war doctrine?
 ---
+
 Fellow foreign policy zealot Marian's <a href="http://ruminationsandreflections.blogspot.com/2006/06/turkey-and-croatia-long-but-determined.html">post about the addition of Turkey to the European Union</a> overlapped with an article by Robert A. Pape in the Summer 2005 issue of International Security that I read this morning. Pape is a proponent of the "soft balancing" theory of international relations. In his words, "States balance when they take action intended to make it hard for strong states to use their military advantage against others. . . . Mechanisms of soft balancing include territorial denial, entangling diplomacy, economic strengthening, and signaling of resolve to participate in a balancing coalition." (<a href="http://www.mitpressjournals.org/toc/isec/30/1"><em>International Security</em> 30:1</a>, p. 36).
 
 As an example of soft balancing against the US, Pape cites Turkey's January 2003 refusal to allow the US to stage ground troops in Turkey in preparation for the March 2003 invasion of Iraq. Perhaps Turkey joining the EU would be a further example of soft balancing-- Europe wants to insulate itself against future economic shocks that could occur as a result of, for example, the US invading Iran, or Syria, or whomever British intelligence next erroneously identifies as hiding WMD (Australia, anyone? Bunch of criminals! How about Canada? Alcan found to be manufacturing 7075 T6 aluminum tubes?)

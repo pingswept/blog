@@ -1,8 +1,9 @@
 ---
-date: 2007/09/03 00:00:00
+date: 2007-09-03T00:00:00.000Z
 format: markdown
 title: Wind power in Massachusetts
 ---
+
 In a comment to my last post, Ben Harris suggests that I read <a href="http://capewindbook.typepad.com/blog/about_the_book/index.html">Cape Wind</a> by Williams and Whitcomb. I haven't read the book yet, but I did read up on Cape Wind.
 
 The <a href="http://www.climatecrisiscoalition.org/NYT-12-16-05.html">outcry against Cape Wind</a> is a travesty. It comes down to an unpleasant choice of how we get the energy we need. We have to satisfy our rising energy needs somehow. If you're opposed to using local energy sources to fulfill our energy needs, you have to be in favor of either reduction of our energy needs (which have been strictly increasing for all of recorded history) or getting the energy from somewhere else.

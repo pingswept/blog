@@ -1,8 +1,9 @@
 ---
+date: 2008-11-16T00:00:00.000Z
 format: markdown
-date: 2008/11/16 00:00:00
 title: FPGA programming
 ---
+
 After a little bit of work and screwing around with installers, I have programmed an FPGA for the first time. I wrote a short bit of Verilog that creates a 4-bit counter in a Xilinx Spartan 3A FPGA. Now, when I feed the FPGA a 50 MHz square wave on a certain pin, it counts the rising edges and outputs the count on 4 digital lines. Of course, it has to start over when it gets to 15.
 
 The oscilloscope screenshot below shows the two highest order bits counting up in binary in response to the input signal.

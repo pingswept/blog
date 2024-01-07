@@ -1,9 +1,10 @@
 ---
-date: 2009/06/28 00:00:00
+categories: engineering
+date: 2009-06-28T00:00:00.000Z
 format: markdown
 title: Anyone around Boston have some free/broken hedge trimmers?
-categories: engineering
 ---
+
 Greetings, fellow internet denizen! I am concocting a device that I call The Electric Lawn Mower That Doesn't Suck.
 
 I have an electric lawn mower that is large, heavy, almost as loud as a gas mower, and only works with a cord attached. I also have a reel mower that is pretty sweet, but it can't cut grass taller than approximately the radius of the blade cylinder, so it leaves stragglers.

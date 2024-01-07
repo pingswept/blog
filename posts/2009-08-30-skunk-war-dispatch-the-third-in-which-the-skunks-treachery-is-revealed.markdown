@@ -1,9 +1,10 @@
 ---
-date: 2009/08/30 00:00:00
+categories: skunks, trench warfare
+date: 2009-08-30T00:00:00.000Z
 format: markdown
 title: Skunk war dispatch the third, in which the skunk's treachery is revealed
-categories: skunks, trench warfare
 ---
+
 The wire mesh we installed at <a href="http://pingswept.org/2009/06/01/opening-salvo-in-the-great-skunk-war-of-2009/">the outset of the Great Skunk War of 2009</a> has proven impermeable to skunkenkind long enough that I decided to take the next step. The main reason that we didn't want skunks under our front porch was that the crawlspace under the porch extends under the bathroom off the kitchen. This leaves the pipes under the bathroom exposed to freezing temperatures in the winter, which is no good. I planned to install some sort of insulating barrier between space under the bathroom and the rest of the porch crawlspace, but I didn't want any offers of assistance or whatnot from any skunk who happened to be dwelling in the crawlspace at the time.
 
 I figured that if we blocked off the crawlspace with wire mesh, either the skunk wouldn't be able to get in, or he wouldn't be able to get out. After a few months of no skunk traffic, it would be safe to enter the crawlspace. "At least if I have to fight the skunk," I thought, "he'll be dead, which should give me enough of an edge to secure victory."

@@ -1,8 +1,9 @@
 ---
-date: 2006/02/12 00:00:00
+date: 2006-02-12T00:00:00.000Z
 format: markdown
 title: There is no A-list.
 ---
+
 [Doc Searls][1] and [Seth Finkelstein][2] have been discussing the hierarchy in the blogosphere. Doc Searls is claiming that, "<font color="black">the Internet blew away the porches of membership. You don't need to bark at a door you can just as easily walk around."</font> He's claiming that there are no gatekeepers regulating the popularity of blogs.
 
 Seth contends that when an A-lister slags a Z-lister, the Z-lister has no effective means of response.

@@ -1,8 +1,9 @@
 ---
-date: 2005/06/04 00:00:00
+date: 2005-06-04T00:00:00.000Z
 format: markdown
 title: And the wireless is working . . .
 ---
+
 After bungling around with wireless drivers, the wireless-tools package,<br />
 and Google for a few weeks, I had an interesting thought. I knew that a<br />
 guy named Carl in California had gotten his wireless working pretty<br />
@@ -16,5 +17,3 @@ card." I looked along the top row of function buttons. Hmm, what's that<br />
 little antenna graphic? I pressed  F1, and since then the wireless<br />
 has worked beautifully. I can even click the wireless on and off, and it<br />
 functions seamlessly-- no difficulties bringing the connection back up.<br />
-
-

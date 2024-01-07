@@ -1,8 +1,9 @@
 ---
-date: 2008/03/18 00:00:00
+date: 2008-03-18T00:00:00.000Z
 format: markdown
 title: From teaching high school to renewable energy engineering in less than 10 years
 ---
+
 <blockquote>"Ultimately, my goal is to work at a small engineering company developing alternative transportation technology-- projects like the solar car, but more practical."</blockquote>
 
 That was the first sentence of the second paragraph my graduate school application essay, submitted July 27, 1999.
@@ -16,4 +17,3 @@ Ten years from now? I hope that some of my efforts will have been successful. I 
 A more modest hope, given <a href="http://en.wikipedia.org/wiki/2007_subprime_mortgage_financial_crisis">the hullabaloo on Wall Street</a> this week, is that I'm not compelled to load up on handtools and firearms and head to the tropics before the Hard Times arrive.
 
 Gotta focus on "losing the apocalyptic mindset," in the words of a friend . . .
-

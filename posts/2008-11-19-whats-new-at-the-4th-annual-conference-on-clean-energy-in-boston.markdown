@@ -1,8 +1,9 @@
 ---
-date: 2008/11/19 00:00:00
+date: 2008-11-19T00:00:00.000Z
 format: markdown
 title: What's new at the 4th Annual Conference on Clean Energy in Boston
 ---
+
 I'm taking notes at the 4th Annual Conference on Clean Energy in Boston today; I figured I might as well share what I learn with the world.
 
 The Massachusetts Technology Collaborative has funded <a href="http://www.mtpvcorp.com/">MTPV</a>, a start-up in the Boston University Photonics Center, with $500k. (I think this is actually not news to the world, but it was news to me.) MTPV has an interesting technology. Their scheme is a variation on thermophotovoltaics (TPV). In conventional TPV, you put a very hot plate next to a solar cell. The cell absorbs the radiation coming off the plate, allowing you to get electricity from heat. Unfortunately, the efficiency is quite low. MTPV does the same thing, but with the hot plate ridiculously close to the solar cell. Their claim is that when the gap between the cell and the hot plate reaches the micron level (the M in MTPV is for micron), the efficiency increases dramatically, and they have some test data to prove it.

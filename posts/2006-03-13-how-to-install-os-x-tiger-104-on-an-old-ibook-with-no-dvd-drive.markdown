@@ -1,8 +1,9 @@
 ---
-date: 2006/03/13 00:00:00
+date: 2006-03-13T00:00:00.000Z
 format: markdown
 title: How to install OS X Tiger 10.4 on an old iBook with no DVD drive
 ---
+
 You need another Mac with a DVD drive. I'll call that the desktop, although it could be another iBook. Note that this is probably only worth doing if you've added 512 MB of RAM to your old iBook. Without extra RAM, Tiger runs painfully slowly.
 <ol>
 <li>Put the Tiger install DVD in the desktop. Restart it, and hold down the T key as it boots. Once you see a yellow firewire symbol on the screen, you can release the T key. You have just booted your desktop in what is called "target disk mode."</li>

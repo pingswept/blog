@@ -1,8 +1,9 @@
 ---
-date: 2008/06/25 00:00:00
+date: 2008-06-25T00:00:00.000Z
 format: markdown
 title: A matter of scale
 ---
+
 I am periodically accosted at parties when someone mentions to a friend that I work on renewable energy.
 
 <blockquote>"You there, always talking about renewable energy and solar cells and all that! Why haven't you solved this greenhouse problem yet?"</blockquote>

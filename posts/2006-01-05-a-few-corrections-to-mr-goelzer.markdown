@@ -1,8 +1,9 @@
 ---
-date: 2006/01/05 00:00:00
+date: 2006-01-05T00:00:00.000Z
 format: markdown
 title: A few corrections to Mr. Goelzer
 ---
+
 I am hesitant to go head-to-head with an <a href="http://goelzer.com/blog">A-lister like Goelzer</a>, but while I appreciate <a href="http://www.goelzer.com/blog/index.php/2006/01/05/brandon-stafford-citizen-journalist-par-excellence">his recent post complimenting my blog</a>, it had a few inaccuracies.
 
 I wouldn't say that Peter Quinn, the CIO (not CTO) of Massachusetts was forced to resign. He was harassed so much that he felt compelled to resign, but the decision was made to preserve the emotional well-being of him and his family. "Compelled" seems to me like a better description than "forced."

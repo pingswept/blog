@@ -1,9 +1,11 @@
 ---
-format: markdown
-date: 2009/06/15 00:00:00
-title: Least squares fit of a surface to a 3D cloud of points in Python (with ridiculous application)
 categories: estimation, mathematics, python
+date: 2009-06-15T00:00:00.000Z
+format: markdown
+title: Least squares fit of a surface to a 3D cloud of points in Python (with ridiculous
+  application)
 ---
+
 The floor in the room above the kitchen in our house has a floor that slopes almost 1 inch per foot for half of the room. Experimentally, we have found that this is steep enough to make a desk chair roll– kind of irritating, particularly to my special ladyfriend who happens to occupy such a chair in that zone.
 
 To compensate for the slope, I decided to fit a stack of masonite sheets to the curve of the floor. Unfortunately, the floor slopes nonlinearly in two directions, like the rounded corner of a swimming pool. After making a series of measurements of the floor, I decided to fit a polynomial in two variables to the cloud of points using a least squares estimate.

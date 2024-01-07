@@ -1,8 +1,9 @@
 ---
-date: 2005/10/30 00:00:00
+date: 2005-10-30T00:00:00.000Z
 format: markdown
-title: "Hiawatha Bray misunderstands Massachusetts' OpenDocument requirement"
+title: Hiawatha Bray misunderstands Massachusetts' OpenDocument requirement
 ---
+
 Boston Globe reporter Hiawatha Bray had <a href="http://www.boston.com/business/articles/2005/10/29/senators_question_file_storage_shift/">an article yesterday</a>, October 29, 2005, about <a href="http://www.mass.gov/portal/site/massgovportal/menuitem.59254d74c0e831c14db4a11030468a0c/?pageID=itdterminal&#38;L=4&#38;L0=Home&#38;L1=Policies%2c+Standards+%26+Legal&#38;L2=Open+Standards&#38;L3=Open+Formats&#38;sid=Aitd&#38;b=terminalcontent&#38;f=policies_standards_opendocformfaqs&#38;csid=Aitd">Massachusetts' proposed switch to OpenDocument</a>. He seems to misunderstand the whole point of the switch-- he writes as if Massachusetts has refused to use Microsoft Office, rather than refused to use Office's proprietary formats.
 The good news is that in our modern era of email, instead of just fuming, I can send him an email. It's probably questionable as to whether that actually changes anything. Maybe it's just a palliative measure used by the Globe to keep zealots like me from storming their offices. Anyway, here's the email I sent him.
 > Hello Mr. Bray,
@@ -19,4 +20,3 @@ In the meantime, Citizens Against Government Waste, a group based in Washington,
 > "'It is bad procurement policy for any state to unilaterally lock itself into one set of technologies,' CAGW President Tom Schatz said.  'Agencies should be able to accept bids from any company that can provide the desired product or service.'"
 The desired product or service is: an office suite that supports <a href="http://www.oasis-open.org/committees/tc_home.php?wg_abbrev=office">OpenDocument, a standard open format recognized by an international standards body</a>, ISO/IEC JTC1, the International Organization for Standardization International Electrotechnical Commission's Joint Technical Committee. The companies that can bid on this contract include: any company. If we stick with Microsoft's proprietary formats, the companies that can bid on this contract include: Microsoft. How is sticking with Microsoft not "unilaterally lock\[ing\] itself into one set of technologies"?
 And also, this just in: <a href="http://www.clever-age.com/references/interne-plugin-openoffice-pour-word-424.html">a company in France is working on a filter</a> that allows Microsoft Office to open OpenDocument files. According to <a href="http://blogs.zdnet.com/BTL/?p=2061">a post on Dan Farber's blog</a>, Microsoft CTO Ray Ozzie "attributed the tentativeness on ODF support in Office to resource allocation issues, mainly based on the user support demands that would crop up given that exporting to ODF won't have full fidelity with the Microsoft's own formats without some tweaking." The word for this is "<a href="http://infosecuritymag.techtarget.com/2003/jan/curmudgeon.shtml">whinging</a>."
-

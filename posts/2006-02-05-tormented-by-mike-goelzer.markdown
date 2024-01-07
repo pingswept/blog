@@ -1,8 +1,9 @@
 ---
-date: 2006/02/05 00:00:00
+date: 2006-02-05T00:00:00.000Z
 format: markdown
 title: Tormented by Mike Goelzer
 ---
+
 A recent exchange with Mike that he has posted on my blog against my will:
 <div style="padding-left: 20px; text-indent: -16px">From: **<span id="_user_mike@">Mike Goelzer</span>**</div>
 <div style="padding-left: 20px; text-indent: -16px">To: **<span id="_user_brandon.stafford@">Brandon Stafford </span>**</div>

@@ -1,9 +1,10 @@
 ---
-format: markdown
-date: 2010/04/29 00:00:00
-title: Liquid metal batteries
 categories: energy, engineering
+date: 2010-04-29T00:00:00.000Z
+format: markdown
+title: Liquid metal batteries
 ---
+
 I've recently started a contract at work for Professor Donald Sadoway's lab at MIT working on liquid metal batteries. I can't describe the details of the project I'm working on, but the research going on in the lab is quite interesting. The idea is to solve the problem of energy storage that accompanies all of our promising renewable energy solutions, like wind and solar. When the wind stops blowing or a cloud obscures the sun, the electrical grid still needs to supply energy to the world. If you only have a small amount of renewable power attached to your grid, you can just ignore the problem, but around 20% penetration, you get into trouble. Our best solution right now is either firing up natural gas turbines to cover the peak loads or pumping water up a hill when we have extra capacity so it can run down through a generator when we need it back.
 
 What we really need are massive, cheap, efficient batteries. The idea in the Sadoway lab is to make something like an aluminum refinery, but instead of just sinking huge amounts of electricity to extract aluminum, you set up a reversible reaction so you could get the electricity back later.

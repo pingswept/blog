@@ -1,8 +1,9 @@
 ---
-date: 2005/08/23 00:00:00
+date: 2005-08-23T00:00:00.000Z
 format: markdown
 title: Prius vs. Insight vs. biodiesel TDI
 ---
+
 I want to minimize the amount energy I'll use commuting back and forth between Boston and Maine. (Say, whatever happened to the railroad?) It's about 156 miles each way.
 The Insight is the smallest and probably the lightest car. I'd bet it's the most aerodynamic too. On the other hand, the Prius and the TDI are much more pleasant cars in their external appearance and interiors. Also, I can make free biodiesel at the foundation for which I'll be working.
 Emissions to worry about:<br />
@@ -50,4 +51,3 @@ Real world VW TDi results with typical dirty diesel, which is the norm everywher
 car________CO________HC_______NOx______CO2_______PM<br />
 Golf TDI__0.135____0.0267____0.627_____243______0.483</blockquote>
 Maybe I'll take the bus.
-

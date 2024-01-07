@@ -1,8 +1,9 @@
 ---
-date: 2006/04/22 00:00:00
+date: 2006-04-22T00:00:00.000Z
 format: markdown
-title: "Book review: Who Controls the Internet? by Goldsmith and Wu"
+title: 'Book review: Who Controls the Internet? by Goldsmith and Wu'
 ---
+
 Longtime readers of this site will be loath to discover another tedious book review of a soft technical book, but perhaps there are a few new readers who have some life left yet. Read on, unknowing vanguard of the newly alienated!
 
 Jack Goldsmith and Tim Wu, both law professors, wrote <em>Who Controls the Internet: Illusions of a Borderless World</em> (Oxford University Press, 226 pp., $28.00) to present their answer to the question of "whether the technological changes of the last decade . . . have had a lasting effect on how nations, and their peoples, govern themselves" (p. 180). They make a compelling case that the optimistic hope that the internet would erase national boundaries has been replaced by a reality of local control leveraged through governmental pressure on intermediaries, at least in the case of large multinational companies.

@@ -1,8 +1,9 @@
 ---
-date: 2008/07/20 00:00:00
+date: 2008-07-20T00:00:00.000Z
 format: markdown
 title: Tower of epic fail in Dubai
 ---
+
 A gentleman by the name of David Fisher has been getting some attention (examples: <a href="http://online.wsj.com/public/article/SB117625795099465923-WFaTx4FSsy1oW4x8lS4eK1518io_20070418.html">WSJ</a>, <a href="http://www.newyorker.com/talk/2008/07/21/080721ta_talk_goldberger/">New Yorker</a>, <a href="http://www.inhabitat.com/2007/05/16/david-fishers-twirling-wind-power-tower/">Inhabitat</a>)  by describing his design for a new building in Dubai. It would be best for the world if bad ideas like these were ignored and forgotten, but without some knowledge of engineering, it's not obvious that his ideas are bad.
 
 Fisher's tower is like a shish-kebab on a vertical skewer, where the skewer is an elevator shaft and the food are the apartments. Each apartment can rotate around the elevator shaft. This alone is perhaps impractical, or ugly, or dumb, but not impossible. If you could find a wealthy fool who wanted to build this, you could probably pull it off.

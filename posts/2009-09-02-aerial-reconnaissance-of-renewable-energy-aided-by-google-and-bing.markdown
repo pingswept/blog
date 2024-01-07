@@ -1,9 +1,10 @@
 ---
-format: markdown
-date: 2009/09/02 00:00:00
-title: Aerial reconnaissance of renewable energy, aided by Google and Bing
 categories: energy
+date: 2009-09-02T00:00:00.000Z
+format: markdown
+title: Aerial reconnaissance of renewable energy, aided by Google and Bing
 ---
+
 Here's a story for you, told through links to satellite imagery.
 
 In reading about concentrating solar thermal plants this morning, I learned of a copper electroplating operation in Chandler, AZ, that used 5500 m^2 of solar trough concentrators for process heat. Searching for <a href="http://maps.google.com/maps?q=copper%20electroplating%20chandler%20arizona">"copper electroplating chandler arizona"</a> on Google Maps yielded only one address actually in Chandler: Gould Electronics' foil division at 2929 W Chandler Blvd. I see a big lot with a lot of dirt and industrial stuff, but no solar thermal array.

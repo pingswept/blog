@@ -1,6 +1,7 @@
 ---
+date: 2005-02-07T00:00:00.000Z
 format: markdown
-date: 2005/02/07 00:00:00
 title: Mr. Gates
 ---
+
 From an <a href="http://service.spiegel.de/cache/international/spiegel/0,1518,340395,00.html">interview</a> with William Gates in Der Spiegel: "I am quite admired."

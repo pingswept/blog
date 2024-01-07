@@ -1,9 +1,10 @@
 ---
-format: markdown
-date: 2009/01/24 00:00:00
-title: Least squares polynomial fitting in Python
 categories: estimation, mathematics, python
+date: 2009-01-24T00:00:00.000Z
+format: markdown
+title: Least squares polynomial fitting in Python
 ---
+
 A few weeks ago at [work][1], in the course of reverse engineering a dissolved oxygen sensor calibration routine, [Jon][2] needed to fit a curve to measured data so he could calculate calibration values from sensor readings, or something like that. I don’t know how he did the fitting, but it got me thinking about least squares and mathematical modeling.
 
 The tools I’ve used for modeling (Matlab, Excel and the like) and the programming languages I’ve used for embedded systems (C and Python, mostly) are disjoint sets. Who wants to use Matlab for network programming, when you could use Python instead? Who wants to use C for calculating eigenvalues, when you could use Matlab instead? Generally, nobody.

@@ -1,9 +1,10 @@
 ---
-date: 2009/05/03 00:00:00
+categories: waste of time
+date: 2009-05-03T00:00:00.000Z
 format: markdown
 title: Homemade edging tool
-categories: waste of time
 ---
+
 Yesterday, I welded up an edging tool for making the grass along our sidewalk conform to my strict straightness requirements. I had been using it for 15 or 20 minutes before I realized that using an edging tool on your grass borders on the neurotic, and making your own edging tool is even weirder. But, I had already made it, and it came out pretty well, so here are some pictures.
 
 The handle and the blue steel yoke come from the failed <a href="http://www.acehardwaresuperstore.com/true-temper-rotary-edger-612-p-57874.html?ref=42">edger that I had</a>, which clogged with grass and dirt almost instantaneously.

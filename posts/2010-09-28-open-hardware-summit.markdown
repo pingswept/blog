@@ -1,6 +1,6 @@
 ---
 format: markdown
-date: 2010/09/28 00:00:00
+date: 2010-09-28T00:00:00Z
 title: Thoughts on the 2010 Open Hardware Summit
 draft: False
 categories: openhardware, embedded, rascal

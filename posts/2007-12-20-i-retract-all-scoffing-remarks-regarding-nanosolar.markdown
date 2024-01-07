@@ -1,8 +1,9 @@
 ---
-date: 2007/12/20 00:00:00
+date: 2007-12-20T00:00:00.000Z
 format: markdown
 title: I retract all scoffing remarks regarding Nanosolar
 ---
+
 Historically, I have spent a fair amount of time deriding Nanosolar for claiming that they would build a 430 MW/year solar cell factory by the end of 2007.
 
 On the one hand, they have only 10 days to prove me wrong. I don't think they will have ramped production up to 430 MW/year. On the other hand, they are shipping a thin film module created through a printing process. That alone is an impressive feat. They win the prize, soaring above the Aonian Mount, while pursuing things unattempted yet in prose or rhyme (well, maybe attempted in rhyme).

@@ -1,8 +1,8 @@
 ---
-format: markdown 
-date: 2010/01/03 00:00:00
-title: Sizing a gas boiler
 categories: heating, engineering, estimation, energy
+date: 2010-01-03T00:00:00.000Z
+format: markdown
+title: Sizing a gas boiler
 ---
 
 When you own a house, you are forced into bizarre contortions to reduce the cost of maintenance. For example, our roof needs to be replaced, but part of that is repairing the chimney. We don't *really* even need the chimney, because we don't have any fireplaces left-- they were all removed decades ago, well before we owned the house. But, until late this fall, when we installed a new boiler and water tank, we still needed a way to vent our ancient and inefficient gas boiler and water heater, or the basement would fill up with carbon dioxide and soot. We realized that if we replace those first, we can buy efficient systems that need only a plastic pipe through a basement wall to vent, rather than a chimney. Our heating cost would drop, and we could just toss the chimney in a dumpster, which is cheaper than repairing it, and need only be done once. Also, when we do replace the roof, we don't have to worry about finding someone with the skills to make a reliable flashing around the chimney.

@@ -1,9 +1,10 @@
 ---
-date: 2009/07/26 00:00:00
+categories: gumstix, linux, software
+date: 2009-07-26T00:00:00.000Z
 format: markdown
 title: Buildroot on the Gumstix Verdex XL6P
-categories: gumstix, linux, software
 ---
+
 Hello internet,
 
 Should you attempt to compile the <a href="http://buildroot.uclibc.org/">Buildroot toolchain</a> so you can build a new filesystem image for your <a href="http://gumstix.com">Gumstix</a> Verdex board, you will find that as of mid-2009, <a href="http://files.gumstix.com">files.gumstix.com</a> no longer hosts several of the files that you will need. However, you can find them elsewhere on the web.
@@ -88,4 +89,3 @@ mmc_block               6568  0
 mmc_core               22100  2 pxamci,mmc_block
 unix                   22292  18
 </pre>
-

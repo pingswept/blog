@@ -1,8 +1,9 @@
 ---
-date: 2006/01/14 00:00:00
+date: 2006-01-14T00:00:00.000Z
 format: markdown
 title: Immersed in BarCampNYC
 ---
+
 I flew down to New York this morning for BarCampNYC. We're all in the offices of a T-shirt company on the 9th floor of an office building on Broadway. As of 3:10 pm, there are 55 registrants, we've consumed roughly $300 of pizza, and we're almost out of nametags. I don't think I've seen so many weird laptop-carrying zealots in one place.
 
 There are four presentation areas: Conference, Kitchen, Dev Room, and /etc. The latter was added as an afterthought this morning as the first three rooms were filling up. The list of presentations is also <a href="http://barcamp.org/index.cgi?NYCPresentationTracks">on the wiki</a>.

@@ -1,8 +1,9 @@
 ---
-date: 2007/05/28 00:00:00
+date: 2007-05-28T00:00:00.000Z
 format: markdown
 title: Exavault rsync script
 ---
+
 The company I work for recently started using a service called <a href="http://exavault.com">Exavault</a> to back up our data. We have a server running Linux that logs into our NAS using ssh every night and rsyncs the data with a local directory. It also dumps our mediawiki database (well, used to-- we're using <a href="http://socialtext.net/open">Socialtext</a> now) and subversion repository.
 
 All of this data gets synchronized with Exavault's machines in Dublin, California.

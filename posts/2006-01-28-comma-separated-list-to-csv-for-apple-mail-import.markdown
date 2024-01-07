@@ -1,8 +1,9 @@
 ---
-date: 2006/01/28 00:00:00
+date: 2006-01-28T00:00:00.000Z
 format: markdown
 title: Comma separated list to .csv for Apple Mail import
 ---
+
 A handy command for turning a comma-separated list into a standard .csv file. I used this to convert old Eudora contacts files into a format that Apple's Mail could import.
 
 cat input.txt | tr ',' '\012' |sed s/^/,,/ > output.csv

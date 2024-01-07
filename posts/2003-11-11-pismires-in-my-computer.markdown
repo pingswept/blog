@@ -1,11 +1,10 @@
-
 ---
-date: 2003/11/11 00:00:00
 categories: Category 1
-date: 2003/11/11 00:00:00
+date: 2003-11-11T00:00:00.000Z
 format: markdown
 title: Pismires in my computer
 ---
+
 Tonight, I was attempting to add a CD-ROM drive to one of my computers, when made a horrifying discovery. My computer, which is near the window, was no longer secure (despite running OpenBSD). I found that a large number of ants had infiltrated my home, slipped across to the desk by way of an Ethernet cable, and were making themselves comfortable between the motherboard and the bottom of the case.
 
 I unplugged all the cables and carried the computer into the kitchen. As you can well imagine, I was worried that the pismires would escape to other regions of the house, e. g. my bed. We had an aerosol can of ant poison under the sink, so I cleared a spot on the kitchen floor and laid out a Ring of Death from which no emmet would escape.

@@ -1,8 +1,9 @@
 ---
-date: 2008/01/24 00:00:00
+date: 2008-01-24T00:00:00.000Z
 format: markdown
 title: The SL1 is out the door
 ---
+
 We finally released our first product at GreenMountain Engineering. I've been working for various different consulting firms (MindTribe, Ideo, and now GreenMountain) over the past few years, and this is the first time I've been involved in shipping a product that wasn't owned by someone else. I feel proud, and I didn't even do the hard part-- most of the development and testing took place in our San Francisco office.
 
 The product is the called the <a href="http://www.greenmountainengineering.com/greentools">Trac-stat SL1</a>. It's a ridiculously accurate sensor for measuring how closely your solar tracker is aimed at the sun. I think the spec is 0.02 degrees for the more accurate of the two sensors it contains.

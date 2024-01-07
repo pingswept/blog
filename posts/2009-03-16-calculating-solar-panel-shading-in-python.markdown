@@ -1,9 +1,10 @@
 ---
-date: 2009/03/16 00:00:00
+categories: mathematics, python, solar
+date: 2009-03-16T00:00:00.000Z
 format: markdown
 title: Calculating solar panel shading in Python
-categories: mathematics, python, solar
 ---
+
 Eventually, I'd like to install solar panels on our house, but I want to know that it will be worth it before I commit the money. Back in 2007, I wrote a <a href="http://pysolar.org/">library</a> for calculating the path of the sun given the time and your location on the earth. Since then, I've been thinking about the next step, which is calculating how much neighboring houses and trees would obstruct the sun at different times of the day. In a nutshell, I wanted to replicate the calculations performed by devices like the Solmetric <a href="http://www.solmetric.com/">Suneye</a> without paying $1500 for the device. To do the job right, I still need a quality circular fisheye lens ($680 new), but I've got a first approximation working with a <a href="http://www.mcmaster.com/#8406a12">$13 door peephole</a> from McMaster.
 
 (I do realize that I could just get a solar contractor to do all the site evaluation for me for free. That misses the point. If all I wanted was some sort of fiscal efficiency, I'd get a job as a financial executive or maybe something different from that, like a bank robber.)

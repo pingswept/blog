@@ -1,8 +1,9 @@
 ---
-date: 2006/02/17 00:00:00
+date: 2006-02-17T00:00:00.000Z
 format: markdown
 title: Doc Searls is not a gatekeeper.
 ---
+
 I know, I know, it's sooo <a href="http://sethf.com/infothought/blog/archives/000970.html">February 11th</a> to discuss the gatekeeper issue, but Z-listers such as myself don't spend all their time blogging.
 
 Seth Finkelstein <a href="http://pingswept.org/2006/02/12/there-is-no-a-list/#comments">responded</a> to my Stephen Kurkjian example my last post with this point, "You only have one such result because nobody with higher 'gatekeeperness' wants them - not because of any great ability to reply."

@@ -1,8 +1,9 @@
 ---
-date: 2006/02/18 00:00:00
+date: 2006-02-18T00:00:00.000Z
 format: markdown
-title: "Gatekeepers and you: the exciting third post"
+title: 'Gatekeepers and you: the exciting third post'
 ---
+
 Seth Finkelstein and an unknown vendor of Algerian scarves responded to <a href="http://pingswept.org/2006/02/17/doc-searls-is-not-a-gatekeeper">my last post</a> with a few counter-arguments.
 Seth claims that my comparison of the Boston Globe's letters section in 1995 to blogs today "exemplifies a tendency to talk-down all the avenues that do exist, but we know are ineffective in practice (going around to various other publications), and talk-up an avenue that’s favored, but also seems ineffective overall (random related Google searches)."
 

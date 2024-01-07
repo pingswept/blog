@@ -1,9 +1,10 @@
 ---
-date: 2009/09/13 00:00:00
+categories: energy, projects
+date: 2009-09-13T00:00:00.000Z
 format: markdown
 title: Building a green server
-categories: energy, projects
 ---
+
 Ever since a brief stint as a network administrator in 2005, I've admired the discipline of data backup with undeserved zeal. A little more than three years ago, I <a href="http://pingswept.org/2006/03/29/building-my-own-secure-mail-file-and-web-server/">decided</a> that I should probably build my own server as a data repository; it could also serve this blog, store my email, and so forth. At the behest of <a href="http://www.mwgaa.com/blog/">my friend Mike</a>, who once claimed that the massive data breach that Google will eventually suffer will be worse than September 11th, I also kicked my Gmail habit. (Mike has not kept up his end of the bargain, and still uses Yahoo Messenger. Also, he owes me a comic book about penguins.)
 
 Last spring, as we were getting ready to move to Somerville, I had accumulated most of a server, but I didn't really have a good place to put it. Now that we've moved, I have an insulated attic, a moderately dry basement, and most importantly a killer garage. If the house burns down, the data is safe in the garage!

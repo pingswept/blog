@@ -1,8 +1,9 @@
 ---
-date: 2007/07/22 00:00:00
+date: 2007-07-22T00:00:00.000Z
 format: markdown
 title: Python on the Gumstix Verdex
 ---
+
 Being both a <a href="http://en.wikipedia.org/wiki/Python_(programming_language)">Python</a> zealot and an embedded systems zealot, I've been looking for an embedded system that I can program in Python. Most of the embedded code <a href="http://greenmountainengineering.com">I write professionally</a> I write in C. Having learned Python a few years ago, I'm finding C increasingly painful, approximately in proportion to my facility with Python.
 
 Thus far, it seems that the <a href="http://gumstix.com">Gumstix</a> <a href="http://gumstix.com/store/catalog/product_info.php?cPath=27&products_id=178">Verdex</a> may be the answer I've been seeking. The Verdex is an embedded Linux board, about 1 inch by 3 inches, based around Marvell's (previously, Intel's) <a href="http://en.wikipedia.org/wiki/Xscale">XScale</a> PXA270, common in PDAs and cellphones. It uses around 1 W of power in its quiescent state (not suspended, but not at full processor load either).

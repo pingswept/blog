@@ -1,9 +1,10 @@
 ---
-date: 2009/07/26 00:00:00
+categories: energy, engineering
+date: 2009-07-26T00:00:00.000Z
 format: markdown
 title: Becoming a renewable energy engineer, part 2 (with videos)
-categories: energy, engineering
 ---
+
 I was invited to speak at Olin College a few months back as part of a seminar series about sustainability and engineering. The talk was indirectly inspired by <a href="http://pingswept.org/2008/12/29/becoming-a-renewable-energy-engineer/">my previous post</a> on the topic. (By the way, <a href="http://www.olin.edu/">Olin</a> is great. If I were going to engineering school now, I'd definitely apply to Olin.) The folks at Olin recorded the talk, and after some manipulations with <a href="http://mpgtx.sourceforge.net/">mpgtx</a>, it's now up on Youtube.
 
 The video is posted in 6 parts below. If I had to summarize in a few lines what I said, I'd say:

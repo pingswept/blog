@@ -1,8 +1,9 @@
 ---
+date: 2005-03-14T00:00:00.000Z
 format: markdown
-date: 2005/03/14 00:00:00
 title: UsefulProg 0.1
 ---
+
 As a documentation enthusiast, I find myself needing to change documents from one silly format to another on regular basis. Usually, I end up writing stupid Perl scripts to convert from one format to another, but I can never remember Perl syntax between efforts. I swear I've written the same text parsing code 4 times, and it hasn't gotten easier.
 
 In an effort to end this depressing cycle, I spent some time this afternoon learning a little wxPython to make what I call UsefulProg.  UsefulProg reads in a text file. You enter some regular expressions, and then it filters the file with those expressions. When you screw up (like I always do), you hit the reset button, and it erases your mistakes. When you get the filters working the way you want, you cut and paste the result into wherever you need it.

@@ -1,9 +1,13 @@
 ---
-date: 2007/08/13 00:00:00
+date: 2007-08-13T00:00:00.000Z
+excerpt: After <a href="http://www.nytimes.com/2007/08/13/nyregion/13power.html">a
+  New York Times article this morning</a>, <a href="http://fiveislandsorchard.wordpress.com/">Ben</a>
+  and I were hashing over the potential for successful tidal turbines (well, he was
+  ranting; I was hashing).
 format: markdown
 title: Tidal turbines in the East River facing fundamental limits
-excerpt: After <a href="http://www.nytimes.com/2007/08/13/nyregion/13power.html">a New York Times article this morning</a>, <a href="http://fiveislandsorchard.wordpress.com/">Ben</a> and I were hashing over the potential for successful tidal turbines (well, he was ranting; I was hashing).
 ---
+
 After <a href="http://www.nytimes.com/2007/08/13/nyregion/13power.html">a New York Times article this morning</a>, <a href="http://fiveislandsorchard.wordpress.com/">Ben</a> and I were hashing over the potential for successful tidal turbines (well, he was ranting; I was hashing).
 
 Ben pointed out quite astutely that the requirements for a tidal turbine are actually surprisingly similar to a requirements for a wind turbine. The power density of both situations are similar. Wind velocity at a prime turbine location is in the low 10's of mph, while tides are in the low single digits of mph. However, the power density scales with the cube of the velocity, to wind gains a factor of 1000 over water. This is roughly canceled by the ~800x difference in density between water and air.

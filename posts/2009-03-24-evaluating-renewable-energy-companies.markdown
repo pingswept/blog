@@ -1,9 +1,10 @@
 ---
-date: 2009/03/24 00:00:00
+categories: energy, engineering
+date: 2009-03-24T00:00:00.000Z
 format: markdown
 title: Evaluating renewable energy companies
-categories: energy, engineering
 ---
+
 As part of my job at <a href="http://greenmountainengineering.com">GreenMountain</a>, I work with a lot of renewable energy startups. As a result, my friends are constantly telling me about new startups that they're excited about. This often leads to a discussion of how I evaluate renewable energy companies. The companies that my friends think are on the way to the top are rarely the ones that I think will win, so I think I should try to explain myself.
 
 First off, my goal is to predict whether the company at hand will be able to produce huge amounts of energy from renewable sources at prices that rival fossil fuels. In most of the world, this is not currently possible-- fossil fuels are still cheap. There are regional exceptions, like residential solar power in ridiculously sunny places like the American southwest, but generally, no renewable energy company has yet succeeded.

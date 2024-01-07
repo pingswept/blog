@@ -1,8 +1,9 @@
 ---
-date: 2005/12/10 00:00:00
+date: 2005-12-10T00:00:00.000Z
 format: markdown
 title: Citizen journalists vs. the Boston Globe
 ---
+
 The Boston Globe, a subsidiary of the New York Times, published a <a href="http://www.boston.com/news/local/articles/2005/11/26/romney_administration_reviewing_trips_made_by_technology_chief/">shameful article</a> by Stephen Kurkjian about Massachusetts CIO Peter Quinn failing to provide detailed estimates about trips he took to conferences in 2004. The smoking gun of the article was: “He provided the name of the conferences he was attending, but only the total amount of money that the trip cost on three of them . . .” Before publication, the Globe failed to contact Quinn’s supervisor at the time, former Secretary of Administration and Finance Eric Kriss.
 
 Now, 14 days later, Kurkjian has <a href="http://www.boston.com/news/local/massachusetts/articles/2005/12/10/review_backs_trips_by_technology_chief/">published an article</a> that starts, “\[Peter Quinn\] did not violate conflict-of-interest standards or other rules when he took 12 out-of-state trips to attend conferences during the past year without obtaining the written approval of his boss . . .”

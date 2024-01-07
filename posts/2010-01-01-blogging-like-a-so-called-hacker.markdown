@@ -1,8 +1,8 @@
 ---
-format: markdown
-date: 2010/01/01 00:00:00
-title: Blogging like a so-called hacker
 categories: blogging, compilers, wordpress, ruby
+date: 2010-01-01T00:00:00.000Z
+format: markdown
+title: Blogging like a so-called hacker
 ---
 
 Back in the first decade of the 21st century, I used Wordpress to write this blog, at first running on a server in my garage, later hosted by Dreamhost. A few months ago, I ran across a [blog post by a Mr. Tom Preston-Werner][1] about [Jekyll][2], which is sort of a blog compiler he wrote in Ruby. This is an unusual idea, the blog compiler, but it appeals to irritating people like me who care about the architecture of the systems they use.

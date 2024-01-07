@@ -1,8 +1,8 @@
 ---
-format: markdown
-date: 2010/04/12 00:00:00
-title: Designing embedded systems with web frameworks
 categories: django, embedded electronics, engineering, geekery, linux, python, rascalmicro
+date: 2010-04-12T00:00:00.000Z
+format: markdown
+title: Designing embedded systems with web frameworks
 ---
 
 I have a prediction.

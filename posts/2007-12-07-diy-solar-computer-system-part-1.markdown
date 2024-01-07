@@ -1,8 +1,9 @@
 ---
-date: 2007/12/07 00:00:00
+date: 2007-12-07T00:00:00.000Z
 format: markdown
 title: DIY solar computer system, part 1
 ---
+
 Like a lot of semi-urban computer enthusiasts who plan on living for a few decades after the onset of global warming, I have a few computers that are always on, and I wish that I could find an economically viable way of reducing the emissions generated as a side effect of the power they require. Also, when the hard times come and grid power gets flaky or drops out entirely, it would make the local warlord happy if I could use a computer to calculate optimal irrigation ditch depths, or the like. (Note to self: learn to use abacus while leisure time still exists.)
 
 Typically, solar arrays in urban or suburban areas are tied by an inverter to the local power grid. Such inverters cost a few thousand dollars; they both allow excess power to be released to other consumers and enable the use of AC appliances without any modifications. I live in a rented property, so installing a large solar array on the roof with an inverter in the basement is not an option. But, maybe I could run a smaller array without an inverter for DC loads only.

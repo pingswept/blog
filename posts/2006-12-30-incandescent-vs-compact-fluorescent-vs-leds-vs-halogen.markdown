@@ -1,8 +1,9 @@
 ---
-date: 2006/12/30 00:00:00
+date: 2006-12-30T00:00:00.000Z
 format: markdown
 title: Incandescent vs. compact fluorescent vs. LEDs vs. halogen
 ---
+
 In 1996, I worked at <a href="http://chewonki.org">an environmental foundation on the coast of Maine</a> that was an early adopter of compact fluorescent bulbs. At the time, they were expensive, and they flickered when you turned them on. After a long winter of getting flickered at every time I turned on the light, I started avoiding compact fluorescent bulbs.
 
 Last week, one of my energy-zealot friends gave me a 1200 lumen compact fluorescent bulb after I commented on how quickly her CF lamp turned on.

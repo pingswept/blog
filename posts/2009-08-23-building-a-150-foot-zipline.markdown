@@ -1,9 +1,10 @@
 ---
-format: markdown
-date: 2009/08/23 00:00:00
-title: Building a 150 foot zipline
 categories: engineering, projects
+date: 2009-08-23T00:00:00.000Z
+format: markdown
+title: Building a 150 foot zipline
 ---
+
 My brother and his wife bought a house in Michigan a few months ago, and Sharon and I went out to visit them last weekend. The house is on a wooded lot a few miles outside of town. There are other houses that you can make out through the woods, but nobody really nearby. They probably own an acre or two of woods, and they abut a 15 acre park (which previously housed a privately-owned 1/3 scale steam railroad-- I'll save that for a later post).
 
 At some point, we were standing around in the yard when Ben pointed out an overgrown field about 30 yards through the woods. Ben had previously discovered steel posts that suggest the field was in fact a grass tennis court that hadn't been maintained for at least a decade. As soon as I saw the outline of the tennis court, I thought, "These weeds will be subdued by this man. I will burn fossil fuels in an age-old ritual: the subjugation of the wild to man's will."
