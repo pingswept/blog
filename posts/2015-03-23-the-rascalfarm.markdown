@@ -30,13 +30,13 @@ I cut the biscuit slots using a biscuit joiner in my basement. Each biscuit was 
 
 (Here are the slots with the biscuits inserted.)
 
-![two boards with biscuits inserted](/imgs/2015/02/rascalfarm-rev2-biscuits-2015-02-10.jpg)
+![two boards with biscuits inserted](/img/rascalfarm-rev2-biscuits-2015-02-10.jpg)
 
 The second revision was decent-- it took up less desk space, it was extremely rigid, and all the cables reached their targets. Unfortunately, the gaps in the joints annoyed me every time I looked at the Rascalfarm. The power wiring was also still messy.
 
 The second revision also let me test the Arduino and relay system for power cycling. I wired the relays so that they are normally closed, so if the Arduino hangs, the Rascals can keep running.
 
-![a wooden rack of Rascals](/imgs/2015/02/rascalfarm-rev2-2015-02-10.jpg)
+![a wooden rack of Rascals](/img/rascalfarm-rev2-2015-02-10.jpg)
 
 ### Revision 3: in which lasers are fired at acrylic
 
@@ -44,11 +44,11 @@ For the third revision, I switched to a hybrid wood-acrylic architecture. The di
 
 To make the slots in the shelves precise, I built a dado sled with a small steel pin pressed through its face. As each slot was cut, the pin fit snugly into the previous slot. This proved highly repeatable, so the slots were finally spaced properly. Here's the sled after I cut all the shelves. You can see the pin near the blade slot.
 
-![](/imgs/2015/02/rascalfarm-rev3-dado-sled-2015-02-11.jpg)
+![](/img/rascalfarm-rev3-dado-sled-2015-02-11.jpg)
 
 Here's the first shelf getting slotted.
 
-![](/imgs/2015/02/rascalfarm-rev3-dado-cutting-2015-02-11.jpg)
+![](/img/rascalfarm-rev3-dado-cutting-2015-02-11.jpg)
 
 Here's the final assembly. The socket head cap screws on the ends are threaded into threaded inserts; getting those positioned with their axes perpendicular to the board ends was difficult. Before insertion, I chamfered the holes so that the inserts wouldn't tear up the board surface as the first threads bit in.
 

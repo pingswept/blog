@@ -33,7 +33,7 @@ In 2015 and 2016, New American Public Art really started taking off. In the wint
 
 Finally, in 2016, I was offered a job at Tufts teaching freshman [how to make stuff](http://hwtmkstff.com). I had intended to keep selling Rascals and Precision Voltage Shields, but as I was preparing to teach the class this summer, I started getting support emails about a board that is electrically quite similar to the Precision Voltage Shield, but cheaper. (Maybe it's not electrically identical, as the Precision Voltage Shield works, and, at least from the emails I got, this one seems not to. On the other hand, their satisfied customers would not be emailing support.) This left me with a dilemma-- do I want to try to compete with the folks undercutting me or not?
 
-![](/imgs/2016/09/Screen-Shot-2016-09-05-at-5-17-36-PM.png)
+![](/img/Screen-Shot-2016-09-05-at-5-17-36-PM.png)
 
 [Ian MacKaye](https://en.wikipedia.org/wiki/Ian_MacKaye), a founder of Dischord Records, talks about how he wants to make the number of records that people want to buy. If 1000 people want a record, he wants to press 1000 copies, not 10,000 or 100. I feel the same way about my business. If the world demand for Precision Voltage Shields is sopped up by these boards from China, great. I have no interest in trying to flog the universe with advertising to get people to buy something from me. I'd rather find a new problem worth solving.
 
