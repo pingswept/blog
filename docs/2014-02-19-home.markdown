@@ -1,0 +1,28 @@
+---
+title: "home"
+slug: home
+author: Brandon Stafford
+lastmod: 2014-02-19T16:45:17.000Z
+date: 2014-02-19T16:44:26.000Z
+source: rascalmicro.com
+---
+What is the Rascal?
+The Rascal is a small computer that you can use to monitor and control the world remotely. It's like the brains of an iPhone, without the corporate overlord. The Rascal is powerful enough to handle real web traffic, but you don't have to be a professional electrical engineer to use one.
+
+The Rascal has its own web-based editor on board, it works with most Arduino shields, and you can program it in Python.
+
+Why do I need one?
+Maybe you played with legos or erector sets as a kid. Maybe you just got into hacking electronics recently. Either way, you're one of the pioneers of a new era. Instead of saying, "They should make one of those that connects to the internet," you do it yourself.
+
+You're part of the vanguard of internet gadgeteers, and it's already 2012! Get to work!
+
+How do I use the Rascal?
+At its heart, the Rascal is a web server. You can make web pages with buttons that trigger the hardware you plug in; you can also read data from sensors and graph the results in a web page. You can plug in some sensors directly, or you can use one of the hundreds of premade boards that work with the Rascal to do something more complex. Most Arduino shields work with the Rascal out of the box.
+
+How do I program the Rascal?
+The Rascal comes with Pytronics, a Python library of simple functions for reading sensors and talking to shields. For the web interface, you can copy and paste HTML from the examples on board. To make using Javascript easier, jQuery and the jQplot graphing plugin are preinstalled. The web interface uses Flask, a Python web framework that makes dreary stuff like authentication and timed events easier.
+
+100% open source
+The Rascal is built from the ground up with open source technologies. The hardware design, created by Brandon Stafford of Rascal Micro, is available to you for free under a Creative Commons license. The software consists of the Linux kernel, the GNU tools, and a host of higher level languages and tools, all available under various free licenses. The Rascal source code is on Github, and all the hardware sources are posted on the sources page.
+
+Next, take a look at the tutorials page to see all the cool stuff you can build with the Rascal!

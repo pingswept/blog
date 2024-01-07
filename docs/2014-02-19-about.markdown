@@ -1,0 +1,46 @@
+---
+title: "about"
+slug: about
+author: Brandon Stafford
+lastmod: 2016-09-05T20:47:32.000Z
+date: 2014-02-19T16:50:37.000Z
+source: rascalmicro.com
+---
+### The Rascal is a small computer for art and science. ###
+
+<img src="/img/rascal-iso-cropped.jpg">
+
+The Rascal is a small, open source computer that works with Arduino shields. Inside, it runs Linux, and you can program it in Python. The Rascal comes with a web-based editor and lots of examples that you can modify to make whatever you want.
+
+Let's say that again in a list.
+
+ * Open source computer that works with Arduino shields
+ * Programmable in Python
+ * Serves webpages
+ * Web server includes an editor
+
+If you're an artist or scientist who needs a little more horsepower than the Arduino can provide, and you like the idea of hacking up web pages to make your own interface, the Rascal is for you.
+
+### Brandon Stafford makes the Rascal. ###
+
+![](/imgs/2016/09/brandon-stafford-2016-04-11-small.jpg)
+
+The Rascal is the work of Brandon Stafford, an engineer who lives in Somerville, Massachusetts, USA. Brandon grew up north of Boston and spent a lot of time building tree forts and skateboard ramps as an adolescent. After a degree in English and a few years of teaching high school math, Brandon went to grad school in mechanical engineering.
+
+Since grad school, Brandon has worked at the Stanford Robotics Lab, MindTribe Product Engineering, IDEO, and as a consultant for various renewable energy startups.
+
+### Contact information ###
+Email Brandon: brandon at rascalmicro.com.
+
+Send a postcard: 57 Chandler Street, Somerville, MA 02144 USA
+
+On weekdays, he lurks at his space in [Artisan's Asylum][3].
+
+### More fun available ###
+Take a look at the [tutorials][1].
+
+Read the [blog][2].
+
+[1]: /docs/
+[2]: /blog/
+[3]: http://artisansasylum.com
