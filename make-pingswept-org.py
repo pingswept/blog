@@ -106,13 +106,17 @@ def writeMultiPostPage(index, filenames):
             outfile.write('<article class="prose mx-auto"><h2>{0}</h2>'.format(p['title']))
             outfile.write(html.decode('utf-8'))
             outfile.write('</article>')
-    outfile.write('<a href="/page/{0}.html">older posts</a>'.format(index - 1))
-    outfile.write('<a href="/page/{0}.html">newer posts</a>'.format(index + 1))
+    if any('1997' in n for n in filenames):
+        pass
+    else:
+        outfile.write('<a href="/page/{0}.html">older posts</a>'.format(index + 1))
+    if(index > 0):
+        outfile.write('<a href="/page/{0}.html">newer posts</a>'.format(index - 1))
     outfile.write('</body>\n</html>')
 
 def writeMultiposts():
     posts = sorted(filter(isPage, postlist))
-    chunks = [posts[x:x+POSTS_PER_PAGE] for x in range(0, len(posts), POSTS_PER_PAGE)]
+    chunks = reversed([posts[x:x+POSTS_PER_PAGE] for x in range(0, len(posts), POSTS_PER_PAGE)])
     for idx, chunk in enumerate(chunks):
         writeMultiPostPage(idx, chunk)    
 

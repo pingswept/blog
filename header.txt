@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>pingswept.org</title>
+    <title>.:pingswept.org:.</title>
     <meta charset="utf-8">
     <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
 </head>
