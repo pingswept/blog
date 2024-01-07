@@ -10,7 +10,8 @@ In an effort to end this depressing cycle, I spent some time this afternoon lear
 
 Here's the code under a GPL license. It's based on an example from the wxPython documentation.
 
-$$code(lang=python)
+'''
+(lang=python)
 from wxPython.wx import *
 import os
 import re
@@ -99,4 +100,5 @@ frame = wxFrame(None, -1,\" UsefulProgPRO\",(100,100),(1100,800))
 Form1(frame,-1)
 frame.Show(1)
 app.MainLoop()
-$$/code
+
+'''

@@ -10,7 +10,7 @@ All of this data gets synchronized with Exavault's machines in Dublin, Californi
 
 This has been running with no known problems for about six months. Below are the bash scripts I wrote to do the synchronization.
 
-$$code(lang=bash)
+'''(lang=bash)
 LOGFILE=/var/log/GME_backup/GME_backups.log
 echo "Syncing chemp to Exavault, starting $(date +%FT%T)" >> $LOGFILE
 echo "Dumping wiki database" >> $LOGFILE
@@ -30,15 +30,16 @@ rsync -av --exclude-from=no_backup.txt --progress /home/brandon/wiki_backup/ gre
 rsync -av --exclude-from=no_backup.txt --progress /var/www/wiki/ greenmountain@greenmountain.exavault.com:backup-wiki/ >> $LOGFILE
 echo "Finished at $(date +%FT%T)" >> $LOGFILE
 echo "----------------***-------------------" >> $LOGFILE</pre>
-$$/code
+'''
 
 The other script:
 
-$$code(lang=bash)
+'''(lang=bash)
 #!/bin/bash
 LOGFILE=/var/log/GME_backup/GME_backups.log
 echo "Syncing Q to Chemp, starting $(date +%FT%T)" >> $LOGFILE
 rsync -a --exclude-from=no_backup.txt --progress root@192.168.2.4:/raid/WeatherPhenom/  /home/brandon/Q_backup/ >> $LOGFILE
 echo "Finished at $(date +%FT%T)" >> $LOGFILE
 echo "---------------------------------" >> $LOGFILE</pre>
-$$/code
+
+'''

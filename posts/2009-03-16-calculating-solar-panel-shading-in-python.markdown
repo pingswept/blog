@@ -21,7 +21,7 @@ Using the Python Imaging Library, I cropped the photo to be square and switched 
 
 Here's the straightening code. The guts are in the nested for loops near the end. (If there are any Pythonistas out there who know how to iterate over concentric rings using a list comprehension or map(), please let me know. The code below is functional and reasonable clear, but a little slow.)
 
-$$code(lang=python)
+'''(lang=python)
 # Code under GPLv3; see pysolar.org for complete version.
 def despherifyImage(im):
     (width, height) = im.size
@@ -37,7 +37,8 @@ def despherifyImage(im):
             (outx, outy) = (width - width * (theta/full_circle) - 1, r)
             outpix[outx, outy] = inpix[inx, iny]
     return out
-$$/code
+
+'''
 
 The straightening works pretty well, but there is a little distortion that I think is caused by the peephole not being a perfectly spherical lens. Also, because the peephole is not centered on the camera lens, my concentric ring transformation isn't centered either.
 
@@ -47,7 +48,8 @@ From here, I needed to figure out where the sky ends and the buildings or trees 
 
 Here's the finite difference code.
 
-$$code(lang=python)
+'''
+(lang=python)
 # Code under GPLv3; see pysolar.org for complete version.
 def differentiateImageColumns(im):
     (width, height) = im.size
@@ -56,7 +58,8 @@ def differentiateImageColumns(im):
         for y in range(height - 1):
             pix[x, y] = min(10 * abs(pix[x, y] - pix[x, y + 1]), 255)
     return im
-$$/code
+
+'''
 
 The last step is to scan down each column looking for the first large value. The first change that crosses a threshold is recorded. The final output is an array of values that measure the angle of the highest obstruction as a function of direction. As a sanity check, I drop a red dot on each value. It's hard to make out in the thumbnail below, but if you click on the image below, you'll get a larger version where you can see the red dots work pretty well.
 
@@ -66,7 +69,8 @@ I think the next step will be to calculate the total energy delivered per year u
 
 Here's the full code.
 
-$$code(lang=python)
+'''
+(lang=python)
 # Code under GPLv3; see pysolar.org for complete version.
 from PIL import Image
 from math import *
@@ -120,4 +124,5 @@ d = differentiateImageColumns(lin).convert("RGB")
 r = redlineImage(d)
 
 r.show()
-$$/code
+
+'''

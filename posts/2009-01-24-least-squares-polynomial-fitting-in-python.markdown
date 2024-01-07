@@ -77,7 +77,7 @@ Python code
 
 Let’s suppose that we have some data that looks like a noisy parabola, and we want to fit a polynomial of degree 5 to it. (I chose 5 randomly; it’s a stupid choice. More on selection of polynomial degree in another post.)
 
-$$code(lang=python)
+'''(lang=python)
 import numpy as np
 import scipy as sp
 import matplotlib.pyplot as plt
@@ -89,11 +89,12 @@ t = np.linspace(0,100,200)
 parabola = t**2
 noise = np.random.normal(0,300,200)
 y = parabola + noise
-$$/code
+'''
 
 So now we have some fake data– an array of times and an array of noisy sensor readings. Next, we form the Vandermonde matrix and find an approximate solution for x. Note that numpy.linalg.lstsq() returns a tuple; we’re really only interested in the first element, which is the array of coefficients.
 
-$$code(lang=python)
+'''
+(lang=python)
 # form the Vandermonde matrix
 A = np.vander(t, degree)
  
@@ -102,7 +103,8 @@ A = np.vander(t, degree)
  
 # create a polynomial using coefficients
 f = np.poly1d(coeffs)
-$$/code
+
+'''
 
 Three lines of code later, we have a solution!
 
@@ -110,7 +112,8 @@ I could have also used numpy.polyfit() in place of numpy.linalg.lstsq(), but the
 
 Now we’ll plot the data and the fitted curve to see if the function actually works!
 
-$$code(lang=python)
+'''
+(lang=python)
 # for plot, estimate y for each observation time
 y_est = f(t)
  
@@ -121,7 +124,8 @@ plt.xlabel('time')
 plt.ylabel('sensor readings')
 plt.title('least squares fit of degree 5')
 plt.savefig('sample.png')
-$$/code
+
+'''
 
 ![Least squares fit of a noisy parabola](http://pingswept.org/img/sample.png)
 
