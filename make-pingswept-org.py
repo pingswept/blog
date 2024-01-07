@@ -149,7 +149,6 @@ def processPosts():
 
 if __name__ == '__main__':
     createOutputDirectory()
-    writeIndex()
     processPages()
     processPosts()
     writeSidebar()
