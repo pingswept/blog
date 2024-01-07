@@ -13,7 +13,7 @@ It's not kind on bandwidth, as it makes you download all your images, but it's s
 
 ## The code ##
 
-'''
+```
 (lang=html+php)
 <!DOCTYPE html>
 <html>
@@ -47,7 +47,7 @@ It's not kind on bandwidth, as it makes you download all your images, but it's s
     </body>
 </html>
 
-'''
+```
 
 [1]: http://pingswept.org/2010/04/12/designing-embedded-systems-with-web-frameworks/
 [2]: http://pingswept.org/2010/01/01/blogging-like-a-so-called-hacker/

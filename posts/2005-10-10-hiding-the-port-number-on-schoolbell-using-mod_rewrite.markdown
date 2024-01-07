@@ -7,11 +7,11 @@ title: Hiding the port number on SchoolBell using mod_rewrite
 I've just set up the Shuttleworth Foundation's slick little calendar server, SchoolBell. It runs on port 7180 by default, but I didn't want to my colleagues (that's what you call everyone else if you work at a school) to have to remember that. Digging around in the README file for a related program, SchoolTool, I found a suggestion that mod_rewrite would help me out.
 In the end, this worked on Ubuntu 5.10, Breezy Badger:
 
-'''(lang=apache)
+```(lang=apache)
     ServerName calendar.chewonki.org
     RewriteEngine On
     RewriteRule ^/(.*) http://calendar.chewonki.org:7180
-'''
+```
 
 Note that I'm mapping most of our hosts (like "calendar") using our internal DNS server, so all you wandering internet folks can't resolve the URLs above. I also had to enable the mod_rewrite module with the a2enmod command.
 
