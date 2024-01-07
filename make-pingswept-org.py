@@ -92,7 +92,10 @@ def writeIndex():
     outfile.write('</body>\n</html>')
 
 def writeMultiPostPage(index, filenames):
-    filepath = 'output/page/{0}.html'.format(index)
+    if(index == 0):
+        filepath = 'output/index.html'
+    else:
+        filepath = 'output/page/{0}.html'.format(index)
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
     outfile = open(filepath, 'w')
     outfile.write(header)
@@ -106,12 +109,15 @@ def writeMultiPostPage(index, filenames):
             outfile.write('<article class="prose mx-auto"><h2>{0}</h2>'.format(p['title']))
             outfile.write(html.decode('utf-8'))
             outfile.write('</article>')
-    if any('1997' in n for n in filenames):
+    if any('1997' in n for n in filenames): # dumb hack to omit "older posts" from oldest page
         pass
     else:
         outfile.write('<a href="/page/{0}.html">older posts</a>'.format(index + 1))
     if(index > 0):
-        outfile.write('<a href="/page/{0}.html">newer posts</a>'.format(index - 1))
+        if(index == 1):
+            outfile.write('<a href="/index.html">newer posts</a>'
+        else:
+            outfile.write('<a href="/page/{0}.html">newer posts</a>'.format(index - 1))
     outfile.write('</body>\n</html>')
 
 def writeMultiposts():
