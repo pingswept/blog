@@ -16,7 +16,7 @@ There's been radio silence over here at Rascal Micro headquarters for the last f
 
 Anyway, due to said havoc, I'll get to the point. The first revision of the Rascal 2 is done. Unfortunately, I accidentally rotated two of the connectors by 180 degrees, so when the system is plugged together, the power supply is shorted.
 
-![](https://farm3.staticflickr.com/2941/15428398071_98074f50e1_b.jpg)
+![](/img/rascal2-prototype-bottom.jpg)
 
 The picture above just shows one Rascal 2 PCB with the Rascal 2 brain (a Beaglebone Black loaded with the Rascal software) plugged underneath. There is still another PCB, yet to be designed, that will live under the brain and provide the Arduino headers familiar from the original Rascal.
 
