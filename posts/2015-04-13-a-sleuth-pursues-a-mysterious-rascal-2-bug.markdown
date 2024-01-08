@@ -52,7 +52,7 @@ I switch to Z3r0's power supply, and the damn thing starts working again, so now
 
 Here's what's going wrong:
 
-![](https://farm8.staticflickr.com/7609/17109803772_2a195b67da_z_d.jpg)
+![](/img/rascalfarm-voltage-sag.jpg)
 
 When I boost the power supply up to 5.5 V to compensate for the sagging, everything starts working.
 
