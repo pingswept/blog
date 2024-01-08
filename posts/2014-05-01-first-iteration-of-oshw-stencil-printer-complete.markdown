@@ -10,11 +10,11 @@ source: rascalmicro.com
 
 After a couple of failed mechanism designs, the first working iteration of my open source hardware stencil printer is complete. The stage can adjust the PCB position in X, Y and rotation while allowing no detectable backlash. Here's the system with the frame and PCB in place.
 
-![](https://farm8.staticflickr.com/7406/14068029214_54d5e4596d_c.jpg)
+![](/img/stencil-printer-prototype.jpg)
 
 Here's a close-up of the stencil lining up with the pads of the PCB. You'll notice that very little of the red PCB is visible, which is a good sign, as it means that when I squeegee solder paste through the stencil, it will land on pads rather than the bordering regions of PCB.
 
-![](https://farm8.staticflickr.com/7194/14044454166_c65d304d93_c.jpg)
+![](/img/stencil-for-stencil-printer.jpg)
 
 ### What went right ###
 
@@ -24,7 +24,7 @@ The rotation mechanism was similar, but instead of two sliding dowel pins, it us
 
 Here's a diagram of the mechanisms.
 
-![](/imgs/2014/May/stencil-printer-mechanisms-800px.jpg)
+![](/img/stencil-printer-mechanisms-800px.jpg)
 
 The hinge that holds the stencil clamp used a ground 3/8" shaft that connected bearings in pillow blocks to shaft mounts. I was not able to detect play between the bearings and the shaft.
 
@@ -46,7 +46,7 @@ Plenty went wrong with this iteration. Here's a list, plus a few ideas about wha
 
 * The 3D-printed flexures that guide the stages worked, but I fear they won't be durable. One of them cracked while I was playing with it. Their deflection range is barely adequate, and I suspect they will creep over time. I made a revised version that uses a spring-loaded plunger. The springs are the same as those used on the stage slides. Here's the improved version (also 3D-printed).
 
-![](https://farm3.staticflickr.com/2939/14096697523_ba6a408957.jpg)
+![](/img/stencil-printer-plunger.jpg)
 
 ### What happens next ###
 
