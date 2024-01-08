@@ -15,7 +15,7 @@ I got the Fadecandy working with BBB as a preliminary test a few months ago. The
 
 Time to call on un1tz3r0.
 
-![](https://farm4.staticflickr.com/3305/3178893768_c60ae8f519_z_d.jpg)
+![](/img/un1tz3r0-victor-condino.jpg)
 
 I head over to un1tz3r0's sublair, inside Blake's secret lair. (Here's Blake's lair during the construction of the [Penrose Triangle](http://penrosetriangle.com/wordpress/) in 2013.)
 
