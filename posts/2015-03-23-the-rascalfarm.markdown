@@ -54,7 +54,7 @@ Here's the final assembly. The socket head cap screws on the ends are threaded i
 
 I also added a vintage analog current meter, so I could tell at a glance that the Rascals were cranking (each board uses around 0.250 mA).
 
-![](https://farm8.staticflickr.com/7625/16284368324_2e69ff9fcf_b_d.jpg)
+![](/img/rascalfarm-with-analog-meter.jpg)
 
 ### Preliminary kernel test results ###
 
