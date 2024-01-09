@@ -8,7 +8,7 @@ After a little bit of work and screwing around with installers, I have programme
 
 The oscilloscope screenshot below shows the two highest order bits counting up in binary in response to the input signal.
 
-<a href="http://pingswept.org/images/2008/fpga_counter.png"><img src="http://pingswept.org/images/2008/fpga_counter-300x212.png" alt="Counting at 6.25 MHz" title="fpga_counter" width="300" height="212" class="size-medium" /></a>
+<a href="/img/fpga_counter.png"><img src="/img/fpga_counter-300x212.png" alt="Counting at 6.25 MHz" title="fpga_counter" width="300" height="212" class="size-medium" /></a>
 
 This may seem like a stupid way to spend your time-- who needs a 4-bit counter? You may be right.
 

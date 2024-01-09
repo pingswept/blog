@@ -13,9 +13,9 @@ Switch over to Bing.com/maps for their orthographic "bird's eye" imagery, and <a
 
 [A search for "gould electronics solar thermal"](http://www.google.com/search?q=gould+electronics+solar+thermal) provides [a link to a 1993 paper from NREL](http://www.bld-specialists.com/documents/Gould_sm.pdf) that discusses the operation of the plant over the course of 10 years. The NREL paper has a picture that shows the array. But why can't I see that in the aerial shots?
 
-![Screenshot-Gould Electronics solar thermal from NREL paper](http://pingswept.org/images/2009/Screenshot-Gould-Electronics-solar-thermal-from-NREL-paper-300x240.png)
+![Screenshot-Gould Electronics solar thermal from NREL paper](/img/Screenshot-Gould-Electronics-solar-thermal-from-NREL-paper-300x240.png)
 
-[Larger version](http://pingswept.org/images/2009/Screenshot-Gould-Electronics-solar-thermal-from-NREL-paper.png)
+[Larger version](/img/Screenshot-Gould-Electronics-solar-thermal-from-NREL-paper.png)
 
 Change to the aerial view, and we have a surprise-- <a href="http://www.bing.com/maps/default.aspx?v=2&FORM=LMLTCP&cp=33.304208~-111.890924&style=h&lvl=18&tilt=-90&dir=0&alt=-1000&phx=0&phy=0&phscl=1&encType=1">the building is gone!</a> It's strange that Bing has images from two different times, but I suppose some of the images have to be older than others, and there's no point in trying to synchronize them, given how slowly buildings and roads change.
 
