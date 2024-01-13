@@ -32,7 +32,7 @@ h is around 10 feet, and g is 32 ft/s^2. This means that roughly
 
 I went to sleep thinking that a zipline where you landed at a 25 ft/s sprint was about as dangerous as I wanted.
 
-<a href="http://www.flickr.com/photos/pingswept/3847486590/" title="The zipline site, looking back up the hill by Brandon Stafford, on Flickr"><img src="http://farm3.static.flickr.com/2620/3847486590_65568b77cc.jpg" width="375" height="500" alt="The zipline site, looking back up the hill" /></a>
+<img src="/img/zipline-site.jpg" width="375" height="500" alt="The zipline site, looking back up the hill" />
 **The zipline site, looking up the hill**
 
 The next day, we went to Home Depot and picked up 200 feet of 7x19 1/4" steel cable, a 24" piece of schedule 40, 1" PVC pipe, and some cable clamps. A little internet research suggested that REI might have some cheap pulleys that could bear the load. They didn't have exactly the pulleys we were hoping for, but we found some that were good enough. We also got two carabiners. The advertised breaking strength of everything involved was at least 2000 lbs, more than 10x the weight of the heaviest rider. (I was expecting the cable to be slightly slack, so I wasn't worried about the 1/sin force amplifying effect if the cable were taut.) 
@@ -43,7 +43,7 @@ The next day, we went to Home Depot and picked up 200 feet of 7x19 1/4" steel ca
 
 In the afternoon, we laid out the cable. We didn't have any good way of tightening the cable other than Ben pulling on it as hard as he could while I clamped down the fittings real quick-like, but the terrain was such that a slightly slack line worked great. You skim about 2 feet off the ground most of the way, before running to a stop as you intersect the flat tennis court. (The videos below suggest an alternative "crash-and-burn" method of landing, but we were going for distance then. It's relatively easy to land on your feet if you do it when the cable is at shoulder height. Cable at thigh height-- not so much.)
 
-<a href="http://www.flickr.com/photos/pingswept/3846704699/" title="Zipline trolley closeup by Brandon Stafford, on Flickr"><img src="http://farm4.static.flickr.com/3462/3846704699_6206de6374.jpg" width="500" height="375" alt="Zipline trolley closeup" /></a>
+<img src="/img/zipline-trolley-closeup.jpg" width="500" height="375" alt="Zipline trolley closeup" />
 **The trolley**
 
 The pipe-trolley forcing alignment with the cable worked well; I think a trapeze mounted at a single point would make it harder to launch and land safely. After a few runs, I noticed that the axles in the pulleys were too hot to touch, due to the friction from the nylon sheaves. That was mitigated with a few squirts of <a href="http://www.boeshield.com/">Boeshield T-9</a>, everyone's favorite waxy lubricant. In the future, if the zipline proves popular, we might raise the start a foot or two and switch to a Petzl "Tandem Speed" pulley, which has ball bearings instead of a nylon sheave riding on a fixed axle. There's also talk of adding a slip-n-slide in the landing zone.
@@ -52,7 +52,7 @@ I knew that the zipline was a success when my brother's wife went out and rode i
 
 Videos and more photos below.
 
-<a href="http://www.flickr.com/photos/pingswept/3847492636/" title="Sarah rides the zipline by Brandon Stafford, on Flickr"><img src="http://farm3.static.flickr.com/2513/3847492636_3b92f50d66.jpg" width="375" height="500" alt="Sarah rides the zipline" /></a>
+<img src="/img/sarah-rides-the-zipline.jpg" width="375" height="500" alt="Sarah rides the zipline" /></a>
 
 <img src="/img/ben-zipline-method-air.jpg" width="375" height="500" alt="Ben, method air on the zipline" />
 
