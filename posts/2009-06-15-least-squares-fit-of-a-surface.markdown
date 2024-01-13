@@ -107,7 +107,7 @@ Armed with my list of measurements, I headed to the garage and set up some sawho
 
 *Level and gleeful*
 
-<img src="/sharon-level-and-gleeful.jpg" width="500" height="375" alt="Level and gleeful" /></a>
+<img src="/img/sharon-level-and-gleeful.jpg" width="500" height="375" alt="Level and gleeful" />
 
 *Side view of the masonite platform*
 
