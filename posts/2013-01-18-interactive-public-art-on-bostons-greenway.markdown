@@ -29,7 +29,7 @@ The Rascal hosts its own code editor and web framework, based around [CodeMirror
 
 When a message arrives, the Rascal looks it up in a dictionary of colors. (The first ~200 colors or so came from the Python webcolors library, but we added more since then, along with some easter eggs.) If the color can't be found in the dictionary, the Rascal picks a show to run at random. Once a show is selected, the Rascal uses the RS-232 shield plugged into it to talk to the Color Kinetics iPlayer, which talks to the light fixtures using DMX.
 
-```language-python
+```python
 @public.route('/sms', methods=['POST'])
 def control_lights():
     d = {'airforceblue': '11',
