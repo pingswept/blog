@@ -1,4 +1,4 @@
----
+![another-side-view-of-the-masonite-platform_3631431316_o](https://github.com/pingswept/blog/assets/1875/606c61d9-615d-4586-844b-fd1db1dd6cec)---
 categories: estimation, mathematics, python
 date: 2009-06-15T00:00:00.000Z
 format: markdown
@@ -12,7 +12,7 @@ To compensate for the slope, I decided to fit a stack of masonite sheets to the 
 
 (In retrospect, the floor was close enough to singly-curved that I could have gotten away with a linear fit.) The blue thing in the picture is a level. I shimmed the level until it was worthy of its name, and then measured the distance to the floor with calipers.
 
-<a href="http://www.flickr.com/photos/pingswept/3453390885/"><img src="http://farm4.static.flickr.com/3603/3453390885_4727c27c5f.jpg" width="500" height="375" alt="Estimating the flatness of the floor" /></a>
+<img src="/img/estimating-floor-flatness.jpg" width="500" height="375" alt="Estimating the flatness of the floor" />
 
 **Estimating the flatness of the floor**
 
@@ -45,11 +45,11 @@ we want the final output to look like this:
 (Spike Curtis astutely notes in the comments that I am omitting the cross terms, such as xy, and refers us to a Matlab script. Spike is right, but the floor’s already fixed.)
 
 We can use two Vandermonde matrices next to each other.
-![Vandermonde ab equals z](http://pingswept.org/images/equations/vandermonde_ab_equals_z.png)
+![Vandermonde ab equals z](/img/equations/vandermonde_ab_equals_z.png)
 
 Here’s the Python code that creates the two Vandermonde matrices and joins them into one matrix. x, y, and z are lists of corresponding coordinates, so, for example, x\[5\], y\[5\] and z\[5\] are the coordinates of one point that the surface should approximate. The order of the points is not important.
 
-```(lang=python)
+```python
 
     import numpy as np
      
@@ -83,8 +83,7 @@ Once I knew the coefficients of the polynomial approximation, I could calculate 
 
 In practice, solving f(x, y) = c, where c is a constant, means finding the roots of the equation f(x, y) - c = 0. (The mathematicians call this solving the homogeneous equation.) In Python, the numpy.roots method solves the homogeneous case. For each contour/section crossing, I generated a polynomial of the form f(x, y) - c and solved it with numpy.roots.
 
-```
-(lang=python)
+```python
     ystations = range(0, 84, 12)
     sections = [[np.poly1d(xcoeffs - [0,0,zoffset - fy(ypos)]) for zoffset in np.arange(thickness, max(z), thickness).tolist()] for ypos in ystations]
     pts = [[min(func.roots) for func in list_of_fs] for list_of_fs in sections]
@@ -93,8 +92,7 @@ In practice, solving f(x, y) = c, where c is a constant, means finding the roots
 
 For fabrication, I printed out a list of the locations where the masonite contours crossed the stations.
 
-```
-(lang=python)
+```python
     for (pt_list, ystation) in zip(pts, ystations):
         print('\nBoundaries at station y = {0} inches:'.format(ystation))
         print('\t'.join(['{0:.3}'.format(pt) for pt in pt_list]))
@@ -105,19 +103,19 @@ Armed with my list of measurements, I headed to the garage and set up some sawho
 
 *The masonite platform (non-impressive view)*
 
-<a href="http://www.flickr.com/photos/pingswept/3627106741/"><img src="http://farm4.static.flickr.com/3401/3627106741_4ec24959d9.jpg" width="375" height="500" alt="The masonite platform (non-impressive view)" /></a>
+<img src="/img/masonite-platform.jpg" width="375" height="500" alt="The masonite platform (non-impressive view)" />
 
 *Level and gleeful*
 
-<a href="http://www.flickr.com/photos/pingswept/3627929546/"><img src="http://farm4.static.flickr.com/3542/3627929546_c88a341a57.jpg" width="500" height="375" alt="Level and gleeful" /></a>
+<img src="/sharon-level-and-gleeful.jpg" width="500" height="375" alt="Level and gleeful" /></a>
 
 *Side view of the masonite platform*
 
-<a href="http://www.flickr.com/photos/pingswept/3630614507/"><img src="http://farm4.static.flickr.com/3324/3630614507_79b7731799.jpg" width="500" height="375" alt="Side view of the masonite platform" /></a>
+<img src="/img/masonite-platform-side-view.jpg" width="500" height="375" alt="Side view of the masonite platform" />
 
 *Another side view of the masonite platform*
 
-<a href="http://www.flickr.com/photos/pingswept/3631431316/"><img src="http://farm4.static.flickr.com/3646/3631431316_9bac95a888.jpg" width="500" height="375" alt="Another side view of the masonite platform" /></a>
+<img src="/img/masonite-platform-another-view.jpg" width="500" height="375" alt="Another side view of the masonite platform" />
 
 As you can see above, I haven’t fastened the layers together yet. They seem to be sticking together reasonably well.
 
