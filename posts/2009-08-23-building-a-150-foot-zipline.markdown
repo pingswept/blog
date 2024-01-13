@@ -54,7 +54,7 @@ Videos and more photos below.
 
 <a href="http://www.flickr.com/photos/pingswept/3847492636/" title="Sarah rides the zipline by Brandon Stafford, on Flickr"><img src="http://farm3.static.flickr.com/2513/3847492636_3b92f50d66.jpg" width="375" height="500" alt="Sarah rides the zipline" /></a>
 
-<img src="/img/ben-method-air-zipline.jpg" width="375" height="500" alt="Ben, method air on the zipline" />
+<img src="/img/ben-zipline-method-air.jpg" width="375" height="500" alt="Ben, method air on the zipline" />
 
 <object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/ek_z0QGmhQE&hl=en&fs=1&rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/ek_z0QGmhQE&hl=en&fs=1&rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="344"></embed></object>
 
