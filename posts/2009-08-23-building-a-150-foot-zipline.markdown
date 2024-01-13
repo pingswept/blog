@@ -37,7 +37,8 @@ I went to sleep thinking that a zipline where you landed at a 25 ft/s sprint was
 
 The next day, we went to Home Depot and picked up 200 feet of 7x19 1/4" steel cable, a 24" piece of schedule 40, 1" PVC pipe, and some cable clamps. A little internet research suggested that REI might have some cheap pulleys that could bear the load. They didn't have exactly the pulleys we were hoping for, but we found some that were good enough. We also got two carabiners. The advertised breaking strength of everything involved was at least 2000 lbs, more than 10x the weight of the heaviest rider. (I was expecting the cable to be slightly slack, so I wasn't worried about the 1/sin force amplifying effect if the cable were taut.) 
 
-<a href="http://www.flickr.com/photos/pingswept/3846695615/" title="All the supplies needed for a badass zipline by Brandon Stafford, on Flickr"><img src="http://farm3.static.flickr.com/2639/3846695615_75b7ac743e.jpg" width="500" height="375" alt="All the supplies needed for a badass zipline" /></a>
+<img src="/img/zipline-supplies.jpg" width="500" height="375" alt="All the supplies needed for a badass zipline" />
+
 **The supplies**
 
 In the afternoon, we laid out the cable. We didn't have any good way of tightening the cable other than Ben pulling on it as hard as he could while I clamped down the fittings real quick-like, but the terrain was such that a slightly slack line worked great. You skim about 2 feet off the ground most of the way, before running to a stop as you intersect the flat tennis court. (The videos below suggest an alternative "crash-and-burn" method of landing, but we were going for distance then. It's relatively easy to land on your feet if you do it when the cable is at shoulder height. Cable at thigh height-- not so much.)
@@ -53,7 +54,7 @@ Videos and more photos below.
 
 <a href="http://www.flickr.com/photos/pingswept/3847492636/" title="Sarah rides the zipline by Brandon Stafford, on Flickr"><img src="http://farm3.static.flickr.com/2513/3847492636_3b92f50d66.jpg" width="375" height="500" alt="Sarah rides the zipline" /></a>
 
-<a href="http://www.flickr.com/photos/pingswept/3847493746/" title="Ben, method air on the zipline by Brandon Stafford, on Flickr"><img src="http://farm3.static.flickr.com/2442/3847493746_5f0018d6f3.jpg" width="375" height="500" alt="Ben, method air on the zipline" /></a>
+<img src="/img/ben-method-air-zipline.jpg" width="375" height="500" alt="Ben, method air on the zipline" />
 
 <object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/ek_z0QGmhQE&hl=en&fs=1&rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/ek_z0QGmhQE&hl=en&fs=1&rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="344"></embed></object>
 
