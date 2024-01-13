@@ -1,4 +1,4 @@
-![another-side-view-of-the-masonite-platform_3631431316_o](https://github.com/pingswept/blog/assets/1875/606c61d9-615d-4586-844b-fd1db1dd6cec)---
+---
 categories: estimation, mathematics, python
 date: 2009-06-15T00:00:00.000Z
 format: markdown
