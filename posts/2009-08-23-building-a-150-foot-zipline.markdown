@@ -11,7 +11,7 @@ At some point, we were standing around in the yard when Ben pointed out an overg
 
 A few days later, I dragged Ben's 6.5 horsepower beast of a lawnmower out of the shed and fired it up. 30 minutes later, nothing taller than three inches lived within the perimeter of the court.
 
-<a href="http://www.flickr.com/photos/pingswept/3847491286/" title="My brother's newly discovered grass tennis court, neglected for decades, after I mowed it by Brandon Stafford, man, on Flickr"><img src="http://farm3.static.flickr.com/2547/3847491286_28c4518cca.jpg" width="500" height="375" alt="My brother's newly discovered grass tennis court, neglected for decades, after I mowed it" /></a>
+<img src="/img/bens-grass-tennis-court-after-mowing.jpg" width="500" height="375" alt="My brother's newly discovered grass tennis court, neglected for decades, after I mowed it" />
 **The tennis court, recovered**
 
 Once the tennis court was recovered, the landscape was changed. Instead of a house in the woods, we had in our possession a house overlooking a small athletic field. There was talk of a croquet pitch or maybe a small soccer or frisbee game. I mowed the rest of the field, and we thought about the possibilities.
