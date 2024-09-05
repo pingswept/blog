@@ -67,9 +67,9 @@ def writeMultiPostPage(index, filenames):
             #date_format = '%Y-%m-%dT%H:%M:%S.%fZ'
             #d = dt.datetime.strptime(p['date'], date_format)
             # d = dt.datetime.strptime(p['date'].split(' ')[0], "%Y/%m/%d").strftime("%B %d, %Y")
-            outfile.write('<h4 class="text-slate-700 font-light">{0}</h4>'.format(p['date'].strftime("%B %d, %Y")))
+            outfile.write('<h4>{0}</h4>'.format(p['date'].strftime("%B %d, %Y")))
             html = markdown.markdown(p.content, extras=['metadata']).encode('utf8')
-            outfile.write('<article class="prose mx-auto"><h2>{0}</h2>'.format(p['title']))
+            outfile.write('<article><h2>{0}</h2>'.format(p['title']))
             outfile.write(html.decode('utf-8'))
             outfile.write('</article>')
     if any('1997' in n for n in filenames): # dumb hack to omit "older posts" from oldest page
