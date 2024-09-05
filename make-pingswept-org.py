@@ -3,31 +3,8 @@
 import codecs, frontmatter, markdown, os, shutil
 import datetime as dt
 from markdown.extensions import Extension
-from markdown.treeprocessors import Treeprocessor
 
-# for Tailwind extension stuff below,
-# see https://www.mattlayman.com/blog/2023/python-markdown-tailwind-best-buds/
-
-class TailwindExtension(Extension):
-    """An extension to add classes to tags"""
-
-    def extendMarkdown(self, md):
-        md.treeprocessors.register(
-            TailwindTreeProcessor(md), "tailwind", 20)
-
-
-class TailwindTreeProcessor(Treeprocessor):
-    """Walk the root node and modify any discovered tag"""
-
-    classes = {
-        "a": "underline text-blue-700 hover:text-blue-500",
-    }
-
-    def run(self, root):
-        for node in root.iter():
-            tag_classes = self.classes.get(node.tag)
-            if tag_classes:
-                node.attrib["class"] = tag_classes
+bootstrap_js_tag = '<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>'
 
 POSTS_PER_PAGE = 4
 
@@ -48,7 +25,7 @@ def writePage(basename, infile, outfile):
     outfile.write(header)
     outfile.write('<h2>{0}</h2>'.format(' '.join(basename.split('-')).capitalize()))
     outfile.write(html.decode('utf-8'))
-    outfile.write('</body>\n</html>')
+    outfile.write(bootstrap_js_tag + '</body>\n</html>')
 
 def writePost(basename, infile, outfile):
     #print('Processing {0} into {1}'.format(infile.name, outfile.name))
@@ -56,7 +33,7 @@ def writePost(basename, infile, outfile):
     outfile.write(header)
     outfile.write('<h2>{0}</h2>'.format(' '.join(basename.split('-')).capitalize()))
     outfile.write(html.decode('utf-8'))
-    outfile.write('</body>\n</html>')
+    outfile.write(bootstrap_js_tag + '</body>\n</html>')
 
 def writeSidebar():
     with open('sidebar.html', 'w') as sb:
@@ -104,7 +81,7 @@ def writeMultiPostPage(index, filenames):
             outfile.write('<a href="/index.html">newer posts</a>')
         else:
             outfile.write('<a href="/page/{0}.html">newer posts</a>'.format(index - 1))
-    outfile.write('</body>\n</html>')
+    outfile.write(bootstrap_js_tag + '</body>\n</html>')
 
 def writeMultiposts():
     posts = sorted(filter(isPage, postlist))
