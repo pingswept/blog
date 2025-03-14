@@ -3,10 +3,12 @@
 | Teams | Date | Outcome | Score | Notes |
 |-------|------|---------|-------|-------|
 | Celtics-Supersonics | 1984? | Celtics won | xx-xx | Larry Bird! |
-| Celtics-76ers | 2006? | ? | xx-xx | Iverson! |
-| Celtics-Magic | 2023 | Celtics won | xx-xx | Paolo Banchero was a rookie.  First NBA game for Ada and Henry. |
-| Celtics-Lakers | 2024 | Lakers won | xx-xx | Lebron and Anthony Davis didn't play, but Austin Reaves beat us. |
-| Knicks-Wizards | 2024 | Knicks won | xx-xx | The Brunson burner was lit. Henry stayed home with Grandma in Bethesda. |
+| Celtics-76ers | April 3, 2005 | Celtics lost | 97-93 | Iverson! |
+| Celtics-Pacers | April 25, 2005 | Celtics lost | 82-79 | Paul Pierce, game 2 of playoffs |
+| Celtics-Cavaliers | 2008? | Celtics won? | Lebron |
+| Celtics-Magic | December 17, 2023 | Celtics won | 114-97 | Paolo Banchero was a rookie.  First NBA game for Ada and Henry. |
+| Celtics-Lakers | February 1, 2024 | Lakers won | 114-105 | Lebron and Anthony Davis didn't play, but Austin Reaves beat us. |
+| Knicks-Wizards | December 28, 2024 | Knicks won in OT | 136-132 | The Brunson burner was lit. Henry stayed home with Grandma in Bethesda. |
 | Celtics-Lakers | March 8, 2025 | Celtics won | 111-101 | First time Lebron and Luka faced the Celtics together. |
 
 ||Lakers, March 8, 2025|||||||||||||||||||||
