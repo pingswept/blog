@@ -1,0 +1,12 @@
+aside {
+  width: 250px;
+  height: 100vh;
+  background: dimgray;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+}
+
+input:checked ~ aside {
+	left: -250px;
+}
