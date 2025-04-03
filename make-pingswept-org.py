@@ -23,7 +23,16 @@ def writePage(basename, infile, outfile):
     outfile.write(header)
     outfile.write('<h2>{0}</h2>'.format(' '.join(basename.split('-')).capitalize()))
     outfile.write(html.decode('utf-8'))
-    outfile.write(bootstrap_js_tag + '</body>\n</html>')
+    outfile.write('''
+</main>
+<input type="checkbox" id="toggleSidebar" class="toggle-checkbox">
+<label for="toggleSidebar" id="hamburger">☰</label>
+<aside id="sidebar">
+This is a sidebar.</label>
+</aside>
+</div>
+</body>
+</html>''')
 
 def writePost(basename, infile, outfile):
     #print('Processing {0} into {1}'.format(infile.name, outfile.name))
