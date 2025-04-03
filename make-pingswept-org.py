@@ -4,8 +4,6 @@ import codecs, frontmatter, markdown, os, shutil
 import datetime as dt
 from markdown.extensions import Extension
 
-bootstrap_js_tag = '<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>'
-
 POSTS_PER_PAGE = 4
 
 header = open('header.txt', 'r').read()
@@ -33,7 +31,16 @@ def writePost(basename, infile, outfile):
     outfile.write(header)
     outfile.write('<h2>{0}</h2>'.format(' '.join(basename.split('-')).capitalize()))
     outfile.write(html.decode('utf-8'))
-    outfile.write(bootstrap_js_tag + '</body>\n</html>')
+    outfile.write('''
+</main>
+<input type="checkbox" id="toggleSidebar" class="toggle-checkbox">
+<label for="toggleSidebar" id="hamburger">☰</label>
+<aside id="sidebar">
+This is a sidebar.</label>
+</aside>
+</div>
+</body>
+</html>''')
 
 def writeSidebar():
     with open('sidebar.html', 'w') as sb:
