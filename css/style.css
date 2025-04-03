@@ -1,130 +1,67 @@
-/*  
-Based on default Wordpress theme circa 2005
-
-The CSS, XHTML and design are released under GPL:
-	http://www.opensource.org/licenses/gpl-license.php
-*/
-
 body {
-	margin: 0;
-	padding: 0; 
-	font-size: 18px;
-	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
-	background-color: #d5d6d7;
-	color: #444;
-    line-height: 1.4em;
-	}
-
-#column {
-	background-color: white;
-	border: 1px solid #959596;
-	text-align: left;
-	margin: 20px auto;
-	padding: 20px;
-	width: 1000px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 1em;
+	padding: 0;
 }
 
-#post img {
+.container {
+    display: flex; /* Enables flexbox */
+    max-width: 1200px; /* Set a limit for the layout */
+    margin: auto; /* Center the content */
+}
+
+aside {
+    width: 250px; /* Fixed width for the column */
+    padding: 20px;
+    background-color: #f4f4f4; /* Light gray background */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Optional styling */
+}
+
+@media (max-width: 800px) {
+    aside {
+        display: none;
+    }
+}
+
+input:checked ~ aside {
+	left: -250px;
+}
+
+main {
+	flex: 1;
+	max-width: 1000px;
+}
+
+img {
+	max-width: 100%; /* required because img is a replaced element, not a block-level element like article */
+}
+
+article {
+	padding: 2em;
+}
+
+/* Show sidebar when checkbox is checked */
+.toggle-checkbox:checked + #hamburger + #sidebar {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-.caption { /* for image captions */
-    width: 200px;
-    text-align: -moz-center;
-    margin-left: auto;
-    margin-right: auto;
+/* Style the checkbox to hide it */
+.toggle-checkbox {
+    display: none;
 }
 
-a img {
+/* Style the button */
+#hamburger {
+    display: none; /* Hide button on large screens */
+    margin: 10px auto;
+    padding: 10px 15px;
+    background-color: #f4f4f4; /* Light gray background */
     border: none;
+    cursor: pointer;
 }
 
-a {
-    color: #3355BB;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #3355BB;
-    text-decoration: underline;
-}
-
-a:visited {
-    color: #114477;
-}
-
-h2 {
-    font-weight: bold;
-    font-size: 20px;
-}
-
-#header {
-    background: url(http://pingswept.org/images/islesboro_1000.png);
-    height: 267px;
-    width: 1000px;
-}
-
-#title {
-    position: relative;
-    height: auto;
-    width: auto;
-    left: 25px;
-    top: 175px;
-    opacity: 0.3;
-	font-size: 24px;
-	font-family: 'Trebuchet', Arial, Sans-Serif;
-    font-weight: bold;
-	color: white;
-}
-
-#tagline {
-    text-align: right;
-    position: relative;
-    height: auto;
-    width: auto;
-    right: 25px;
-    top: 200px;
-    opacity: 0.3;
-	font-size: 18px;
-	font-family: 'Trebuchet', Arial, Sans-Serif;
-    font-weight: bold;
-	color: white;
-}
-
-#content {
-    float: left;
-    width: 66%;
-}
-
-.postdate {
-    font-size: 16px;
-    font-weight: bold;
-}
-
-#sidebar {
-    margin-top: 20px;
-    float: right;
-    width: 30%;
-    font-weight: bold;
-    font-size: 18px;
-}
-
-ul li {
-    list-style: none;
-}
-
-#sidebar ul li ul li:before {
-    content: "\00BB \0020"; /* Little arrows and space before list items */
-}
-
-#footer {
-    clear: both;
-    border: 1px solid #959596;
-    padding: 10px;
-    font-size: 14px;
+/* Show button only on small screens */
+@media (max-width: 800px) {
+    #hamburger {
+        display: block;
+    }
 }

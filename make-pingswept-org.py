@@ -6,7 +6,8 @@ from markdown.extensions import Extension
 
 POSTS_PER_PAGE = 4
 
-header = open('header.txt', 'r').read()
+header = open('header.html', 'r').read()
+footer = open('footer.html', 'r').read()
 
 postlist = os.listdir('posts')
 pagelist = os.listdir('pages')
@@ -23,16 +24,7 @@ def writePage(basename, infile, outfile):
     outfile.write(header)
     outfile.write('<h2>{0}</h2>'.format(' '.join(basename.split('-')).capitalize()))
     outfile.write(html.decode('utf-8'))
-    outfile.write('''
-</main>
-<input type="checkbox" id="toggleSidebar" class="toggle-checkbox">
-<label for="toggleSidebar" id="hamburger">☰</label>
-<aside id="sidebar">
-This is a sidebar.</label>
-</aside>
-</div>
-</body>
-</html>''')
+    outfile.write(footer)
 
 def writePost(basename, infile, outfile):
     #print('Processing {0} into {1}'.format(infile.name, outfile.name))
@@ -40,16 +32,7 @@ def writePost(basename, infile, outfile):
     outfile.write(header)
     outfile.write('<h2>{0}</h2>'.format(' '.join(basename.split('-')).capitalize()))
     outfile.write(html.decode('utf-8'))
-    outfile.write('''
-</main>
-<input type="checkbox" id="toggleSidebar" class="toggle-checkbox">
-<label for="toggleSidebar" id="hamburger">☰</label>
-<aside id="sidebar">
-This is a sidebar.</label>
-</aside>
-</div>
-</body>
-</html>''')
+    outfile.write(footer)
 
 def writeSidebar():
     with open('sidebar.html', 'w') as sb:
@@ -97,7 +80,7 @@ def writeMultiPostPage(index, filenames):
             outfile.write('<a href="/index.html">newer posts</a>')
         else:
             outfile.write('<a href="/page/{0}.html">newer posts</a>'.format(index - 1))
-    outfile.write(bootstrap_js_tag + '</body>\n</html>')
+    outfile.write(footer)
 
 def writeMultiposts():
     posts = sorted(filter(isPage, postlist))
