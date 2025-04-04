@@ -136,8 +136,8 @@ def finishPage(outfile):
 
 if __name__ == '__main__':
     createOutputDirectory()
+    writeSidebar()
     processPages()
     processPosts()
-    writeSidebar()
     copyStaticFiles()
     writeMultiposts()
