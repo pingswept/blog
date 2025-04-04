@@ -7,6 +7,7 @@ from markdown.extensions import Extension
 POSTS_PER_PAGE = 4
 
 header = open('header.html', 'r').read()
+sidebar = open('sidebar.html', 'r').read()
 footer = open('footer.html', 'r').read()
 
 postlist = os.listdir('posts')
@@ -24,7 +25,7 @@ def writePage(basename, infile, outfile):
     outfile.write(header)
     outfile.write('<h2>{0}</h2>'.format(' '.join(basename.split('-')).capitalize()))
     outfile.write(html.decode('utf-8'))
-    outfile.write(footer)
+    finishPage(outfile)
 
 def writePost(basename, infile, outfile):
     #print('Processing {0} into {1}'.format(infile.name, outfile.name))
@@ -32,22 +33,25 @@ def writePost(basename, infile, outfile):
     outfile.write(header)
     outfile.write('<h2>{0}</h2>'.format(' '.join(basename.split('-')).capitalize()))
     outfile.write(html.decode('utf-8'))
-    outfile.write(footer)
+    finishPage(outfile)
 
 def writeSidebar():
     with open('sidebar.html', 'w') as sb:
         sb.write(
 '''
-<div id="sidebar">  
+<input type="checkbox" id="toggleSidebar" class="toggle-checkbox">
+<label for="toggleSidebar" id="hamburger">☰</label>
+
+<aside id="sidebar">  
     Static pages
     <ul>
 ''')
         for filename in sorted(filter(isPage, pagelist)):
             (basename, ext) = filename.split('.')
-            sb.write('      <li><a href="http://pingswept.org/static/{0}.html">{1}</a></li>\n'.format(basename, basename.replace('-', ' ').capitalize()))
+            sb.write('      <li><a href="http://pingswept.org/{0}.html">{1}</a></li>\n'.format(basename, basename.replace('-', ' ').capitalize()))
         sb.write(
-'''    </ul> 
-</div> <!-- end sidebar -->
+'''     </ul> 
+</aside> <!-- end sidebar -->
 ''')
     sb.close()
 
@@ -80,7 +84,7 @@ def writeMultiPostPage(index, filenames):
             outfile.write('<a href="/index.html">newer posts</a>')
         else:
             outfile.write('<a href="/page/{0}.html">newer posts</a>'.format(index - 1))
-    outfile.write(footer)
+    finishPage(outfile)
 
 def writeMultiposts():
     posts = sorted(filter(isPage, postlist))
@@ -124,6 +128,11 @@ def processPosts():
             writePost(basename, infile, outfile)
         infile.close()
         #print('Done with {0}'.format(infile.name))
+
+def finishPage(outfile):
+    outfile.write('</main>')
+    outfile.write(sidebar)
+    outfile.write(footer)
 
 if __name__ == '__main__':
     createOutputDirectory()
