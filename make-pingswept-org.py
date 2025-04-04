@@ -7,7 +7,6 @@ from markdown.extensions import Extension
 POSTS_PER_PAGE = 4
 
 header = open('header.html', 'r').read()
-sidebar = open('sidebar.html', 'r').read()
 footer = open('footer.html', 'r').read()
 
 postlist = os.listdir('posts')
@@ -131,6 +130,7 @@ def processPosts():
 
 def finishPage(outfile):
     outfile.write('</main>')
+    sidebar = open('sidebar.html', 'r').read()
     outfile.write(sidebar)
     outfile.write(footer)
 
