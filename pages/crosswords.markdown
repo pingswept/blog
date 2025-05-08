@@ -5,3 +5,5 @@ I've made a few crossword puzzles. I've come up with the theme entries using pap
 Many of them have clues that only my kids know; that's to even the playing field a little bit.
 
 The first one really isn't very good.
+
+December 24, 2024: Green monsters ![PDF](/files/crosswords/2024-12-24-green-monsters.pdf)
