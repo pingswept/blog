@@ -22,7 +22,6 @@ def writePage(basename, infile, outfile):
     #print('Processing {0} into {1}'.format(infile.name, outfile.name))
     html = markdown.markdown(infile.read(), extras=['metadata']).encode('utf8')
     outfile.write(header)
-    outfile.write('<h2>{0}</h2>'.format(' '.join(basename.split('-')).capitalize()))
     outfile.write(html.decode('utf-8'))
     finishPage(outfile)
 
