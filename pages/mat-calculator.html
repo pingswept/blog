@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Mat Calculator</title>
+<style>
+    body { font-family: sans-serif; margin: 20px; }
+    .container { display: flex; gap: 30px; align-items: flex-start; }
+    .inputs { display: grid; grid-template-columns: auto auto; gap: 8px 12px; }
+    label { text-align: right; }
+    canvas { border: 1px solid #444; background:#fff; }
+</style>
+</head>
+<body>
+<h2>Mat calculator</h2>
+<div class="container">
+  <div class="inputs">
+    <label>Art width:</label> <input id="artW"  type="number" value="200">
+    <label>Art height:</label> <input id="artH"  type="number" value="150">
+
+    <label>Mat border width:</label> <input id="matThickness" type="number" value="30">
+    <label>Frame border width:</label> <input id="frameThickness" type="number" value="40">
+
+    <label>Mat overlap:</label> <input id="matO" type="number" value="5">
+    <label>Frame overlap:</label> <input id="frameO" type="number" value="5">
+  </div>
+  <canvas id="canvas"></canvas>
+</div>
+<p>
+Colors:<br>
+<span style="color:#b33;font-weight:bold;">Red</span> = Frame<br>
+<span style="color:#4a8c2c;font-weight:bold;">Green</span> = Mat<br>
+<span style="color:#2a6db6;font-weight:bold;">Blue</span> = Artwork<br>
+</p>
+<script>
+function draw() {
+  const artW = +document.getElementById("artW").value;
+  const artH = +document.getElementById("artH").value;
+  const matThickness = +document.getElementById("matThickness").value;
+  const frameThickness = +document.getElementById("frameThickness").value;
+  const matO = +document.getElementById("matO").value;
+  const frameO = +document.getElementById("frameO").value;
+
+  const canvas = document.getElementById("canvas");
+  canvas.width = artW * 3;
+  canvas.height = artH * 3;
+  const ctx = canvas.getContext("2d");
+
+  ctx.clearRect(0,0,canvas.width,canvas.height);
+  if([artW,artH,matThickness,frameThickness].some(v=>v<=0)) return;
+
+  // MAT and FRAME dimensions accounting for overlaps
+  const matW = artW + 2 * (matThickness - matO);
+  const matH = artH + 2 * (matThickness - matO);
+  const frameW = matW + 2 * (frameThickness - frameO);
+  const frameH = matH + 2 * (frameThickness - frameO);
+
+  // Offsets to center everything
+  const offsetX = (canvas.width - frameW) / 2;
+  const offsetY = (canvas.height - frameH) / 2;
+
+  function strokeRect(x,y,w,h,color){
+    ctx.save();
+    ctx.strokeStyle = color;
+    ctx.lineWidth = 2;
+    ctx.strokeRect(offsetX + x, offsetY + y, w, h);
+    ctx.restore();
+  }
+
+  function fillRect(x,y,w,h,rgba){
+    ctx.save();
+    ctx.fillStyle = rgba;
+    ctx.fillRect(offsetX + x, offsetY + y, w, h);
+    ctx.restore();
+  }
+
+  function drawDimension(x1,y1,x2,y2,text){
+    ctx.save();
+    ctx.strokeStyle = "black";
+    ctx.fillStyle = "black";
+    ctx.lineWidth = 2;
+
+    ctx.beginPath();
+    ctx.moveTo(offsetX + x1, offsetY + y1);
+    ctx.lineTo(offsetX + x2, offsetY + y2);
+    ctx.stroke();
+
+    function arrow(px,py,qx,qy){
+      const ang = Math.atan2(qy-py,qx-px);
+      const len = 10;
+      ctx.beginPath();
+      ctx.moveTo(offsetX + qx, offsetY + qy);
+      ctx.lineTo(offsetX + (qx - len*Math.cos(ang-Math.PI/6)), offsetY + (qy - len*Math.sin(ang-Math.PI/6)));
+      ctx.moveTo(offsetX + qx, offsetY + qy);
+      ctx.lineTo(offsetX + (qx - len*Math.cos(ang+Math.PI/6)), offsetY + (qy - len*Math.sin(ang+Math.PI/6)));
+      ctx.stroke();
+    }
+
+    arrow(x1,y1,x2,y2);
+    arrow(x2,y2,x1,y1);
+
+    function tick(px,py,perpX,perpY){
+      const len = 8;
+      const mag = Math.hypot(perpX,perpY);
+      const ux = (perpX/mag)*len;
+      const uy = (perpY/mag)*len;
+      ctx.beginPath();
+      ctx.moveTo(offsetX + px-ux, offsetY + py-uy);
+      ctx.lineTo(offsetX + px+ux, offsetY + py+uy);
+      ctx.stroke();
+    }
+
+    const dx = x2 - x1;
+    const dy = y2 - y1;
+    tick(x1,y1,-dy,dx);
+    tick(x2,y2,-dy,dx);
+
+    ctx.font = "14px sans-serif";
+    if (x1 === x2) {
+      // Vertical line → put text to side of line
+      if(x1 < offsetX) { // left side
+        ctx.fillText(text, offsetX + x1 - 60, offsetY + (y1+y2)/2);
+      } else { // right side
+        ctx.fillText(text, offsetX + x1 + 10, offsetY + (y1+y2)/2);
+      }
+    } else {
+      // Horizontal line → keep text above line
+      ctx.fillText(text, offsetX + (x1+x2)/2 - 18, offsetY + y1 - 8);
+    }
+    ctx.restore();
+  }
+
+  // FRAME OUTER
+  strokeRect(0,0,frameW,frameH,"#b33");
+
+  // MAT OUTER
+  const matX = frameThickness - frameO;
+  const matY = frameThickness - frameO;
+  strokeRect(matX,matY,matW,matH,"#4a8c2c");
+
+  // ART
+  const artX = matX + (matThickness - matO);
+  const artY = matY + (matThickness - matO);
+  strokeRect(artX,artY,artW,artH,"#2a6db6");
+
+  // MAT OPENING
+  const innerX = artX + matO;
+  const innerY = artY + matO;
+  const innerW = Math.max(artW - 2*matO, 0);
+  const innerH = Math.max(artH - 2*matO, 0);
+  strokeRect(innerX,innerY,innerW,innerH,"#4a8c2c");
+  fillRect(innerX,innerY,innerW,innerH,"rgba(60,100,200,0.15)");
+
+  // FRAME OPENING
+  const frameInnerX = matX + frameO;
+  const frameInnerY = matY + frameO;
+  const frameInnerW = Math.max(matW - 2*frameO,0);
+  const frameInnerH = Math.max(matH - 2*frameO,0);
+  strokeRect(frameInnerX,frameInnerY,frameInnerW,frameInnerH,"#b33");
+
+  // RED FRAME RING
+  fillRect(0,0,frameW,frameInnerY,"rgba(200,60,60,0.12)");
+  fillRect(0,frameInnerY+frameInnerH,frameW,frameH-(frameInnerY+frameInnerH),"rgba(200,60,60,0.12)");
+  fillRect(0,frameInnerY,frameInnerX,frameInnerH,"rgba(200,60,60,0.12)");
+  fillRect(frameInnerX+frameInnerW,frameInnerY,frameW-(frameInnerX+frameInnerW),frameInnerH,"rgba(200,60,60,0.12)");
+
+  const gap = 20; // distance from frame
+
+  // Mat outer
+  drawDimension(matX, -gap, matX + matW, -gap, matW + " mm");
+  drawDimension(-gap, matY, -gap, matY + matH, matH + " mm");
+
+  // Mat inner (art opening)
+  drawDimension(innerX, frameH + gap, innerX + innerW, frameH + gap, innerW + " mm");
+  drawDimension(frameW + gap, innerY, frameW + gap, innerY + innerH, innerH + " mm");
+}
+document.querySelectorAll("input").forEach(el => el.addEventListener("input", draw));
+draw();
+</script>
+</body>
+</html>
