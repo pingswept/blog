@@ -13,7 +13,7 @@ postlist = os.listdir('posts')
 pagelist = os.listdir('pages')
 
 def isPage(filename):
-    if ".markdown" in filename:
+    if (".markdown" in filename) or (".html" in filename):
         return True
     else:
         return False
