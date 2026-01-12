@@ -10,6 +10,8 @@
 | Celtics-Lakers | February 1, 2024 | Lakers won | 114-105 | Lebron and Anthony Davis didn't play, but Austin Reaves beat us. |
 | Knicks-Wizards | December 28, 2024 | Knicks won in OT | 136-132 | The Brunson burner was lit. Henry stayed home with Grandma in Bethesda. |
 | Celtics-Lakers | March 8, 2025 | Celtics won | 111-101 | First time Lebron and Luka faced the Celtics together. |
+| Knicks-Hawks | January 2, 2026 | Hawks won | 111-99 | It's always nice to see the Knicks lose (sorry, Aaron). I don't think Spike Lee was there. Porzingis played OK for the Hawks. |
+| Celtics-Spurs | January 10, 2026 | Spurs won | 100-95 | First time seeing Wemby play live. |
 
 ||Lakers, March 8, 2025|||||||||||||||||||||
 |:-|-:|-:|-:|-:|-:|-:|-:|-:|-:|-:|-:|-:|-:|-:|-:|-:|-:|-:|-:|-:|-:|
