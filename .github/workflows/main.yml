@@ -11,7 +11,7 @@ jobs:
         uses: garygrossgarten/github-action-ssh@release
         with:
           command: cd pingswept.org; git pull https://github.com/pingswept/blog.git; ./make-pingswept-org.py; cp -r ./output/* /var/www/pingswept.org/
-          host: 162.216.18.236
+          host: 66.228.47.220
           username: root
           passphrase: ${{ secrets.PASSPHRASE }}
           privateKey: ${{ secrets.PRIVATE_KEY}}
