@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bookish</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      font-size: 14px;
+      color: #222;
+      background: #f8f8f8;
+    }
+
+    .nav {
+      background: #2c3e50;
+      padding: 0.75rem 1.5rem;
+    }
+    .nav-brand {
+      color: #fff;
+      font-size: 1.2rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 1.5rem auto;
+      padding: 0 1rem;
+    }
+
+    .toolbar {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-bottom: 1rem;
+      align-items: center;
+    }
+    .search-form {
+      display: flex;
+      gap: 0.4rem;
+      align-items: center;
+    }
+    .search-form input {
+      padding: 0.35rem 0.6rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 13px;
+      width: 220px;
+    }
+    .search-form button {
+      padding: 0.35rem 0.75rem;
+      background: #2c3e50;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 13px;
+    }
+    .search-form a {
+      font-size: 12px;
+      color: #666;
+      text-decoration: none;
+    }
+
+    .status-tabs {
+      display: flex;
+      gap: 0.25rem;
+      margin-bottom: 1rem;
+    }
+    .tab {
+      padding: 0.3rem 0.8rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      text-decoration: none;
+      color: #444;
+      background: #fff;
+      font-size: 13px;
+      cursor: pointer;
+    }
+    .tab.active {
+      background: #2c3e50;
+      color: #fff;
+      border-color: #2c3e50;
+    }
+
+    .book-table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+      border-radius: 6px;
+      overflow: hidden;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    }
+    .book-table th {
+      background: #ecf0f1;
+      padding: 0.5rem 0.75rem;
+      text-align: left;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: #555;
+    }
+    .book-table td {
+      padding: 0.45rem 0.75rem;
+      border-bottom: 1px solid #f0f0f0;
+      vertical-align: middle;
+    }
+    .book-table tr:last-child td { border-bottom: none; }
+
+    .row-discarded { opacity: 0.55; }
+    .row-num { width: 32px; text-align: right; color: #aaa; font-size: 11px; padding-right: 8px; user-select: none; }
+    .cover-cell { width: 50px; }
+    .cover-thumb { border-radius: 2px; display: block; height: 55px; object-fit: cover; }
+
+    .sort-link { color: #2980b9; text-decoration: none; font-size: 12px; }
+    .sort-link.active-sort { font-weight: 700; color: #2c3e50; }
+
+    .empty { text-align: center; padding: 2rem; color: #999; }
+
+    .has-review td { border-bottom: none; }
+    .review-row td { padding-top: 2px; padding-bottom: 14px; border-top: none; }
+    .review-cell { font-size: 0.93em; color: #666; font-style: italic; }
+    .btn-review-toggle {
+      margin-left: 10px;
+      font-size: 0.8em;
+      font-style: normal;
+      padding: 1px 7px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      background: #f8f8f8;
+      color: #888;
+      cursor: pointer;
+      vertical-align: middle;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 0.15rem 0.5rem;
+      border-radius: 3px;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .badge-read      { background: #d5f5e3; color: #1e8449; }
+    .badge-discarded { background: #fdebd0; color: #784212; }
+    .badge-hc        { background: #e8d5f5; color: #6c3483; }
+    .badge-pb        { background: #d5eef5; color: #1a5276; }
+    .binding-cell    { width: 40px; }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <span class="nav-brand">Bookish</span>
+  </nav>
+
+  <main class="container">
+    <div class="toolbar">
+      <div class="search-form">
+        <input type="text" id="search-input" placeholder="Search title, author, ISBN…">
+        <button id="search-btn">Search</button>
+        <a href="#" id="clear-link" style="display:none">Clear</a>
+      </div>
+    </div>
+
+    <div class="status-tabs">
+      <a class="tab active" href="#" data-status="">All</a>
+      <a class="tab" href="#" data-status="read">Read</a>
+      <a class="tab" href="#" data-status="unread">Unread</a>
+      <a class="tab" href="#" data-status="discarded">Discarded</a>
+    </div>
+
+    <table class="book-table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Cover</th>
+          <th><a href="#" class="sort-link" data-col="Title">Title</a></th>
+          <th><a href="#" class="sort-link" data-col="By">Author</a></th>
+          <th><a href="#" class="sort-link" data-col="Binding">Binding</a></th>
+          <th><a href="#" class="sort-link" data-col="Original Publication Year">Orig Pub</a></th>
+          <th><a href="#" class="sort-link active-sort" data-col="Year Published">Pub Year ↓</a></th>
+          <th>ISBN13</th>
+          <th>Read</th>
+          <th><a href="#" class="sort-link" data-col="Date Read">Date Read</a></th>
+          <th>Shelf</th>
+        </tr>
+      </thead>
+      <tbody id="book-tbody">
+        <tr><td colspan="11" class="empty">Loading…</td></tr>
+      </tbody>
+    </table>
+  </main>
+
+  <script>
+    const SORT_LABELS = {
+      'Title': 'Title',
+      'By': 'Author',
+      'Binding': 'Binding',
+      'Original Publication Year': 'Orig Pub',
+      'Year Published': 'Pub Year',
+      'Date Read': 'Date Read',
+    };
+
+    let allBooks = [];
+    let currentQ = '';
+    let currentStatus = '';
+    let currentSort = null; // null = default (Year Published desc)
+
+    // --- CSV parsing ---
+
+    function parseCSVRow(line) {
+      const result = [];
+      let current = '';
+      let inQuotes = false;
+      for (let i = 0; i < line.length; i++) {
+        const ch = line[i];
+        if (inQuotes) {
+          if (ch === '"' && line[i + 1] === '"') { current += '"'; i++; }
+          else if (ch === '"') { inQuotes = false; }
+          else { current += ch; }
+        } else {
+          if (ch === '"') { inQuotes = true; }
+          else if (ch === ',') { result.push(current); current = ''; }
+          else { current += ch; }
+        }
+      }
+      result.push(current);
+      return result;
+    }
+
+    function parseCSV(text) {
+      const lines = text.split('\n');
+      const headers = parseCSVRow(lines[0].trim());
+      const books = [];
+      for (let i = 1; i < lines.length; i++) {
+        const line = lines[i].trim();
+        if (!line) continue;
+        const values = parseCSVRow(line);
+        const book = {};
+        headers.forEach((h, idx) => { book[h] = values[idx] !== undefined ? values[idx] : ''; });
+        book._is_read = book.Read.trim().toLowerCase() === 'read';
+        book._is_discarded = book.Shelf.trim().toLowerCase() === 'discarded';
+        books.push(book);
+      }
+      return books;
+    }
+
+    // --- Formatting ---
+
+    function formatDate(s) {
+      s = (s || '').trim();
+      return /^\d{4}-\d{2}-\d{2}$/.test(s) ? s.replace(/-/g, '/') : s;
+    }
+
+    function bindingBadge(binding) {
+      const b = (binding || '').trim().toLowerCase();
+      if (b === 'hardcover') return '<span class="badge badge-hc" title="Hardcover">HC</span>';
+      if (b === 'paperback' || b === 'mass market paperback') return '<span class="badge badge-pb" title="Paperback">PB</span>';
+      return '';
+    }
+
+    function esc(s) {
+      return (s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    }
+
+    // --- Filter & sort ---
+
+    function filterBooks() {
+      const q = currentQ.toLowerCase();
+      return allBooks.filter(book => {
+        if (currentStatus === 'read' && !book._is_read) return false;
+        if (currentStatus === 'unread' && book._is_read) return false;
+        if (currentStatus === 'discarded' && !book._is_discarded) return false;
+        if (q) {
+          const hay = (book.Title + ' ' + book.By + ' ' + book.ISBN13).toLowerCase();
+          if (!hay.includes(q)) return false;
+        }
+        return true;
+      });
+    }
+
+    function compareBooks(a, b) {
+      if (currentSort === null) {
+        // Match Flask default: sort by (_is_read, Date Read, Year Published) all descending
+        // Read books first, then by most recent date read, then by year published
+        const readA = a._is_read ? 1 : 0;
+        const readB = b._is_read ? 1 : 0;
+        if (readA !== readB) return readB - readA;
+        const dateA = (a['Date Read'] || '').trim() || '0000-00-00';
+        const dateB = (b['Date Read'] || '').trim() || '0000-00-00';
+        if (dateA !== dateB) return dateB.localeCompare(dateA);
+        const ya = parseInt(a['Year Published']) || 0;
+        const yb = parseInt(b['Year Published']) || 0;
+        return yb - ya;
+      }
+      const col = currentSort.col;
+      const va = (a[col] || '').trim();
+      const vb = (b[col] || '').trim();
+      // Empty values last (matches Flask: sorts by (not value, value.lower()))
+      if (!va && vb) return 1;
+      if (va && !vb) return -1;
+      const na = parseFloat(va), nb = parseFloat(vb);
+      const cmp = (!isNaN(na) && !isNaN(nb)) ? (na - nb) : va.localeCompare(vb);
+      return cmp; // always ascending; clicking active sort resets to default
+    }
+
+    // --- Render ---
+
+    function render() {
+      const books = filterBooks().sort(compareBooks);
+      const tbody = document.getElementById('book-tbody');
+
+      if (books.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="11" class="empty">No books found.</td></tr>';
+        return;
+      }
+
+      const rows = [];
+      books.forEach((book, idx) => {
+        const dc = book._is_discarded ? 'row-discarded' : '';
+        const hasReview = book.Review && book.Review.trim();
+        const rc = hasReview ? 'has-review' : '';
+
+        rows.push(`<tr class="${dc} ${rc}">
+          <td class="row-num">${idx + 1}</td>
+          <td class="cover-cell">
+            <img class="cover-thumb lazy"
+                 data-src="https://covers.openlibrary.org/b/isbn/${esc(book.ISBN13)}-S.jpg"
+                 src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                 alt="cover" width="40">
+          </td>
+          <td>${esc(book.Title)}</td>
+          <td>${esc(book.By)}</td>
+          <td class="binding-cell">${bindingBadge(book.Binding)}</td>
+          <td>${esc(book['Original Publication Year'])}</td>
+          <td>${esc(book['Year Published'])}</td>
+          <td>${esc(book.ISBN13)}</td>
+          <td>${book._is_read ? '<span class="badge badge-read">read</span>' : ''}</td>
+          <td>${esc(formatDate(book['Date Read']))}</td>
+          <td>${book._is_discarded ? '<span class="badge badge-discarded">discarded</span>' : ''}</td>
+        </tr>`);
+
+        if (hasReview) {
+          rows.push(`<tr class="review-row ${dc}">
+            <td></td>
+            <td colspan="9" class="review-cell">${esc(book.Review)}</td>
+            <td><button class="btn-review-toggle">Hide</button></td>
+          </tr>`);
+        }
+      });
+
+      tbody.innerHTML = rows.join('');
+
+      tbody.querySelectorAll('.btn-review-toggle').forEach(btn => {
+        btn.addEventListener('click', () => { btn.closest('tr').style.display = 'none'; });
+      });
+
+      initLazyLoad();
+    }
+
+    // --- Lazy load ---
+
+    function initLazyLoad() {
+      const imgs = document.querySelectorAll('img.lazy');
+      if ('IntersectionObserver' in window) {
+        const observer = new IntersectionObserver(entries => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              const img = entry.target;
+              img.src = img.dataset.src;
+              img.classList.remove('lazy');
+              observer.unobserve(img);
+            }
+          });
+        });
+        imgs.forEach(img => observer.observe(img));
+      } else {
+        imgs.forEach(img => { img.src = img.dataset.src; });
+      }
+    }
+
+    // --- Search ---
+
+    function applySearch() {
+      currentQ = document.getElementById('search-input').value.trim();
+      document.getElementById('clear-link').style.display = currentQ ? '' : 'none';
+      render();
+    }
+
+    document.getElementById('search-btn').addEventListener('click', applySearch);
+    document.getElementById('search-input').addEventListener('keydown', e => {
+      if (e.key === 'Enter') applySearch();
+    });
+    document.getElementById('clear-link').addEventListener('click', e => {
+      e.preventDefault();
+      currentQ = '';
+      document.getElementById('search-input').value = '';
+      document.getElementById('clear-link').style.display = 'none';
+      render();
+    });
+
+    // --- Status tabs ---
+
+    document.querySelectorAll('.status-tabs .tab').forEach(tab => {
+      tab.addEventListener('click', e => {
+        e.preventDefault();
+        currentStatus = tab.dataset.status;
+        document.querySelectorAll('.status-tabs .tab').forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        render();
+      });
+    });
+
+    // --- Sort links ---
+
+    document.querySelectorAll('.sort-link').forEach(link => {
+      link.addEventListener('click', e => {
+        e.preventDefault();
+        const col = link.dataset.col;
+        // Clicking active sort column → reset to default
+        if (currentSort && currentSort.col === col) {
+          currentSort = null;
+        } else {
+          currentSort = { col, dir: 'asc' };
+        }
+        updateSortLinks();
+        render();
+      });
+    });
+
+    function updateSortLinks() {
+      document.querySelectorAll('.sort-link').forEach(link => {
+        const col = link.dataset.col;
+        link.classList.remove('active-sort');
+        if (currentSort === null && col === 'Year Published') {
+          link.textContent = 'Pub Year ↓';
+          link.classList.add('active-sort');
+        } else if (currentSort && currentSort.col === col) {
+          link.textContent = SORT_LABELS[col] + ' ↑';
+          link.classList.add('active-sort');
+        } else {
+          link.textContent = SORT_LABELS[col] || col;
+        }
+      });
+    }
+
+    // --- Load data ---
+
+    fetch('books.csv')
+      .then(r => {
+        if (!r.ok) throw new Error(r.status);
+        return r.text();
+      })
+      .then(text => {
+        allBooks = parseCSV(text);
+        render();
+      })
+      .catch(() => {
+        document.getElementById('book-tbody').innerHTML =
+          '<tr><td colspan="11" class="empty">Could not load books.csv</td></tr>';
+      });
+  </script>
+</body>
+</html>
