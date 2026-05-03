@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bookish</title>
+  <title>Book tracker</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -126,7 +126,6 @@
     .btn-review-toggle {
       margin-left: 10px;
       font-size: 0.8em;
-      font-style: normal;
       padding: 1px 7px;
       border: 1px solid #ccc;
       border-radius: 3px;
@@ -154,7 +153,7 @@
 </head>
 <body>
   <nav class="nav">
-    <span class="nav-brand">Bookish</span>
+    <span class="nav-brand">Book tracker</span>
   </nav>
 
   <main class="container">
@@ -208,9 +207,7 @@
     let allBooks = [];
     let currentQ = '';
     let currentStatus = '';
-    let currentSort = null; // null = default (Year Published desc)
-
-    // --- CSV parsing ---
+    let currentSort = null;
 
     function parseCSVRow(line) {
       const result = [];
@@ -249,8 +246,6 @@
       return books;
     }
 
-    // --- Formatting ---
-
     function formatDate(s) {
       s = (s || '').trim();
       return /^\d{4}-\d{2}-\d{2}$/.test(s) ? s.replace(/-/g, '/') : s;
@@ -266,8 +261,6 @@
     function esc(s) {
       return (s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
     }
-
-    // --- Filter & sort ---
 
     function filterBooks() {
       const q = currentQ.toLowerCase();
@@ -285,8 +278,6 @@
 
     function compareBooks(a, b) {
       if (currentSort === null) {
-        // Match Flask default: sort by (_is_read, Date Read, Year Published) all descending
-        // Read books first, then by most recent date read, then by year published
         const readA = a._is_read ? 1 : 0;
         const readB = b._is_read ? 1 : 0;
         if (readA !== readB) return readB - readA;
@@ -300,15 +291,11 @@
       const col = currentSort.col;
       const va = (a[col] || '').trim();
       const vb = (b[col] || '').trim();
-      // Empty values last (matches Flask: sorts by (not value, value.lower()))
       if (!va && vb) return 1;
       if (va && !vb) return -1;
       const na = parseFloat(va), nb = parseFloat(vb);
-      const cmp = (!isNaN(na) && !isNaN(nb)) ? (na - nb) : va.localeCompare(vb);
-      return cmp; // always ascending; clicking active sort resets to default
+      return (!isNaN(na) && !isNaN(nb)) ? (na - nb) : va.localeCompare(vb);
     }
-
-    // --- Render ---
 
     function render() {
       const books = filterBooks().sort(compareBooks);
@@ -329,7 +316,7 @@
           <td class="row-num">${idx + 1}</td>
           <td class="cover-cell">
             <img class="cover-thumb lazy"
-                 data-src="https://covers.openlibrary.org/b/isbn/${esc(book.ISBN13)}-S.jpg"
+                 data-src="book-covers/${esc(book.ISBN13)}-S.jpg"
                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                  alt="cover" width="40">
           </td>
@@ -362,8 +349,6 @@
       initLazyLoad();
     }
 
-    // --- Lazy load ---
-
     function initLazyLoad() {
       const imgs = document.querySelectorAll('img.lazy');
       if ('IntersectionObserver' in window) {
@@ -383,8 +368,6 @@
       }
     }
 
-    // --- Search ---
-
     function applySearch() {
       currentQ = document.getElementById('search-input').value.trim();
       document.getElementById('clear-link').style.display = currentQ ? '' : 'none';
@@ -403,8 +386,6 @@
       render();
     });
 
-    // --- Status tabs ---
-
     document.querySelectorAll('.status-tabs .tab').forEach(tab => {
       tab.addEventListener('click', e => {
         e.preventDefault();
@@ -415,13 +396,10 @@
       });
     });
 
-    // --- Sort links ---
-
     document.querySelectorAll('.sort-link').forEach(link => {
       link.addEventListener('click', e => {
         e.preventDefault();
         const col = link.dataset.col;
-        // Clicking active sort column → reset to default
         if (currentSort && currentSort.col === col) {
           currentSort = null;
         } else {
@@ -447,8 +425,6 @@
         }
       });
     }
-
-    // --- Load data ---
 
     fetch('books.csv')
       .then(r => {
