@@ -104,12 +104,14 @@ def createOutputDirectory():
 def processPages():
     for file in sorted(filter(isPage, pagelist)):
         (basename, ext) = file.split('.')
-        infile = codecs.open('pages/'+ file, 'r', 'utf-8')
-        outfile = open('output/' + basename + '.html', 'w')
-        writePage(basename, infile, outfile)
-        infile.close()
-        outfile.close()
-        #print('Done with {0}\n'.format(infile.name))
+        if ext == 'html':
+            shutil.copy('pages/' + file, 'output/' + basename + '.html')
+        else:
+            infile = codecs.open('pages/'+ file, 'r', 'utf-8')
+            outfile = open('output/' + basename + '.html', 'w')
+            writePage(basename, infile, outfile)
+            infile.close()
+            outfile.close()
 
 def processPosts():
     for file in sorted(filter(isPage, postlist)):
