@@ -12,7 +12,7 @@
 | The Peer Pleasure Podcast | Ian Mackaye (Minor Threat/Fugazi) | March 12, 2017 ||
 | The Future of What | Ian MacKaye (Dischord, Fugazi, Minor Threat) | October 9, 2017 ||
 | Take 5 | Ian Mackaye's 5 great things from D.C. | May 23, 2018 ||
-| Deviate with Rolf Potts | Punk icon Ian MacKaye | september 3, 2018 ||
+| Deviate with Rolf Potts | Punk icon Ian MacKaye | September 3, 2018 ||
 | The Trap Set with Joe Wong | 202: Ian MacKaye Pt. 1 (Minor Threat, Fugazi, The Evens, etc.) | March 13, 2019 ||
 | The Trap Set with Joe Wong | 203: Ian MacKaye Pt. 2 (Minor Threat, Fugazi, The Evens, etc.) | March 20, 2019 ||
 | The Working Songwriter | Ian MacKaye | September 28, 2018 ||
