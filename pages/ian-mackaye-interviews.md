@@ -1,6 +1,6 @@
 | Source | Title | Date | Comment |
 |--------|-------|------|---------|
-| CKUT Time Capsule | 1993: Interview with Ian MacKaye (Fugazi) | Septmber 12, 1993 ||
+| CKUT Time Capsule | 1993: Interview with Ian MacKaye (Fugazi) | September 12, 1993 ||
 | Nardwuar The Human Serviette Presents | Nardwuar vs. Ian MacKaye (2001) | 2001 || 
 | Hit It Or Quit It | #8: Ian MacKaye talks 9:30 Club on its 30th anniversary | June 7, 2010 ||
 | Nardwuar The Human Serviette Presents | Nardwuar vs. Ian MacKaye (2012) | 2012 ||
