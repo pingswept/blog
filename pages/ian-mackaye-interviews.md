@@ -41,10 +41,8 @@
 | Songwriting Malpractice | EP #100 Ian MacKaye Part 2 (Minor Threat & Fugazi) | May 25, 2023 ||
 | Laughing Monkey with Shawn Ratches | EP 423 Fugazi 's Ian Mackaye | October 13, 2023 ||
 | Logan Sounds Off | Ian MacKaye (Fugazi, Minor Threat & more) | October 18, 2023 ||
+| Beautiful Stories From Anonymous People | What Would Ian MacKaye Do? | January 16, 2024 | Discusses Ian's impact on DIY creative types |
 | LaunchLeft | Ian MacKaye | January 23, 2024 ||
 | Life of the Record | The Making of OUT OF STEP by Minor Threat - featuring Ian MacKaye | February 20, 2024 | |
 | Kreative Kontrol | Ep. #900: Fugazi and Jem Cohen | September 3, 2024 ||
 | The First Ever Podcast | 300: Ian MacKaye (Minor Threat / Fugazi): When I Was Born, I Arrived | June 10, 2026 ||
-
-
-| Beautiful Stories From Anonymous People | What Would Ian MacKaye Do? | January 16, 2024 | Discusses Ian's impact on DIY creative types |
