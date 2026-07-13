@@ -20,14 +20,14 @@ def isPage(filename):
 
 def writePage(basename, infile, outfile):
     #print('Processing {0} into {1}'.format(infile.name, outfile.name))
-    html = markdown.markdown(infile.read(), extras=['metadata']).encode('utf8')
+    html = markdown.markdown(infile.read(), extras=['tables']).encode('utf8')
     outfile.write(header)
     outfile.write(html.decode('utf-8'))
     finishPage(outfile)
 
 def writePost(basename, infile, outfile):
     #print('Processing {0} into {1}'.format(infile.name, outfile.name))
-    html = markdown.markdown(infile.read(), extras=['metadata']).encode('utf8')
+    html = markdown.markdown(infile.read(), extras=['tables']).encode('utf8')
     outfile.write(header)
     outfile.write('<h2>{0}</h2>'.format(' '.join(basename.split('-')).capitalize()))
     outfile.write(html.decode('utf-8'))
@@ -69,7 +69,7 @@ def writeMultiPostPage(index, filenames):
             #d = dt.datetime.strptime(p['date'], date_format)
             # d = dt.datetime.strptime(p['date'].split(' ')[0], "%Y/%m/%d").strftime("%B %d, %Y")
             outfile.write('<h4>{0}</h4>'.format(p['date'].strftime("%B %d, %Y")))
-            html = markdown.markdown(p.content, extras=['metadata']).encode('utf8')
+            html = markdown.markdown(p.content, extras=['tables']).encode('utf8')
             outfile.write('<article><h2>{0}</h2>'.format(p['title']))
             outfile.write(html.decode('utf-8'))
             outfile.write('</article>')
