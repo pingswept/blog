@@ -1,13 +1,13 @@
 | Source | Title | Date | Comment |
 |--------|-------|------|---------|
-| CKUT Time Capsule | 1993: Interview with Ian MacKaye (Fugazi) | September 12, 1993 ||
-| Nardwuar The Human Serviette Presents | Nardwuar vs. Ian MacKaye (2001) | 2001 || 
-| Hit It Or Quit It | #8: Ian MacKaye talks 9:30 Club on its 30th anniversary | June 7, 2010 ||
-| Nardwuar The Human Serviette Presents | Nardwuar vs. Ian MacKaye (2012) | 2012 ||
-| Input Output Podcast | The Ian MacKaye Interview - Part 1 | July 3, 2013 ||
-| Input Output Podcast | The Ian MacKaye Interview - Part 2 | July 18, 2013 ||
-| Kreative Kontrol | Ep. #224: Ian MacKaye & Steve Albini (Part II) | November 17, 2015 ||
-| Kreative Kontrol | Ep. #223: Ian MacKaye & Steve Albini (Part I) | November 12, 2015 ||
+| CKUT Time Capsule | [1993: Interview with Ian MacKaye (Fugazi)](https://ckut.ca/timecapsule/ian-mackayes-salad-days/) | September 12, 1993 ||
+| Nardwuar The Human Serviette Presents | [Nardwuar vs. Ian MacKaye (2001)](https://nardwuar.com/nardwuar-vs-ian-mackaye-2001/) | 2001 || 
+| Hit It Or Quit It | [#8: Ian MacKaye talks 9:30 Club on its 30th anniversary](https://www.wbez.org/music/2010/06/07/hit-it-or-quit-it-8-ian-mackaye-talks-9-30-club-on-its-30th-anniversary) | June 7, 2010 ||
+| Nardwuar The Human Serviette Presents | [Nardwuar vs. Ian MacKaye (2012)](https://nardwuar.com/nardwuar-vs-ian-mackaye-2012/) | 2012 ||
+| Input Output Podcast | [The Ian MacKaye Interview - Part 1](https://sonicscoop.com/inputoutput-interview-ian-mackaye-part-i/) | July 3, 2013 ||
+| Input Output Podcast | [The Ian MacKaye Interview - Part 2](https://sonicscoop.com/inputoutput-interview-ian-mackaye-part-2/) | July 18, 2013 ||
+| Kreative Kontrol | [Ep. #224: Ian MacKaye & Steve Albini (Part II)](http://vishkhanna.com/2015/11/17/ep-224-ian-mackaye-steve-albini-part-ii/) | November 17, 2015 ||
+| Kreative Kontrol | [Ep. #223: Ian MacKaye & Steve Albini (Part I)](http://vishkhanna.com/2015/11/12/ep-223-ian-mackaye-steve-albini-part-i/) | November 12, 2015 ||
 | Sagittarian Matters | Episode #18-Ian MacKaye!!! | June 3, 2016 ||
 | The Peer Pleasure Podcast | Ian Mackaye (Minor Threat/Fugazi) | March 12, 2017 ||
 | The Future of What | Ian MacKaye (Dischord, Fugazi, Minor Threat) | October 9, 2017 ||
@@ -20,11 +20,11 @@
 | Washed Up Emo | #154 - Ian MacKaye | June 10, 2019 ||
 | The Art of Process | Ep. 13 - Ian MacKaye “The Argument for The Conversation” | July 1, 2019 ||
 | Sound Opinions | #722 Fugazi's Repeater | September 26, 2019 ||
-| Nardwuar The Human Serviette Presents | Nardwuar vs. Ian MacKaye (2020) | May 1, 2020 ||
+| Nardwuar The Human Serviette Presents | [Nardwuar vs. Ian MacKaye (2020)](https://nardwuar.com/nardwuar-vs-ian-mackaye-2020/) | May 1, 2020 ||
 | Kon-tiki | S2: Episode One: Ian MacKaye | June 15, 2020 ||
 | Against Everyone with Conner Habib | 119: IAN MACKAYE or THE FREE SPACE OF PUNK | August 4, 2020 ||
 | Conan Neutron's Protonic Reversal | Ep209: Ian Mackaye (fugazi, Coriky, the Evens, Minor Threat, Dischord) | October 20, 2020 ||
-| Kreative Kontrol | Ep. #583: Ian MacKaye | December 1, 2020 ||
+| Kreative Kontrol | [Ep. #583: Ian MacKaye](http://vishkhanna.com/2020/12/01/ep-583-ian-mackaye/) | December 1, 2020 ||
 | Dan O Says So | Episode 21: Ian MacKaye (Dischord Records) | December 14, 2020 ||
 | Beginnings | Episode 466: Ian MacKaye | January 15, 2021 ||
 | The Vinyl Guide | Ep281: Ian MacKaye - The Early Days of Dischord Records Pt 1 | June 7, 2021 ||
